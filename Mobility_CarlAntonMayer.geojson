@@ -44,7 +44,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "World Historical Gazetteer": "http://whgazetteer.org/places/12653456/portal",
-        "Aufenthaltsort": "1769-12-05 oder 1769-12-09"
+        "Aufenthaltsort": "1769-12-09"
       },
       "geometry": {
         "type": "Point",
@@ -61,7 +61,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "World Historical Gazetteer": "http://whgazetteer.org/places/13360070/portal",
-        "Aufenthaltsort": "1769-08-21"
+        "Aufenthaltsort": "1769-11-21"
       },
       "geometry": {
         "type": "Point",
@@ -78,8 +78,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.2711,
-            50
+            7.7481,
+            48.5836
           ],
           [
             7.62718,
@@ -112,8 +112,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.7481,
-            48.5836
+            7.6272,
+            47.0559
           ],
           [
             9.6839,
