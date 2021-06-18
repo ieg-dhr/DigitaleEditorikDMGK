@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#008040",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Bedeutung": "Geburtsort"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.834341049194335,
+          50.614399588024334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#008040",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Bedeutung": "Ausstellungsort"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.937080383300781,
+          50.61287460808086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff0000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Bedeutung": "Zielort"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.26995849609375,
+          49.99935365599501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.834383964538574,
+            50.61446766633332
+          ],
+          [
+            5.9371018409729,
+            50.61296992077568
+          ],
+          [
+            8.26995849609375,
+            49.99968468472418
+          ]
+        ]
+      }
+    }
+  ]
+}
