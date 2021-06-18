@@ -3,25 +3,121 @@
   "features": [
     {
       "type": "Feature",
+      "properties": {
+        "marker-color": "#ff0000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "World Historical Gazetteer": "http://whgazetteer.org/places/13672534/portal",
+        "Geburtsort": "um 1750",
+        "Ausbildungsort": "1768-08 bis 1769-08",
+        "Ausstellungsort des Dokuments": "1769-08-22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.271111,
+          50
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "World Historical Gazetteer": "http://whgazetteer.org/places/12481324/portal",
+        "Aufenthaltsort": "1769-10-27 um 4 Uhr, 1769-10-29, 1769-10-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.748056,
+          48.583611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "World Historical Gazetteer": "http://whgazetteer.org/places/12653456/portal",
+        "Aufenthaltsort": "1769-12-05 oder 1769-12-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.683889,
+          47.545833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "World Historical Gazetteer": "http://whgazetteer.org/places/13360070/portal",
+        "Aufenthaltsort": "1769-08-21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.62718,
+          47.0559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {},
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            8.272705078125,
-            50.0028845116
+            8.2711,
+            50
           ],
           [
-            7.7405548095703125,
-            48.58432959223574
+            7.62718,
+            47.0559
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.2711,
+            50
           ],
           [
-            7.623310089111327,
-            47.057142230247294
+            7.7481,
+            48.5836
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7481,
+            48.5836
           ],
           [
-            9.684276580810547,
-            47.546523990257725
+            9.6839,
+            47.5458
           ]
         ]
       }
