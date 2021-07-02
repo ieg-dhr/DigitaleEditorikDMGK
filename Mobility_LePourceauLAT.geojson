@@ -21,24 +21,5 @@
         ]
       }
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "Ortsname": "Petit-Rechain"
-        "Bedeutung": "Ausstellungsort",
-        "Austellungsdatum": "01.08.1685",
-        "Territoriale Zugehörigkeit": "Herzogtum Lüttich",
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.833225250244141,
-          50.61374603124499
-        ]
-      }
-    }
   ]
 }
