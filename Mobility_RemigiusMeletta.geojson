@@ -28,7 +28,9 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "Ortsname": "Mainz",
-        "Zielort": "1695-12-22",
+        "Territoriale Zugehörigkeit": "Kurfürstentum Mainz",
+        "Bedeutung": "Zielort von Remigius Meletta",
+        "Datum der Einbürgerung": "1695-12-22",
         "World Historical Gazetteer": "http://whgazetteer.org/places/13067462/portal"
       },
       "geometry": {
@@ -63,7 +65,8 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "Ortsname": "Como",
-        "Bedeutung": "Bistum (von Loco)",
+        "Territoriale Zugehörigkeit": "Bischofssitz der Diözese Como",
+        "Bedeutung": "zuständige Autorität für die Gemeinde Loco",
         "World Historical Gazetter": "http://whgazetteer.org/places/12862979/portal"
       },
       "geometry": {
@@ -83,9 +86,9 @@
         "fill": "#555555",
         "fill-opacity": 0.5,
         "Ortsname": "Onsernone",
-        "Verwaltungsgebiet": "Gemeinde von Loco",
+        "Territoriale Zugehörigkeit": "Gemeinde von Loco im Bistum Como",
         "World Historical Gazetteer": "http://whgazetteer.org/places/12586942/portal",
-        "Quellennachweis": "Die Koordinaten des MultiPolygons sind entnommen vom Bundesamt für Landestopografie swisstopo (siehe https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill/5136?geometryFormat=geojson&sr=4326 (Stand: 01.07.2021))"
+        "Quellennachweis": "Koordinaten des MultiPolygons laut Bundesamt für Landestopografie swisstopo (siehe https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill/5136?geometryFormat=geojson&sr=4326 (Stand: 01.07.2021))"
       },
       "geometry": {
         "type": "MultiPolygon",
