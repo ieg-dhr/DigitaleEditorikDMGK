@@ -8,9 +8,11 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "Ortsname": "Loco",
-        "Geburtsort": "1658-10-31",
-        "Taufort": "1658-11-02",
-        "Ausstellungsort des Dokuments": "1696-01-02",
+        "Territoriale Zugehörigkeit": "Schweizer Eidgenossenschaft, Bistum Como",
+        "Bedeutung": "Geburtsort und Taufort von Remigius Meletta, Ausstellungsort des Dokuments",
+        "Geburtsdatum": "1658-10-31",
+        "Taufdatum": "1658-11-02",
+        "Ausstellungsdatum": "1696-01-02",
         "World Historical Gazetteer": "http://whgazetteer.org/places/13458395/portal"
       },
       "geometry": {
@@ -66,7 +68,7 @@
         "marker-symbol": "",
         "Ortsname": "Como",
         "Territoriale Zugehörigkeit": "Bischofssitz der Diözese Como",
-        "Bedeutung": "zuständige Autorität für die Gemeinde Loco",
+        "Bedeutung": "zuständige geistliche Autorität für die Gemeinde Loco",
         "World Historical Gazetter": "http://whgazetteer.org/places/12862979/portal"
       },
       "geometry": {
