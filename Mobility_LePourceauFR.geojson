@@ -18,8 +18,11 @@
         "marker-color": "#008040",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Bedeutung": "Geburtsort/Taufort",
-        "Territoriale Zugehörigkeit": "Herzogtum Limburg"
+        "Ortsname": "Andrimont",
+        "Territoriale Zugehörigkeit": "Herzogtum Limburg",
+        "Bedeutung": "Geburtsort/Taufort von Jeanne le Pourceau",
+        "Taufdatum": "< 1774 (Verlust des Kirchenbuchs)",
+        "WHG": "LINK"
       },
       "geometry": {
         "type": "Point",
@@ -35,7 +38,11 @@
         "marker-color": "#ff0000",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Bedeutung": "Zielort"
+        "Ortsname": "Mainz",
+        "Territoriale Zugehörigkeit": "Kurfürstentum Mainz",
+        "Bedeutung": "neuer Wohnort von Jeanne le Pourceau nach Heirat",
+        "Datum": "> 1685",
+        "WHG": "LINK"
       },
       "geometry": {
         "type": "Point",
@@ -74,7 +81,8 @@
         "stroke-opacity": 1,
         "fill": "#555555",
         "fill-opacity": 0.5,
-        "Bedeutung": "Herzogtum Limburg"
+        "Territorium": "Herzogtum Limburg",
+        "WHG": "LINK"
       },
       "geometry": {
         "type": "Polygon",
