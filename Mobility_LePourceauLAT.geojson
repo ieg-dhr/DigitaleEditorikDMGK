@@ -1,0 +1,62 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#008040",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Ortsname": "Andrimont",
+        "Bedeutung": "Geburtsort/Taufort/Ausstellungsort",
+        "Datum": "01.08.1685 (Ausstellung)",
+        "WHG Link": "http://whgazetteer.org/places/12502346/portal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.884552001953125,
+          50.61543436768781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#696363",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Ortsname": "Lüttich",
+        "Bedeutung": "Wohnort",
+        "Datum": "unbekannt",
+        "WGH Link": "http://whgazetteer.org/places/12904628/portal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.574016571044922,
+          50.64570520933996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#696363",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Ortsname": "Franchimont",
+        "Bedeutung": "Sonstiges",
+        "Datum": "unbekannt",
+        "WHG Link": "http://whgazetteer.org/places/12353020/portal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.638934135437012,
+          50.18922302514922
+        ]
+      }
+    }
+  ]
+}whgazetteer.org/places/12904628/portal"},"geometry":{"type":"Point","coordinates":[5.574016571044922,50.64570520933996]}},{"type":"Feature","properties":{"marker-color":"#696363","marker-size":"medium","marker-symbol":"","Bedeutung":"Sonstiges","Datum":"unbekannt","WHG Link":"http://whgazetteer.org/places/12353020/portal"},"geometry":{"type":"Point","coordinates":[4.638934135437012,50.18922302514922]}}]}
