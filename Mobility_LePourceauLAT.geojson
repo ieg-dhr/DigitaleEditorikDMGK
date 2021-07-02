@@ -11,7 +11,7 @@
         "Bedeutung": "Geburtsort/Taufort von Jeanne le Pourceau und Ausstellungsort",
         "Datum": "vor 1774",
         "WHG Link": "http://whgazetteer.org/places/12502346/portal",
-        "Territoriale Zugehörigkeit": "Hochstift Limburg",
+        "Territoriale Zugehörigkeit": "Hochstift Limburg"
       },
       "geometry": {
         "type": "Point",
@@ -21,5 +21,24 @@
         ]
       }
     },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Ortsname": "Franchimont (heute zu Theux)",
+        "Bedeutung": "Wohnort von Jeanne le Pourceu",
+        "Datum": "< 1685",
+        "Territoriale Zugehörigkeit": "Grafschaft Franchimont, Hochstift Lüttich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.824127197265624,
+          50.5276423477604
+        ]
+      }
+    }
   ]
 }
