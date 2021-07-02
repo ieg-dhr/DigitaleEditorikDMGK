@@ -22,7 +22,7 @@
         "Territoriale Zugehörigkeit": "Herzogtum Limburg",
         "Bedeutung": "Geburtsort/Taufort von Jeanne le Pourceau",
         "Taufdatum": "< 1774 (Verlust des Kirchenbuchs)",
-        "WHG": "LINK"
+        "WHG": "http://whgazetteer.org/places/12502346/portal"
       },
       "geometry": {
         "type": "Point",
@@ -42,7 +42,7 @@
         "Territoriale Zugehörigkeit": "Kurfürstentum Mainz",
         "Bedeutung": "neuer Wohnort von Jeanne le Pourceau nach Heirat",
         "Datum": "> 1685",
-        "WHG": "LINK"
+        "WHG": "http://whgazetteer.org/places/13067462/portal"
       },
       "geometry": {
         "type": "Point",
@@ -82,7 +82,7 @@
         "fill": "#555555",
         "fill-opacity": 0.5,
         "Territorium": "Herzogtum Limburg",
-        "WHG": "LINK"
+        "Wikidata": "https://www.wikidata.org/wiki/Q697787"
       },
       "geometry": {
         "type": "Polygon",
