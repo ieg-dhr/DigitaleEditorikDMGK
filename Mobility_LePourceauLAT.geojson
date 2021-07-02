@@ -9,8 +9,9 @@
         "marker-symbol": "",
         "Ortsname": "Andrimont",
         "Bedeutung": "Geburtsort/Taufort von Jeanne le Pourceau und Ausstellungsort",
-        "Ausstellungsdatum": "01.08.1685",
-        "WHG Link": "http://whgazetteer.org/places/12502346/portal"
+        "Datum": "vor 1774",
+        "WHG Link": "http://whgazetteer.org/places/12502346/portal",
+        "Territoriale Zugehörigkeit": "Hochstift Limburg"
       },
       "geometry": {
         "type": "Point",
@@ -23,38 +24,19 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#696363",
+        "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Ortsname": "Lüttich",
-        "Bedeutung": "???",
-        "Datum": "unbekannt",
-        "WGH Link": "http://whgazetteer.org/places/12904628/portal"
+        "Ortsname": "Petit-Rechain"
+        "Bedeutung": "Ausstellungsort",
+        "Austellungsdatum": "01.08.1685",
+        "Territoriale Zugehörigkeit": "Herzogtum Lüttich",
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.574016571044922,
-          50.64570520933996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#696363",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "Ortsname": "Franchimont",
-        "Bedeutung": "Wohnort von Jeanne le Pourceau",
-        "Datum": "vor 1685",
-        "WHG Link": "http://whgazetteer.org/places/12353020/portal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.638934135437012,
-          50.18922302514922
+          5.833225250244141,
+          50.61374603124499
         ]
       }
     }
