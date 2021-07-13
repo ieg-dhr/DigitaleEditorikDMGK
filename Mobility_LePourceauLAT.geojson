@@ -9,9 +9,9 @@
         "marker-symbol": "",
         "Ortsname": "Andrimont",
         "Bedeutung": "Geburtsort/Taufort von Jeanne le Pourceau und Ausstellungsort",
-        "Datum": "vor 1774",
+        "Datum": "vor 1774 (Kirchenbuch im Krieg entwendet)",
         "WHG Link": "http://whgazetteer.org/places/12502346/portal",
-        "Territoriale Zugehörigkeit": "Hochstift Limburg"
+        "Territoriale Zugehörigkeit": "Herzogtum Limburg, Heiliges Römisches Reich"
       },
       "geometry": {
         "type": "Point",
@@ -30,13 +30,32 @@
         "Ortsname": "Franchimont (heute zu Theux)",
         "Bedeutung": "Wohnort von Jeanne le Pourceu",
         "Datum": "< 1685",
-        "Territoriale Zugehörigkeit": "Grafschaft Franchimont, Hochstift Lüttich"
+        "Territoriale Zugehörigkeit": "Grafschaft Franchimont, Hochstift Lüttich, Heiliges Römisches Reich"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           5.824127197265624,
           50.5276423477604
+        ]
+      }
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Ortsname": "Lüttich",
+        "Territoriale Zugehörigkeit": "Hochstift Lüttich, Heiliges Römisches Reich",
+        "Bestand des Territoriums": "< 1794/95",
+        "WHG-Link": "http://whgazetteer.org/places/12904628/portal#"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.574359893798828,
+          50.64456224035968
         ]
       }
     }
