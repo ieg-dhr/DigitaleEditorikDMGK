@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#33c729",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Bedeutung": "Geburtsort / Taufort von Joseph Kaluscha",
+        "Taufdatum": "unbekannt",
+        "Ortsname": "Ungarisch Brodt",
+        "Territoriale Zugehörigkeit": "Länder der Böhmischen Krone",
+        "WHG": "http://whgazetteer.org/places/12481034/portal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.648849487304688,
+          49.02638811751174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff0000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Bedeutung": "Arbeitsplatz von Joseph Kaluscha",
+        "Zeitraum": "Juni 1740 - 19.03.1741",
+        "Ortsname": "Lustschloss Favorite, Mainz",
+        "Territoriale Zugehörigkeit": "Kurfürstentum Mainz",
+        "Wikidata": "https://www.wikidata.org/wiki/Q782221"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.285343647003174,
+          49.990304654813436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#008004",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Ortsname": "Mainz",
+        "Bedeutung": "Ausstellungsort des Lehrbriefs für Joseph Kaluscha",
+        "Ausstellungsdatum": "März 1741",
+        "Territoriale Zugehörigkeit": "Kurfürstentum Mainz",
+        "WHG": "http://whgazetteer.org/places/13067462/portal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.271503448486328,
+          49.99907779697966
+        ]
+      }
+    }
+  ]
+}
