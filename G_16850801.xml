@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://jg.dhlab.de/Teaching/Geburtsbriefe.xsd">
+	<metadata>
+		<archival_description ArchiveName="Stadtarchiv Mainz" ArchiveLocation="Mainz"
+			Bestand="Urkundenbestand" Klassifikation="Geburtsbriefe" Signatur="G / 1685 August 1"/>
+		<source_description source_ID="G_16850801"
+			catalogue_record="https://faust.mainz.de/objekt_start.fau?prj=internet&amp;dm=archiv&amp;zeig=123569"
+			type="Geburtsbrief" place="Andrimont" date="1685-08-01"
+			material_specifications="Pergament" seal="wax"/>
+		<!--JG: working link for quick navigation: https://faust.mainz.de/rech.FAU?sid=C043A6263&dm=1&auft=1-->
+		<digital_surrogate filename="archivaliendatenbank_7.png"
+			URL="https://faust.mainz.de/zvimg.FAU?sid=2DA34412&amp;DM=1&amp;qpos=123569&amp;ipos=1&amp;erg=a&amp;hst=1&amp;rpos=archivaliendatenbank.png"/>
+		<!-- https://faust.mainz.de/zvimg.FAU?sid=C043A626&DM=1&qpos=123569&ipos=1&erg=A&hst=1&rpos=archivaliendatenbank.png-->
+	</metadata>
+	<edition>
+		<transcription_info first_transcription_date="10-05-2021" last_revision_date="21-05-2021"/>
+		<editors name="Maximilian Michel" institution="Johannes Gutenberg-Universität Mainz"/>
+	</edition>
+	<content>
+		<body>
+			<div section="text">
+				<text method="written" hand="Kurrentschrift" language="Latin"> Omnibus has visuris
+					salus<lb/> ab eo qui vera est salus<lb/> Cum Honesta ac virtute Clara Domicella
+						<people name="Jeanne le Pourceaux" gender="female" role="recipient"
+						>Joanna</people> Filia Clarissimi<lb/> et Honestissimi <people
+						name="Jean le Pourceaux" gender="male" role="kin">Joannis le
+						Pourceaux</people>, cuius originem videre licet ex attestatione<lb/> a
+					Dominis <people name="Scabin de Richain" gender="male">Scabinis de
+						Richain</people> dat&#226;, et virtuosissim&#230; <people
+						name="Jeanne Dominici de Champs" gender="female" role="kin">Joann&#230; Dominici de
+						Champs</people><lb/> in Patri&#226; <place name="Lüttich" type="other"
+						link="http://whgazetteer.org/places/12904628/portal">Leodiensi</place>, <!--JG: historic_name attribute and its value can be deleted-->
+					<place name="Franchimont" type="other"
+						link="http://whgazetteer.org/places/12353020/portal">Marchionatu
+						Franchimontano</place>, et in pago <place name="Andrimont"
+						type="place_of_issue" link="http://whgazetteer.org/places/12502346/portal"
+						>Andrimontensi</place><lb/> oriunda baptismi Sui me testem esse voluerit,
+					non potui eius tam honesta[e]<lb/> petitioni non annuere, &#234;quidem non
+					potens ex registro baptismali, cum illud<lb/> a militibus anno 1674 Sublatum
+					Fuerit, ex ipsius e Sacro baptismatis fonte Susceptoris <lb/> didici,
+					apert&#233; coram me declarantibus sese, nempe <people name="Jean Bertrand"
+						gender="male" role="witness">Joannem Bertrandi</people> et <people
+						name="Pentecoston le Boos" gender="male" role="witness">Pentecoston<lb/> le
+						Boos</people>, ab anno decimo octauo in nostr&#226; Ecclesi&#226; <people
+						name="Jeanne le Pourceaux" gender="female" role="recipient">Joanna</people>
+					in Filiam <people name="Jean le Pourceaux" gender="male" role="kin">Joannis le
+						Pourceaux</people><lb/> et <people name="Jeanne Dominici de Champs"
+						gender="female" role="kin">Joanna Dominici de Champs</people> legitime junctorum
+					suscepisse, et cum ita sit quod in hoc nostro<lb/> Pago ab omni h&#230;resi
+					longissim&#233; remoto nullus de h&#226;c re detur dubitandi locus<lb/>
+					accedentibus desuper declarationibus, rogo omnes ad quos peruenerit,<lb/> hanc
+					pro tali existimare, in quorum fidem hasce p[ro]pri&#226; manu scripsi,
+					subscripsi<lb/> et p[ro]prio sigillo muniui, Datum in &#230;dibus nostris in
+					Pago <place name="Andrimont" type="place_of_issue"
+						link="http://whgazetteer.org/places/12502346/portal"
+					>Andrimontesi</place>,<lb/> h&#226;c prim&#226; Augusti Anno a natiuitate
+					D[omi]ni 1685 - <lb/>
+				</text>
+			</div>
+			<div section="signature">
+				<text method="written" hand="Kurrentschrift" language="Latin"> Ita est <people
+						name="Tossanus Petit" role="issuer" gender="male">Tossanus
+					Petit</people><lb/> Dit De Scolombs vice Pastor<lb/>
+					<place name="Andrimont" type="place_of_issue"
+						link="http://whgazetteer.org/places/12502346/portal">Andrimontis</place>
+				</text>
+			</div>
+		</body>
+		<translation>
+			Allen, die diese [Zeilen] sehen, [sei] Heil von dem, der das wahre Heil ist.
+			
+			Mit offensichtlicher Ehrbarkeit und Tugend hat die Edelfrau Joanna, die Tochter der berühmtesten und 
+			ehrenwertesten und Jean le Pourceaux, deren Herkunft aus der Bestätigung hervorgeht, 
+			die von Herrn Scabin de Richain ausgestellt wurde, und der tugendhaftesten Jeanne Dominici de Champs, 
+			beheimatet in Lüttich, in der Grafschaft Franchimont, und im Dorf Andrimont [heute Teil der Gemeinde Dison in Belgien] geboren, 
+			gewünscht, dass ich Zeuge ihrer Taufe sei, [aber] ich bin nicht in der Lage, die Bitte dieser so ehrenhaften [Frau] zurückzuweisen, 
+			obwohl es mir gleichfalls nicht möglich ist, den Beweis aus dem Taufregister zu erbringen, weil jenes 
+			im Jahr 1654 (1674?) von Soldaten weggenommen wurde, [doch] von den Paten derselben, die sich mir gegenüber offen erklärt haben, 
+			nämlich Jean Bertrand und Pentecoston le Boos, habe ich von ihrer heiligen Taufe erfahren, nachdem sie 
+			von dem seit dem achtzehnten Jahr in unserer Kirche rechtmäßig verheirateten Paar Jean le Pourceaux und Jeanne Dominici de Champs 
+			als Tochter empfangen wurde, und weil so in der Tat in unserem Dorf, das weit von jedem Irrglauben entfernt ist, kein Zweifel in dieser Sache 
+			über den Ort [der Taufe] bestehen kann, im Sinne der oben genannten Erklärung, bitte ich alle, zu denen sie kommen wird, 
+			diese für eine solche Frau anzuerkennen. Zur Beurkundung wurde dieses in eigener Hand geschrieben, unterschrieben und mit dem ordentlichen 
+			amtlichen Siegel versehen, gegeben in unserem Amtssitz im Dorf Andrimont, an diesem 1. August im Jahr der Geburt des Herrn 1685.
+			
+			So ist es nach Tossanus Petit, gegeben vom [Scolombs?] Dorfpastor Andrimont
+		</translation>
+		<visual_element type="coats_of_arms" location="top_left" specification="coat of arms"/>
+	</content>
+</source>
