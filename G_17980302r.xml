@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://jg.dhlab.de/Teaching/Geburtsbriefe.xsd">
+
+ <metadata>
+  <archival_description ArchiveName="Stadtarchiv Mainz" ArchiveLocation="Mainz"
+   Bestand="Urkundenbestand" Klassifikation="Geburtsbriefe" Signatur="G / 1798 März 2"/>
+  <source_description source_ID="G17980302r"
+   catalogue_record="https://faust.mainz.de/hzeig.FAU?sid=A8CF0B4F21&amp;dm=1&amp;ind=1&amp;zeig=G+/+1798+M%E4rz+2"
+   type="Lehrbrief" place="Wien" date="1798-03-02"/>
+  <digital_surrogate filename="Geburtsbrief Georg Gramer"
+   URL="https://faust.mainz.de/zvimg.FAU?sid=A8CF0B4F&amp;DM=1&amp;qpos=129736&amp;ipos=1&amp;erg=H&amp;hst=1&amp;rpos=archivaliendatenbank.png"
+  />
+ </metadata>
+
+ <edition>
+  <transcription_info first_transcription_date="2021-04-21" last_revision_date="2021-06-18"/>
+  <editors name="Yohan Park, Maren Reeb, Robert Zwick" institution="JGU Mainz"/>
+ </edition>
+
+ <content>
+  <body>
+   <div section="text">
+    <text method="printed" hand="Frakturschrift" language="German"> Wir Vorsteher und gesamte
+     Meister des ehrsamen Handwerks der b&#252;rgerl&#58;[ichen] Tischlern in der K&#58;[aiserlich]
+     K&#58;[öniglichen] Haubt &#61;<lb/> und Residenz Stadt <place name="Wien" type="place_of_issue"
+      link="http://whgazetteer.org/places/12346175/portal">Wien</place> (beglaubigen) hiermit&#44;
+     da&#223; gegenwertiger Tischlergesell&#44; Namens <text method="written" hand="Kurrentschrift"
+      language="German"><people name="Georg Gramer" role="recipient">Georg
+     Gramer</people></text><lb/> von <text method="written" hand="Kurrentschrift" language="German"
+       ><place name="Mainz" type="place_of_birth"
+       link="http://whgazetteer.org/places/13067462/portal">Maintz</place></text> &#45; &#45;
+     geb&#252;rtig&#44; welcher <text method="written" hand="Kurrentschrift" language="German"
+      >29</text> Jahre alt und von <text method="written" hand="Kurrentschrift" language="German"
+      >mittlerer</text> Statur&#44; auch <text method="written" hand="Kurrentschrift"
+      language="German">schwarz</text> an<lb/> Haaren ist, bey <b>uns</b> alhier 6 1&#47;2
+     Jahre&#44; &#45; Wochen in Arbeit gestanden&#44; und sich w&#228;hrend dieser<lb/> Zeit
+     treu&#44; flei&#223;ig&#44; still&#44; friedsam&#44; und ehrlich&#44; wie es einem jeden
+     rechtschaffenen Handwerks Gesel&#61;<lb/> len geb&#252;hret&#44; verhalten habe&#58; welches
+     nicht nur allein von uns&#44; sondern auch von unserern<lb/> l&#246;blichen <b>Stadt
+      Magistrat</b> hiermit attestiert wird&#46; Daher ergehet an unsere s&#228;mmentliche
+     Mitmeis&#61;<lb/> ter <b>unser</b> dienstfreundliches Ersuchen&#44; womit dieser Gesell nach
+     Handwerks Gebrauch &#252;ber&#61;<lb/> all gef&#246;rdert werden m&#246;chte&#246; Gegeben
+      <place name="Wien" type="place_of_issue" link="http://whgazetteer.org/places/12346175/portal"
+      >Wien</place> den<text method="written" hand="Kurrentschrift" language="German">2</text>ten
+      <text method="written" hand="Kurrentschrift" language="German">M&#228;rtz</text> Anno <text
+      method="written" hand="Kurrentschrift" language="German">798</text><lb/>
+    </text>
+   </div>
+   <div section="signature">
+    <text method="printed" hand="Kurrentschrift" language="German">
+     <people name="Anton Sigel">A:[nton] Sigel</people> gn:[] et Del:[ineavit]<lb/>
+     <people name="Franz Landerer">F&#61; Landerer</people> Sculp&#61;[sit] </text>
+   </div>
+   <!-- <image type="column" position="left"> -->
+   <div section="text">
+    <text method="printed" hand="Kurrentschrift" language="German"> Erster<lb/> Vorsteher<lb/>
+    </text>
+   </div>
+   <div section="signature">
+    <text method="written" hand="Kurrentschrift" language="German">
+     <people name="unclear" role="witness">Johann<lb/> [Wohlbret]</people>
+    </text>
+   </div>
+   <!-- <image type="column" position="right"> -->
+   <div section="text">
+    <text method="printed" hand="Kurrentschrift" language="German"> Zwa&#255;ter<lb/> Vorsteher<lb/>
+    </text>
+   </div>
+   <div section="signature">
+    <text method="written" hand="Kurrentschrift" language="German">
+     <people name="unclear" role="witness">Johann Gottlieb<lb/> [Wiesenguth]</people>
+    </text>
+   </div>
+  </body>
+  <visual_element type="cityscape" location="top_center" specification="Stadtansicht von Wien"/>
+  <visual_element type="coats_of_arms" location="center" specification="aufgeklebtes Wappen"/>
+ </content>
+</source>
