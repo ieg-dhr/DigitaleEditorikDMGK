@@ -64,8 +64,8 @@
 </div>
 </body> 
     
-<visual_element type="cityscape" location="center" specification="view of Vienna"/>
-<visual_element type="coats_of_arms" location="top_center" specification="imperial"/>
-<visual_element type="decorations" location="frame" specification="Baroque portal with columns"/>
+<visual_element type="cityscape" location="center" specification="Stadtansicht von Wien mit Stephansdom"/>
+<visual_element type="coats_of_arms" location="top_center" specification="Kaiserliches Wappen und zwei weitere Wappen, ggf. für die Stadt Wien und die Zunft"/>
+<visual_element type="decorations" location="frame" specification="barockes Portal mit zwei antikisierenden Säulen"/>
 </content>
 </source>
