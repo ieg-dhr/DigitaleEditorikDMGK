@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://jg.dhlab.de/Teaching/Geburtsbriefe.xsd">
+ <metadata>
+  <archival_description ArchiveName="Stadtarchiv Mainz" ArchiveLocation="Mainz"
+   Bestand="Geburtsbriefe" Klassifikation="Geburtsbriefe" Signatur="G / 1798 März 2"/>
+  <source_description source_ID="G17980302v"
+   catalogue_record="https://faust.mainz.de/hzeig.FAU?sid=A8CF0B4F21&amp;dm=1&amp;ind=1&amp;zeig=G+/+1798+M%E4rz+2"
+   type="Lehrbrief" place="Wien" date="02-03-1798"/>
+  <digital_surrogate filename="Geburtsbrief Georg Gramer"
+   URL="https://faust.mainz.de/zvimg.FAU?sid=A8CF0B4F&amp;DM=1&amp;qpos=129736&amp;ipos=2&amp;erg=H&amp;hst=1&amp;rpos=archivaliendatenbank.png"
+  />
+ </metadata>
+
+ <edition>
+  <transcription_info first_transcription_date="2021-04-21" last_revision_date="2021-06-18"/>
+  <editors name="Yohan Park, Maren Reeb, Robert Zwick" institution="JGU Mainz"/>
+ </edition>
+
+ <content>
+  <body>
+   <div section="text">
+    <text method="written" hand="Kurrentschrift" language="German">
+     <!-- <rs type="handwritten"> -->Vidit k.[aiserlich] k.[öniglicher] Stadt Sch[..]dung
+     pass:[iert] hier[...] 9. März [17]98.<lb/> Mez[...]<lb/> Kontl.<lb/> Hau[...]<lb/>
+     Leu[..]riche<lb/>
+    </text>
+    <text method="printed" hand="Antiqua" language="German"> 11&#246; IX&#246; No 33<lb/> STADT
+     ARCHIV MAINZ<lb/>
+    </text>
+   </div>
+   <div section="signature">
+    <text method="written" hand="Kurrentschrift" language="German"> Magistrat der Res.[idenz] und
+     Festungs Stadt<lb/>
+     <place name="Wien" type="place_of_issue" link="http://whgazetteer.org/places/12346175/portal#"
+      >Wien</place> den 12. März 1798. <people name="unclear" role="witness">Math.[ias]
+      [Mering]</people><lb/>
+     <people name="unclear" role="witness">Grosbauer [Consery]</people>Commiss[är]<lb/>
+     <place name="Wien" type="place_of_issue" link="http://whgazetteer.org/places/12346175/portal#"
+      >Wien</place><lb/> 2&#73; März 1798 </text>
+   </div>
+  </body>
+  <visual_element type="coats_of_arms" location="bottom_left"/>
+ </content>
+</source>
