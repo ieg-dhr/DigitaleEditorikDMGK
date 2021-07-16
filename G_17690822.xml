@@ -31,7 +31,7 @@
   &#361;nd de&#223;halben &#361;nsere sambtliche Mit Meister diesen Gesellen nach Handwercks Gebra&#361;ch &#252;berall<lb/>
    Z&#361;f&#246;rdern geziement ers&#361;chen wollen <place name="Mainz" type="place_of_issue" link="http://whgazetteer.org/places/13067462/portal">Ma&#255;ntz</place> den <text method="written" hand="Kurrentschrift" language="German"> >22[sten] A&#361;g&#361;st</text> Anno <text method="written" hand="Frakturschrift" language="German">1769</text><lb/>
   <text method="written" hand="Kurrentschrift" language="German">
-  Erh&#228;lt aus neuen Allmosen zu <place name="Straßburg" type="other" link="http://whgazetteer.org/places/12481324/portal">Stra&#223;<lb/>
+  Erh&#228;lt aus neuen Allmosen zu <place name="Straßburg" type="destination" link="http://whgazetteer.org/places/12481324/portal">Stra&#223;<lb/>
   burg</place> 2 &#223; [Schillinge?] d. 30ter [Octo]bris. 1769. Ritter<lb/></text>
   </text></div>  
     
@@ -50,13 +50,13 @@
  
 <div section="marginalia"> 
  <text method="written" hand="Kurrentschrift" language="German">
- Pass:[um]<place name="Burgdorf" type="other" link="http://whgazetteer.org/places/13360070/portal">B&#361;rgdorf</place> d[en] 21ten 9bris [Novembris] 1769<lb/>
+ Pass:[um]<place name="Burgdorf" type="destination" link="http://whgazetteer.org/places/13360070/portal">B&#361;rgdorf</place> d[en] 21ten 9bris [Novembris] 1769<lb/>
  <people name="unclear" gender="male" role="witness">Wi[lhelm] R[itter]</people><lb/>
  <place name="Straßburg" type="other" link="http://whgazetteer.org/places/12481324/portal">Strasburg</place> d[en] 29ten [Octo]bris 1769.<lb/>
  <people name="George Christophe Freysinger" gender="male" role="witness">G[eorge] C[hristophe] Fre&#255;singer</people> Ober Meister.<lb/>
- <place name="Lindau" type="other" link="http://whgazetteer.org/places/12653456/portal">Linda&#361;</place> d. 5t. [Decem]br[is] 1769.<lb/>
+ <place name="Lindau" type="destination" link="http://whgazetteer.org/places/12653456/portal">Linda&#361;</place> d. 5t. [Decem]br[is] 1769.<lb/>
  Pa&#223;irt<lb/>
- <place name="Straßburg" type="other" link="http://whgazetteer.org/places/12481324/portal">Stra&#223;b&#361;rg</place><lb/>
+ <place name="Straßburg" type="destination" link="http://whgazetteer.org/places/12481324/portal">Stra&#223;b&#361;rg</place><lb/>
   d 27 [Octo]bris<lb/>
   1769 um 4 uhr<lb/>
   a
@@ -66,6 +66,6 @@
     
 <visual_element type="cityscape" location="center" specification="Stadtansicht von Wien mit Stephansdom"/>
 <visual_element type="coats_of_arms" location="top_center" specification="Kaiserliches Wappen und zwei weitere Wappen, ggf. für die Stadt Wien und die Zunft"/>
-<visual_element type="decorations" location="frame" specification="barockes Portal mit zwei antikisierenden Säulen"/>
+<visual_element type="decorations" location="frame" specification="Barockes Portal mit zwei antikisierenden Säulen"/>
 </content>
 </source>
