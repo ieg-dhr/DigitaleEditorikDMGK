@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://jg.dhlab.de/Teaching/Geburtsbriefe.xsd">
+ 
+ <metadata>
+  <archival_description ArchiveName="Stadtarchiv Mainz" ArchiveLocation="Mainz" Bestand="Urkundenbestand" Klassifikation="Geburtsbriefe" Signatur="G / 1685 Juli 31"/>
+   <source_description source_ID="G16850731" catalogue_record="https://faust.mainz.de/hzeig.FAU?sid=A8CF0B4F8&amp;dm=1&amp;ind=1&amp;zeig=G+/+1685+Juli+31" type="Geburtsbrief" place="Petit Rechain" date="31-07-1685" material_specifications=""/>
+   <digital_surrogate filename="Geburtsbrief Jean le Pourceau" URL="https://faust.mainz.de/zvimg.FAU?sid=A8CF0B4F&amp;DM=1&amp;qpos=123568&amp;ipos=1&amp;erg=H&amp;hst=1&amp;rpos=archivaliendatenbank.png"/>
+ </metadata>
+ 
+ <edition>
+   <transcription_info first_transcription_date="2021-04-21" last_revision_date="2021-07-16"/>
+   <editors name="Yohan Park, Maren Reeb, Robert Zwick" institution="JGU Mainz"/>
+ </edition>
+ 
+ <content>
+  <body>
+   <div section="text">
+    <text method="written" hand="Antiqua" language="French">
+      Nous la Justi&#231;e d&#250; <place name="Petit-Rechain" type="place_of_issue" link="http://whgazetteer.org/places/13902634/portal">Petit Rechain</place> a&#250; D&#250;ch&#233; de <place name="Limbourg" type="other" link="http://whgazetteer.org/places/13662650/portal">Limbourg</place> Certifions<lb/>
+   et attestons par la tene&#250;re des p[oi]ntes que no&#250;s a&#250;ons tres bonne connoissan&#231;e d&#39;a&#250;oir conn&#250;<lb/>
+     et rep&#250;t&#233; fe&#250; <people name="Jean le Po&#250;rcea&#250;" gender="male" confession="Catholic" role="kin">Jean le Po&#250;rcea&#250;</people> jadis de son vi&#250;ant Procure&#250;r post&#250;lant parde&#250;ant n[ot]re<lb/>
+     Justi&#231;e et <people name="Jeanne Dome des Champs" gender="female" confession="Catholic" role="kin">Jeanne Dome des Champs</people> sa Compagne conjoins par mariage&#44; Lesq&#250;els ont engendr&#233;<lb/>
+     legitimement honn&#234;te <people name="Jeanne le Pourcea&#250;" gender="female" confession="Catholic" role="recipient">Jeanne</people> le&#250;r fille jce&#250;se jss&#250;s de tres bons parens&#44; a&#255;ants e&#250; l&#39;honne&#250;r<lb/>
+     et la rep&#250;tation <people name="Jean le Po&#250;rcea&#250;" gender="male" confession="Catholic" role="witness">Jean le Pourcea&#250;</people> grand pere de lad[i]te fille <people name="Jeanne le Pourcea&#250;" gender="female" confession="Catholic" role="recipient">Jeanne&#44;</people> et a&#250;tres ses Predecesse&#250;rs<lb/>
+   de descendre de la Ra&#231;e des Po&#250;rcea&#250;x dans le&#250;r armerie consiste des la Date des l&#39;an traize<lb/>
+   cent nonante six, lesq&#250;els no&#250;s a&#250;ons pe&#250;[t] &#234;tre reput&#233;z comme no&#250;s rep&#250;tons jceux Predecesse&#250;rs<lb/> 
+   &#234;tre Gentilhommes&#44; Chevaliers&#44; Ese&#250;&#255;ers&#44; to&#250;s gens selon Die&#250; de bien et d&#39;honne&#250;r, des bonne fame<lb/>
+   et rep&#250;tation&#44; et d&#39;un parent&#233; a&#250;rant bien mo&#255;enn&#233; q&#250;&#39;auc&#250;n le puisse trou&#250;er dans n[ot]re Jurisdiction<lb/> 
+   sans qu&#39;il soit ven&#250; a [le]ure connoissan&#231;e&#44; q&#250;&#39;il no&#250;s soit appar&#250; a&#250;c&#250;n act de reprehension q&#250;elconq[ue]<lb/> 
+   qui po&#250;rroit ternir n&#255; denigrer [aulc&#250;ne] sorte de personnes de bien et d&#39;honneur&#59; C&#39;est pourquo&#255;<lb/>
+   en faue&#250;r de Justi&#231;e et de la verit&#233; no&#250;s a&#250;ons bien voul&#250; depecher les p[oi]ntes lettres d&#39;attes&#61;<lb/>
+   &#61;tations&#44; et supplier tres h&#250;mblement to&#250;s ce&#250;s&#44; o&#250; jcelles par&#250;iendront de le&#250;r donner Fo&#255; et Credence<lb/> 
+     afin q&#250;e laditte <people name="Jeanne le Pourcea&#250;" gender="female" confession="Catholic" role="recipient">Jeanne</people> soit toujo&#250;rs ten&#252;e et rep&#250;t&#233;e iss&#252;e de tres bon et tres honn&#234;te parentage&#44;<lb/> 
+   fille de bien et d&#39;honne&#250;r professant en Jes&#250;s Christ la vra&#255; Fo&#255; orthodoxe&#44; Comme auss&#255; po&#250;r<lb/> 
+   ce regard lu&#255; donner toutte aide&#44; faue&#250;r et asssistan&#231;e raisonnable le Cas le req&#250;erant&#44; ains&#255;<lb/>
+   q&#250;e no&#250;s voudrions faire en Etant requis in forma&#44; En Fo&#255; de quo&#255; et temoignage de la<lb/> 
+   verit&#233; no&#250;s a&#250;ons aux p[oi]ntes fait impresser n[ot]re Seel Scabinal en tels er semblables Cas<lb/>
+   acco&#250;tum&#233;&#44; et ordonn&#233; a n[ot]re Greffier Serment&#233; de les soubsigner s&#250;r l&#39;an de gra&#231;e de<lb/> 
+   n[ot]re Seigne&#250;r mil six cent q&#250;attre vint et cinq d&#250; mois de Juillet Le trente unieme.<lb/>
+   </text></div>
+   <div section="signature">
+     <text method="written" hand="Antiqua" language="French">
+       Par ordonnance du [judiciaire?]<lb/>
+       sudit<lb/>
+       <people name="unclear">[...]</people> Greffier
+     </text>
+   </div>
+  </body>
+  <translation>
+    Wir, die Gerichtsbarkeit von Petit-Rechain im Herzogtum Limburg bescheinigen 
+    und bezeugen durch den genauen Inhalt dieser Punkte, dass wir sehr gutes Wissen von der Bekanntschaft 
+    und Reputation des verstorbenen Jean le Pourceau haben von seinem noch lebenden Anwalt [Procureúr], der vor unserer 
+    Gerichtsbarkeit bekräftigt, und von Jeanne Dome des Champs, seiner Gattin, verbunden durch die Ehe, 
+    die rechtmäßig gezeugt haben die geehrte Jeanne, ihre besagte Tochter, die hervorgegangen ist von sehr guten Eltern, die die Ehre 
+    und den Ruf hatten von Jean le Pourceau, dem Großvater ihrer Tochter Jeanne, und von anderen seiner Vorfahren 
+    aus dem Geschlecht der Pourceaux abzustammen [und ihnen] in ihre Waffenkammer, die besteht seit dem Datum des Jahres 1396, 
+   [nachzufolgen] [und] die uns vielleicht in der gleichen Weise beleumdet haben wie wir jetzt deren Vorfahren beleumden, 
+   Edelleute, Ritter, [und] Escuijers [Esquire, Ehrentitel eines wappentragenden Mannes unterhalb des Ritterrangs], gewesen zu sein, alles Menschen vor Gott mit Gütern 
+   und Ehre, von gutem Ruf und Leumund, und von einer Verwandtschaft, die so begütert / angesehen geworden ist, wie niemand sie sonst ihn in unserer Gerichtsbarkeit 
+   finden kann, ohne dass es allgemein bekannt geworden wäre[.] [Wir bestätigen außerdem,] dass kein Akt irgendeines Tadels vorgefallen ist, der irgendeine Art von 
+   begüterten und ehrenhaften Personen betrüben oder herabwürdigen könnte;
+    Deshalb haben wir uns gerne bereit erklärt, den Brief der Beglaubigung im Dienste von Gerechtigkeit und Wahrheit zu verschicken, und bitten sehr untertänig all jene, 
+    wo die genannte Person [Jeanne] hinkommen wird, ihr Glauben und Vertrauen zu geben, so dass Jeanne immer für guter und sehr ehrenhafter Abstammung gehalten und 
+    beleumdet werden möge, als wohlhabendes und ehrenhaftes Mädchen [junge unverheiratete Frau], das in Jesus Christus den wahren rechten Glauben [Katholizismus] 
+    praktiziert, und ihr auch im Hinblick darauf alle Hilfe, Wohltat und angebrachte Unterstützung zu geben, die der Schritt [ihr Weg] erfordert, so wie wir das auch 
+    tun möchten, indem wir formell, zu Urkund und Zeugnis der Wahrheit unser gedrucktes Siegel angehängt haben, 
+    und unseren Justizbeamten gebeten haben, es zu unterzeichnen im Jahr der Gnade unseres HERRN 1685 im Monat Juli am 30.
+  </translation>
+  <visual_element type="coats_of_arms" location="bottom_left" specification="vermutlich Wappen des Gerichts in Petit-Rechain"></visual_element>
+  
+ </content>
+</source>
+
+
+
+ 
