@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://jg.dhlab.de/Teaching/Geburtsbriefe.xsd">
+
+	<metadata>
+		<archival_description ArchiveName="Stadtarchiv Mainz" ArchiveLocation="Mainz" Bestand="Urkundenbestand" Klassifikation="Geburtsbriefe" Signatur="G / 1696 Januar 2"/>
+		<source_description source_ID="G16960102" catalogue_record="https://faust.mainz.de/objekt_start.fau?prj=internet&amp;dm=archiv&amp;zeig=123708" type="Geburtsbrief" place="Loco Valle Onsernone" date="02-01-1696" material_specifications="Pergament"/>
+		<!-- Siegel fehlt -->
+		<digital_surrogate filename="archivaliendatenbank_3.png" URL="https://faust.mainz.de/zvimg.FAU?sid=505493FE&amp;DM=1&amp;qpos=123708&amp;ipos=1&amp;erg=a&amp;hst=1&amp;rpos=archivaliendatenbank.png"/>
+	</metadata>
+
+	<edition>
+		<transcription_info first_transcription_date="2021-05-21" last_revision_date="2021-07-10"/>
+		<editors name="Linnaea Söhn" institution="JGU Mainz"/>
+	</edition>
+
+	<content>
+		<body>
+			<div section="text">
+				<text method="written" hand="Antiqua" language="Latin"> NOS <people name="Johannes Baptist Nizoli" gender="male">IOANNES BAPTISTA NIZOLA</people> p[ro] t[empore] CONSVL<lb/>
+					Communis, et homines <place name="Loco" type="place_of_issue" link="http://whgazetteer.org/places/13458395/portal">Loci Vallis Lusarnonnensis</place>, Di&#339;cesis <place name="Como" type="other" link="http://whgazetteer.org/places/12862979/portal">Comensis</place> Subditi M:[axi]mor&#361;[m] et Potentiss:[simo]rum<lb/>
+					Dominorum duodecim Cantonum inviolabilis <place name="Schweiz" type="other" link="http://whgazetteer.org/places/14152995/portal">conf&#339;derationis Helveti&#230;</place> fidem facimus et attestamur:<lb/>
+					D[ominu]m <people name="Remigius Meletta" gender="male" role="recipient">Remigium Melettam</people> filiu[m] <people name="Petrus Meletta" gender="male" role="kin" >Petri Mellett&#230;</people> et <people name="Johanna de la Chiesa" gender="female" role="kin">Gioann&#230; de la chiesa</people> vxoris ejusdem pr&#230;dicti <people name="Petrus Meletta" gender="male" role="kin">Petri</people><lb/>
+					Nostrum dilectum vicinum natum A[nn]o 1658. 31a [Octo]bris], baptizatum ver&#242; 2da [secunda] [Novem]bris pr&#230;dicti Anni astantib[us]<lb/>
+					Petri Patrino Mag[ist]ro D[omi]no <people name="Jacob Cantarino" gender="male" role="witness">Jacobo Cantarino</people> <!-- Pate -->, et Patrin&#227; D[omin]a <people name="Helena" gender="female" role="witness">Helena</people><!-- Patin, Nachname nicht explizit genannt --> Vxore D[omi]ni <people name="Petrus Regolato" gender="male">Petri Regolati</people><!-- Mann der Patin Helena--> Syndici ejusdem <place name="Valle Onsernone" type="place_of_birth" link="http://whgazetteer.org/places/12586942/portal">Vallis<lb/>
+					Lusarnonnensis</place> de legitimo matrimonio susceptum antiqvissim&#226; et honestissima prole familiaq[ue] deductum esse,<lb/>
+					qvinimo toto vit&#230; ejus decursu actionibus suis honestis, moribusq[ue] compositum semper extitisse, ut nullus<lb/>
+					adsit, qui de supradicti vita et moribus conqveri possit; C&#363;m tamen ejus honestati vitaq[ue] integritati sit<lb/>
+					devictus nec minus ob aliquod ejus crimen a nobis recedere cogitur, sed ad lucrum et victum honestis sudo-<lb/> 
+					ribus ejus arte melius conqvirendum. Qvapropter Benevolos lectores, ad qvos h&#230; nostr&#230; patentes devenerint<lb/>
+					enix&#232; rogamus, hunc nostrum nobis adm[odum] dilectum beneq[ue] meritum vicinum supra Nominatum <people name="Remigius Meletta" gender="male" role="recipient">Remigium Melleta[m]</people><lb/>
+					omni humanitate, benevolentia, et charitate suscipere ac promovere, susceptumq[ue] sibi commendatum habere<lb/>
+					velint&#59; idipsum in omni simili eventu pr&#230;stituros erga ipsius benevolos, atq[ue] c&#230;teros omnes honestati deditos,<lb/>
+					promittentes. Ad qvorum majorem fidem publico Communitatis nostr&#230; Cancellario mandavimus has patentes<lb/>
+					vices nostras exarare, ejusq[ue] consveto Sigillo muniri dignaretur&#59; inq[ue] plenariam omnium horum corroborationem<lb/>
+					rogavimus suppliciter Ill[ustrissimum] adm[odum] atq[ue] magnificum D. <people name="Johannes Faber" gender="male" role="issuer">Joannem Fabri</people> nostrum de pr&#230;senti Col[endissi]mumsatrapam<lb/>
+					ac Pr&#230;torem, ut semetipsum subferiberet&#59; qvod idem confirmare adm[odum] R[everen]dus atq[ue] perdoctus D[omi]nus Eccl[es]i&#230;<lb/>
+					nostr&#230; Pr&#230;positus Parochus non dedignatus est. Dat&#230; <place name="Loco" type="place_of_issue" link="http://whgazetteer.org/places/13458395/portal">Loci Vallis Lusarnonnensis</place> die 2a Jannuarij Anno<lb/>
+					Salutis nostr&#230; M.DC.LXXXXVI.
+				</text>
+			</div>
+			<div section="signature">
+				<text method="written" hand="Antiqua" language="Latin">
+					<people name="Johannes Faber" gender="male" role="issuer">Johann Fabri</people><!-- unclear --> Landt [Wa]cht <!--  -->
+				</text>
+			</div>
+			<div section="signature">
+				<text method="written" hand="Antiqua" language="Latin">
+					<people name="Johannes Baptist Nizoli" gender="male">Joannes Baptista</people> Quadri<lb/>
+					p[ro] t[empore] Parochus <place name="Loco" type="place_of_issue" link="http://whgazetteer.org/places/13458395/portal">Loci Vallis<lb/>
+					Lusarnonnensis</place> et notarius<lb/>
+					Ap[ostoli]cus<lb/>
+					Mproia 
+				</text>
+			</div>
+		</body>
+		<translation>Wir Johannes Baptist Nizoli, KONSUL der Gemeinde auf Zeit,
+            und die Menschen / Männer des Ortes Lusarn (Tessin), die dem Rat der ältesten / mächtigsten Herren des Bistums Como Untertan sind in den zwölf Kantonen der unverletzlichen Schweizer Eidgenossenschaft, schenken Glauben und bekennen:
+            dass der Herr Remigius Meletta, der Sohn des Petrus Meletta und der Johanna de la Chiesa, der Frau des genannten Petrus, im Jahr 1658 am 31. Oktober als unser geliebter Nachbar geboren wurde, jedoch am 2. November des genannten Jahres getauft wurde, wobei Herr Magister Jacob Cantarino als Pate und Frau Helena, die Frau des Anwalts Petrus Regolato aus demselben Ort Lusarn als Patin anwesend waren, [und dass der Täufling] in gültiger Ehe empfangen wurde und aus einer alteingesessen und allerehrwürdigsten Familie als Nachwuchs hervorging[.]
+            Tatsächlich war der gesamte Verlauf seines Lebens immer von seinen aufrichtigen Handlungen und guten Sitten geprägt, so dass es niemanden gibt, der gegen den dargelegten Lebenslauf und den beschriebenen Charakter protestieren könnte;
+            Weil nämlich das Leben jenes [Mannes] ehrlich und integer ist, und von uns ebenso nicht gedacht werden kann, dass er gestürzt sein könnte wegen irgendeines Verbrechens seinerseits, sondern dass er Gewinn und Sicherung durch seine ehrliche Arbeit [wörtlich: mit ehrlichem Schweiß] anstatt durch Betrug suchte.
+            Darum, geneigte Leser, bitten wir ernstlich jene, zu denen unsere Bestätigungen gelangen werden, diesen unseren allerdings uns lieben und wohl verdienten Nachbarn unter dem Namen Remigius Meletta mit aller Menschlichkeit, Wohlwollen, und Nächstenliebe aufzunehmen und zu fördern, und ihm einen angenehmen Empfang bei sich bereiten zu wollen;
+            gerade dies [erbitten wir], dass sie versprechen, sich ihm gegenüber wohlwollend zu erweisen in jeder ähnlichen Situation, wie auch allen Übrigen der Aufrichtigkeit verpflichteten Leuten. Zur größeren Bekräftigung dieser Dinge haben wir den Beamten unserer Gemeinde beauftragt, öffentlich diese unsere bekannten Verlautbarungen zu notieren, und [dafür zu sorgen, dass es gewürdigt würde, mit dem gewöhnlichen Siegel [der Gemeinde] versehen zu werden;
+            und in voller Bekräftigung all dieser [Dinge] haben wir allerdings demütig unseren berühmtesten und großartigen Herrn Johann Fabri [oder: Johannes Faber], den derzeitigen ehrwürdigsten Statthalter und Vorsteher gebeten, dass er selbst unterzeichne, da jenes zu bestätigen nicht dem Ehrwürdigen und Gelehrten Herrn der Kirche unserer genannten Pfarrei zusteht.
+            Gegeben in Lusarn am 2. Januar im Jahre unseres Heils 1696.
+            [Unterschriften]
+        </translation>
+		<visual_element type="decorations" location="frame" specification="curved lines"/>
+		<visual_element type="decorations" location="bottom_center" specification="hanging wooden seal holder, seal missing"/>
+	</content>
+</source>
