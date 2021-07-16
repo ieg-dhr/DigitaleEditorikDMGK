@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://jg.dhlab.de/Teaching/Geburtsbriefe.xsd">
+    
+    <metadata>
+        <archival_description ArchiveName="Stadtarchiv Mainz" ArchiveLocation="Mainz" Bestand="Urkundenbestand" Klassifikation="Geburtsbriefe" Signatur="G / 1741 März"/>
+        <source_description source_ID="G17410300" catalogue_record="" type="Geburtsbrief" place="Mainz" date="1741-03-00" material_specifications=""/>
+        <digital_surrogate filename="Geburtsbrief Joseph Kaluscha" URL="https://faust.mainz.de/zvimg.FAU?sid=A8CF0B4F&amp;DM=1&amp;qpos=123568&amp;ipos=1&amp;erg=H&amp;hst=1&amp;rpos=archivaliendatenbank.png"/>
+    </metadata>
+    
+    <edition>
+        <transcription_info first_transcription_date="2021-04-21" last_revision_date="2021-07-15"/>
+        <editors name="Monika Barget, Jaap Geraerts" institution="IEG Mainz"/>
+    </edition>
+
+    <content>
+        <body>
+            <div section="text">
+                <text method="written" hand="Frakturschrift" language="German">    
+                    DES HOCH<lb/>
+W&#252;rdigsten F&#252;rsten Und<lb/>
+Herrn <people name="Philipp Carl von XY" gender="male">PHILIPP CARL</people> De&#223; heil:[igen] Stuhls zu<lb/>
+Ma&#255;ntz Ertzs Bischoffen de&#223; heil:[igen] Römischen Reichs durch Germanien Ertzs Cantzlearn<lb/>
+Und Churf&#252;rsten Meines Gn&#228;digsten Churf&#252;rsten und Herrn Herrn<lb/>
+Ich <people name="Paul Anton Schneider" gender="male" role="issuer">Paul Anton Schneider</people> Derzeit<lb/>
+Best&#228;lter Hoff und Favorit G&#228;rttner zu <place name="Mainz" type="place_of_issue" link="###">Ma&#255;ntz</place> / Urkunde und Bekenne<lb/>
+hiermit Offent[lich] &#361;nd Vor jeder Männiglichen, Da&#223; Vorwei&#223;er die&#223;er der Erbahre und K&#361;nstliebende <people name="Joseph Kaluscha" gender="male" role="recipient">Joseph<lb/>
+Kal&#361;scha</people> Geb&#252;rtig von <place name="add modern Czech name" type="place_of_birth" link="###">Ungarisch Brodt</place> In Marggraffth&#361;mb M&#228;hren bey mir Vorgesellen gestanden, Al&#223; von ersten Jun&#255; 1740 bie&#223; hierher den 19 Martj 1741. Er hat<lb/>
+sich In werender Zeit der Massen Getre&#361; - Fleissig Ehrlich und A&#361;ffrichtig Verhalten, wie E&#223; Einen ehrliebenden gesellen wohl anstehet, hette Ihm auch<lb/>
+l&#228;nger In Meinen diensten halten und bef&#246;rtern M&#246;gen, dieweillen Er aber umb Verhoff&#361;ng mehre&#223; Gl&#252;ck&#223; &#361;nd Fort&#361;n willen, seiner erlerneten<lb/> 
+K&#361;nst weiter&#223; nach z&#361; Reisen vorhaben&#223;. Dahero Mich geb&#252;hrent Ers&#361;chet Ihme seines eherw&#246;hnten Verhaltens Halber schrifftlich und<lb/>
+Gla&#361;bwirdiges Testimonium oder Abschied Zu ertheilen welches Ich Ihme keines wegs Abschlagen sonderen G&#361;ttwillig willfahrn woll-<lb/>
+en. Gelanget demnach An alle &#361;nd Jede wa&#223; Stands Condition &#361;nd w&#361;rden die Immer sein Absonderlich aber an die Jenige so der L&#246;bl:[ichen]<lb/>
+fre&#361;en k&#361;nst der gerttnerey Z&#361;gethan sein, Mein Respective dinstfre&#361;ndliches Ers&#361;chen &#361;nd bitten sie wollen Ob Erw&#246;hnten Joseph kal&#361;scha allen<lb/>
+g&#361;ten geneigten willen und bef&#246;rterung Erweisen, da&#223; wird Er mit sch&#361;ltigster danckbarkeit Erkenen, Ich aber bin E&#223; Einen Jedem stands &#8212;<lb/>
+geb&#252;hr nach, In der gleichen und anderen begebenheiten hinwiderumb zu Versch&#361;lten willig und Erböttig Dessen zu wahrer Ur-<lb/>
+k&#361;nd und Mehrer&#223; gla&#361;ben&#223; bekr&#228;fftigung, habe Ich mich Eigenh&#228;ndig Unterschriben, &#361;nd Mein Gew&#246;hnliche&#223; Pittschafft [auch: Petschaft oder Pitschaft = Siegel] Wegge-<lb/>
+dr&#361;ckt, so Geschehen &#361;nd Gegegeben In der Churf&#252;rstlichen Favorit Nechst &#8212;<lb/>
+der Resitentz stadt <place name="Mainz" type="place_of_issue" link="###">Maijntz</place>. Nach der gnaden Reichen ge-<lb/>
+b&#361;rth &#361;nsers Herrn &#361;nd heij-landss Jesu Christi dises Ein<lb/>
+Ta&#361;send siben h&#361;ndert &#361;nd Ein &#361;nd virtziger Jahr den Monaths Tags<lb/>
+Martj
+</text>
+</div>
+</body>
+<visual_element type="coats_of_arms" location="top_center" specification="kurfürstliches Wappen von Mainz"></visual_element>
+<visual_element type="decorations" location="frame" specification="florale Dekoration, Portraitkartusche mit Bild des Kurfürsten, emblematische Kartusche mit 3 Frauen (Tugenden?)"></visual_element>    
+<visual_element type="cityscape" location="bottom_center" specification="Stadtansicht Mainz"></visual_element>      
+</content>
+</source>
