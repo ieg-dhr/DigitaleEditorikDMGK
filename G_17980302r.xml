@@ -27,7 +27,7 @@
      K&#58;[öniglichen] Haubt &#61;<lb/> und Residenz Stadt <place name="Wien" type="place_of_issue"
       link="http://whgazetteer.org/places/12346175/portal">Wien</place> (beglaubigen) hiermit&#44;
      da&#223; gegenwertiger Tischlergesell&#44; Namens <text method="written" hand="Kurrentschrift"
-      language="German"><people name="Georg Gramer" role="recipient">Georg
+      language="German"><people name="Georg Gramer" gender="male" role="recipient">Georg
      Gramer</people></text><lb/> von <text method="written" hand="Kurrentschrift" language="German"
        ><place name="Mainz" type="place_of_birth"
        link="http://whgazetteer.org/places/13067462/portal">Maintz</place></text> &#45; &#45;
@@ -50,8 +50,8 @@
    </div>
    <div section="signature">
     <text method="printed" hand="Kurrentschrift" language="German">
-     <people name="Anton Sigel">A:[nton] Sigel</people> gn:[] et Del:[ineavit]<lb/>
-     <people name="Franz Landerer">F&#61; Landerer</people> Sculp&#61;[sit] </text>
+     <people name="Anton Sigel" gender="male">A:[nton] Sigel</people> gn:[] et Del:[ineavit]<lb/>
+     <people name="Franz Landerer" gender="male">F&#61; Landerer</people> Sculp&#61;[sit] </text>
    </div>
    <!-- <image type="column" position="left"> -->
    <div section="text">
@@ -60,7 +60,7 @@
    </div>
    <div section="signature">
     <text method="written" hand="Kurrentschrift" language="German">
-     <people name="unclear" role="witness">Johann<lb/> [Wohlbret]</people>
+     <people name="unclear" gender="male" role="witness">Johann<lb/> [Wohlbret]</people>
     </text>
    </div>
    <!-- <image type="column" position="right"> -->
@@ -70,7 +70,7 @@
    </div>
    <div section="signature">
     <text method="written" hand="Kurrentschrift" language="German">
-     <people name="unclear" role="witness">Johann Gottlieb<lb/> [Wiesenguth]</people>
+     <people name="unclear" gender="male" role="witness">Johann Gottlieb<lb/> [Wiesenguth]</people>
     </text>
    </div>
   </body>
