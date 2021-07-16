@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://jg.dhlab.de/Teaching/Geburtsbriefe.xsd">
+ <metadata>
+       <archival_description ArchiveName="Stadtarchiv Mainz" ArchiveLocation="Mainz" 
+        Bestand="Urkundenbestand" Klassifikation="Lehrbrief" Signatur="G / 1769 August 22"/>
+       <source_description source_ID="G17690822" 
+        catalogue_record="https://faust.mainz.de/rech.FAU?sid=EFC668DB7&amp;dm=1&amp;auft=1" 
+        type="Lehrbrief" place="Mainz" date="1769-08-22" 
+        material_specifications="Papier" seal="printed"/>           
+       <digital_surrogate filename="archivaliendatenbank.png" 
+        URL="https://faust.mainz.de/rech.FAU?sid=EFC668DB7&amp;dm=1&amp;auft=1"/>
+   </metadata>
+ 
+   <edition>
+           <transcription_info first_transcription_date="2021-05-22" last_revision_date="2021-07-16"/> 
+   <editors name="Viviane El-Garrahi, Konrad Arnold" institution="Johannes Gutenberg-Universität Mainz"/> 
+   </edition>
+ 
+   <content>
+   <body>
+ <div section="text">  
+  <text method="printed" hand="Frakturschrift" language="German">Wir Beschworne Vor und An-<lb/>
+  dere Meister des Ehrsamen Handwercks<lb/>
+  der <text method="written" hand="Kurrentschrift" language="German">Ma&#361;rer</text> Zunfft, in der <place name="Mainz" type="place_of_issue" link="http://whgazetteer.org/places/13067462/portal">Stadt Ma&#255;ntz</place> bekennen hiermit das<lb/>
+  gegenw&#228;rtiger Gesell Nahmens <text method="written" hand="Kurrentschrift" language="German"><people name="Karl Anton Mayer" gender="male" confession="Catholic" role="recipient">Carl Anton Mayer</people></text> von <text method="written" hand="Kurrentschrift" language="German"><place name="Mainz" type="place_of_birth">Ma&#255;ntz</place></text> geb&#252;rtig<lb/>
+  so <text method="written" hand="Frakturschrift" language="German">19</text> Jahr alt &#361;nd von Stat&#361;r <text method="written" hand="Kurrentschrift" language="German">gut</text> a&#361;ch <text method="written" hand="Kurrentschrift" language="German">bl&#361;nt</text> von Haaren ist bey &#361;ns allhier<lb/>
+  1 Jahr &#8212; Wochen in Arbeit gestanden &#361;nd solche Zeit &#252;ber Tre&#361; Flei&#223;ig Still Fridsam &#361;nd Ehr-<lb/>
+  lich, wie einem jeglichen Handwercks Gesellen geb&#252;hret verhalten hat, welches wir also Attestiren<lb/>
+  &#361;nd de&#223;halben &#361;nsere sambtliche Mit Meister diesen Gesellen nach Handwercks Gebra&#361;ch &#252;berall<lb/>
+   Z&#361;f&#246;rdern geziement ers&#361;chen wollen <place name="Mainz" type="place_of_issue" link="http://whgazetteer.org/places/13067462/portal">Ma&#255;ntz</place> den <text method="written" hand="Kurrentschrift" language="German"> >22[sten] A&#361;g&#361;st</text> Anno <text method="written" hand="Frakturschrift" language="German">1769</text><lb/>
+  <text method="written" hand="Kurrentschrift" language="German">
+  Erh&#228;lt aus neuen Allmosen zu <place name="Straßburg" type="other" link="http://whgazetteer.org/places/12481324/portal">Stra&#223;<lb/>
+  burg</place> 2 &#223; [Schillinge?] d. 30ter [Octo]bris. 1769. Ritter<lb/></text>
+  </text></div>  
+    
+  <div section="signature">
+    <text method="written" hand="Kurrentschrift" language="German">
+   &#196;ltester Geschworne Meister<lb/> 
+   <people name="Jacob Anspach" gender="male" role="witness">Jacob Anspach</people><lb/>
+   Jungster Geschworne Meister<lb/>
+   <people name="Joseph Dörr" gender="male" role="witness">Joseph D&#246;r</people><lb/>
+    Meister wo Obiger Gesell<lb/>
+    in Arbeit gestanden<lb/> 
+   <people name="Simon Neurohr" gender="male" role="witness">Simon Neurohr</people><lb/>
+   Ma&#361;rer Meister<lb/>
+  </text>
+ </div>
+ 
+<div section="marginalia"> 
+ <text method="written" hand="Kurrentschrift" language="German">
+ Pass:[um]<place name="Burgdorf" type="other" link="http://whgazetteer.org/places/13360070/portal">B&#361;rgdorf</place> d[en] 21ten 9bris [Novembris] 1769<lb/>
+ <people name="unclear" gender="male" role="witness">Wi[lhelm] R[itter]</people><lb/>
+ <place name="Straßburg" type="other" link="http://whgazetteer.org/places/12481324/portal">Strasburg</place> d[en] 29ten [Octo]bris 1769.<lb/>
+ <people name="George Christophe Freysinger" gender="male" role="witness">G[eorge] C[hristophe] Fre&#255;singer</people> Ober Meister.<lb/>
+ <place name="Lindau" type="other" link="http://whgazetteer.org/places/12653456/portal">Linda&#361;</place> d. 5t. [Decem]br[is] 1769.<lb/>
+ Pa&#223;irt<lb/>
+ <place name="Straßburg" type="other" link="http://whgazetteer.org/places/12481324/portal">Stra&#223;b&#361;rg</place><lb/>
+  d 27 [Octo]bris<lb/>
+  1769 um 4 uhr<lb/>
+  a
+ </text>
+</div>
+</body> 
+    
+<visual_element type="cityscape" location="center" specification="view of Vienna"/>
+<visual_element type="coats_of_arms" location="top_center" specification="imperial"/>
+<visual_element type="decorations" location="frame" specification="Baroque portal with columns"/>
+</content>
+</source>
