@@ -5,7 +5,7 @@
  
  <metadata>
   <archival_description ArchiveName="Stadtarchiv Mainz" ArchiveLocation="Mainz" Bestand="Urkundenbestand" Klassifikation="Geburtsbriefe" Signatur="G / 1685 Juli 31"/>
-   <source_description source_ID="G16850731" catalogue_record="https://faust.mainz.de/objekt_start.fau?prj=internet&dm=archiv&zeig=123568" type="Geburtsbrief" place="Petit Rechain" date="31-07-1685" material_specifications=""/>
+   <source_description source_ID="G16850731" catalogue_record="https://faust.mainz.de/objekt_start.fau?prj=internet&amp;dm=archiv&amp;zeig=123568" type="Geburtsbrief" place="Petit Rechain" date="31-07-1685" material_specifications=""/>
    <digital_surrogate filename="Geburtsbrief Jean le Pourceau" URL="https://teaching-dhlab.pages.gitlab.rlp.net/geburtsbriefemainz/pages/png/G16850731.JPG"/>
  </metadata>
  
