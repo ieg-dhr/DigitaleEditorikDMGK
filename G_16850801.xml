@@ -11,7 +11,7 @@
 			material_specifications="Pergament" seal="wax"/>
 		<!--JG: working link for quick navigation: https://faust.mainz.de/rech.FAU?sid=C043A6263&dm=1&auft=1-->
 		<digital_surrogate filename="archivaliendatenbank_7.png"
-			URL="https://faust.mainz.de/zvimg.FAU?sid=2DA34412&amp;DM=1&amp;qpos=123569&amp;ipos=1&amp;erg=a&amp;hst=1&amp;rpos=archivaliendatenbank.png"/>
+			URL="https://teaching-dhlab.pages.gitlab.rlp.net/geburtsbriefemainz/pages/png/G16850801.JPG"/>
 		<!-- https://faust.mainz.de/zvimg.FAU?sid=C043A626&DM=1&qpos=123569&ipos=1&erg=A&hst=1&rpos=archivaliendatenbank.png-->
 	</metadata>
 	<edition>
@@ -21,7 +21,7 @@
 	<content>
 		<body>
 			<div section="text">
-				<text method="written" hand="Kurrentschrift" language="Latin"> Omnibus has visuris
+				<text method="written" hand="Antiqua" language="Latin"> Omnibus has visuris
 					salus<lb/> ab eo qui vera est salus<lb/> Cum Honesta ac virtute Clara Domicella
 						<people name="Jeanne le Pourceaux" gender="female" role="recipient"
 						>Joanna</people> Filia Clarissimi<lb/> et Honestissimi <people
@@ -60,7 +60,7 @@
 				</text>
 			</div>
 			<div section="signature">
-				<text method="written" hand="Kurrentschrift" language="Latin"> Ita est <people
+				<text method="written" hand="Antiqua" language="Latin"> Ita est <people
 						name="Tossanus Petit" role="issuer" gender="male">Tossanus
 					Petit</people><lb/> Dit De Scolombs vice Pastor<lb/>
 					<place name="Andrimont" type="place_of_issue"
@@ -71,17 +71,17 @@
 		<translation>
 			Allen, die diese [Zeilen] sehen, [sei] Heil von dem, der das wahre Heil ist.
 			
-			Mit offensichtlicher Ehrbarkeit und Tugend hat die Edelfrau Joanna, die Tochter der berühmtesten und 
-			ehrenwertesten und Jean le Pourceaux, deren Herkunft aus der Bestätigung hervorgeht, 
+			Mit offensichtlicher Ehrbarkeit und Tugend hat die Edelfrau Joanna, die Tochter der ber&#252;hmtesten und 
+			ehrenwertesten und Jean le Pourceaux, deren Herkunft aus der Best&#228;tigung hervorgeht, 
 			die von Herrn Scabin de Richain ausgestellt wurde, und der tugendhaftesten Jeanne Dominici de Champs, 
-			beheimatet in Lüttich, in der Grafschaft Franchimont, und im Dorf Andrimont [heute Teil der Gemeinde Dison in Belgien] geboren, 
-			gewünscht, dass ich Zeuge ihrer Taufe sei, [aber] ich bin nicht in der Lage, die Bitte dieser so ehrenhaften [Frau] zurückzuweisen, 
-			obwohl es mir gleichfalls nicht möglich ist, den Beweis aus dem Taufregister zu erbringen, weil jenes 
-			im Jahr 1654 (1674?) von Soldaten weggenommen wurde, [doch] von den Paten derselben, die sich mir gegenüber offen erklärt haben, 
-			nämlich Jean Bertrand und Pentecoston le Boos, habe ich von ihrer heiligen Taufe erfahren, nachdem sie 
-			von dem seit dem achtzehnten Jahr in unserer Kirche rechtmäßig verheirateten Paar Jean le Pourceaux und Jeanne Dominici de Champs 
+			beheimatet in L&#252;ttich, in der Grafschaft Franchimont, und im Dorf Andrimont [heute Teil der Gemeinde Dison in Belgien] geboren, 
+			gew&#252;nscht, dass ich Zeuge ihrer Taufe sei, [aber] ich bin nicht in der Lage, die Bitte dieser so ehrenhaften [Frau] zur&#252;ckzuweisen, 
+			obwohl es mir gleichfalls nicht m&#246;glich ist, den Beweis aus dem Taufregister zu erbringen, weil jenes 
+			im Jahr 1674 von Soldaten weggenommen wurde, [doch] von den Paten derselben, die sich mir gegen&#252;ber offen erklärt haben, 
+			n&#228;mlich Jean Bertrand und Pentecoston le Boos, habe ich von ihrer heiligen Taufe erfahren, nachdem sie 
+			von dem seit dem achtzehnten Jahr in unserer Kirche rechtm&#228;ßig verheirateten Paar Jean le Pourceaux und Jeanne Dominici de Champs 
 			als Tochter empfangen wurde, und weil so in der Tat in unserem Dorf, das weit von jedem Irrglauben entfernt ist, kein Zweifel in dieser Sache 
-			über den Ort [der Taufe] bestehen kann, im Sinne der oben genannten Erklärung, bitte ich alle, zu denen sie kommen wird, 
+			über den Ort [der Taufe] bestehen kann, im Sinne der oben genannten Erkl&#228;rung, bitte ich alle, zu denen sie kommen wird, 
 			diese für eine solche Frau anzuerkennen. Zur Beurkundung wurde dieses in eigener Hand geschrieben, unterschrieben und mit dem ordentlichen 
 			amtlichen Siegel versehen, gegeben in unserem Amtssitz im Dorf Andrimont, an diesem 1. August im Jahr der Geburt des Herrn 1685.
 			
