@@ -7,7 +7,7 @@
 		<archival_description ArchiveName="Stadtarchiv Mainz" ArchiveLocation="Mainz" Bestand="Urkundenbestand" Klassifikation="Geburtsbriefe" Signatur="G / 1696 Januar 2"/>
 		<source_description source_ID="G16960102" catalogue_record="https://faust.mainz.de/objekt_start.fau?prj=internet&amp;dm=archiv&amp;zeig=123708" type="Geburtsbrief" place="Loco Valle Onsernone" date="02-01-1696" material_specifications="Pergament"/>
 		<!-- Siegel fehlt -->
-		<digital_surrogate filename="archivaliendatenbank_3.png" URL="https://faust.mainz.de/zvimg.FAU?sid=505493FE&amp;DM=1&amp;qpos=123708&amp;ipos=1&amp;erg=a&amp;hst=1&amp;rpos=archivaliendatenbank.png"/>
+		<digital_surrogate filename="Geburtsbrief Remigius Meletta" URL="https://teaching-dhlab.pages.gitlab.rlp.net/geburtsbriefemainz/pages/png/G16850731r.JPG"/>
 	</metadata>
 
 	<edition>
