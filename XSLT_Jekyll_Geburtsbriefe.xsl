@@ -1,6 +1,5 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:output method="html"/>
-
     <xsl:template match="/">
         <!-- Jekyll statement --> --- <xsl:for-each select="source/metadata/digital_surrogate">
             layout: page title: <xsl:value-of select="@filename"/> permalink: /<xsl:value-of
@@ -22,20 +21,30 @@
                 <xsl:value-of select="@URL"/>
             </xsl:variable>
             <img src="{$urlVar}" valign="top"/>
-        </xsl:for-each>   
+        </xsl:for-each>
         <hr/>
         <div class="flex-container">
             <div><p><strong>Graphische Elemente:</strong></p>
-                <p><xsl:apply-templates select="//visual_element"></xsl:apply-templates></p><br/>
+                <p><xsl:apply-templates select="//visual_element"/></p><br/>
             </div>
         </div>
         <hr/>
-        <div class="flex-container">
-            <div><p><strong>Transkription:</strong></p>
-                    <p><xsl:apply-templates select="//div"></xsl:apply-templates></p><br/>
+            <div class="flex-container">
+            <div><p><strong>Transkription:</strong></p> <p><xsl:apply-templates select="//div">
+                    </xsl:apply-templates>
+                <!-- KEEP line break -->
+                    <br><xsl:apply-templates select="//lb" /></br>
+                <!-- include WHG links -->
+                <xsl:for-each select="//place">
+                    <xsl:variable name="urlPlace">
+                        <xsl:value-of select="@link"/>
+                    </xsl:variable>
+                    <a href="{$urlPlace}"><xsl:apply-templates select="//place" /></a>
+                </xsl:for-each>
+            </p><br/>
             </div>
             <div><p><strong>Übersetzung:</strong></p>
-                <p><xsl:apply-templates select="//translation"></xsl:apply-templates></p><br/>
+                <p><xsl:apply-templates select="//translation"/></p><br/>
             </div>
         </div>
     </xsl:template>
