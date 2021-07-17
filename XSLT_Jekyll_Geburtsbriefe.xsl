@@ -39,7 +39,7 @@
                     <xsl:variable name="urlPlace">
                         <xsl:value-of select="@link"/>
                     </xsl:variable>
-                    <a href="{$urlPlace}"><xsl:apply-templates select="//place" /></a>
+                    <a href="{$urlPlace}" target="blank"><xsl:apply-templates select="//place" /></a>
                 </xsl:for-each>
             </p><br/>
             </div>
