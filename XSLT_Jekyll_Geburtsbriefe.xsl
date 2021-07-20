@@ -23,33 +23,37 @@
             </xsl:variable>
             <img src="{$urlVar}" valign="top"/>
         </xsl:for-each>
+        <br/><br/>
         <!-- HTML-Flex-Container für Digitalisat und Inhalt -->
         <div class="flex-container">
             <div>
-                <p style="border: 1px solid #34baaf;">
+                <p>
                     <strong>Graphische Elemente:</strong>
                 </p>
+                <p padding="10px" style="border: 1px solid #34baaf;">
                 <p> Art des Siegels: <xsl:value-of select="metadata/source_description/@seal"/>
                 </p>
                 <p> Sonstiges: <xsl:for-each select="visual_element"/>
+                </p>
                 </p>
                 <br/>
             </div>
         </div>
         <div class="flex-container">
             <div>
-                <p style="border: 1px solid #34baaf;">
+                <p>
                     <strong>Transkription:</strong>
                 </p>
-                    <p style="border: 1px solid #34baaf;">
-                            <xsl:apply-templates select="content/body/div"/>
+                <p>
+                <xsl:apply-templates select="content/body/div"> 
+                </xsl:apply-templates>
                     </p>
             </div>
             <div>
-                <p style="border: 1px solid #34baaf;">
+                <p>
                     <strong>Übersetzung:</strong>
                 </p>
-                <p>
+                <p padding="10px" style="border: 1px solid #34baaf;">
                     <xsl:apply-templates select="translation"/>
                 </p>
                 <br/>
@@ -69,5 +73,8 @@
         <br/>
     </xsl:template>
     
-</xsl:stylesheet>
-
+    <xsl:template match="div">
+        <p padding="10px" style="border: 1px solid #34baaf;">
+        <xsl:apply-templates select="text"/>
+        </p>
+    </xsl:template>
