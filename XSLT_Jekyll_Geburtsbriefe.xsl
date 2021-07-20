@@ -33,7 +33,10 @@
                 <p padding="10px" style="border: 1px solid #34baaf;">
                 <p> Art des Siegels: <xsl:value-of select="metadata/source_description/@seal"/>
                 </p>
-                <p> Sonstiges: <xsl:for-each select="visual_element"/>
+                <p> Sonstiges: 
+                    <xsl:for-each select="content/visual_element">
+                    <xsl:value-of select="@specification"/><br/>
+                    </xsl:for-each>
                 </p>
                 </p>
                 <br/>
@@ -78,3 +81,5 @@
         <xsl:apply-templates select="text"/>
         </p>
     </xsl:template>
+    
+</xsl:stylesheet>
