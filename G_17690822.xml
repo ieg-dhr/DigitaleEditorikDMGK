@@ -9,8 +9,8 @@
         catalogue_record="https://faust.mainz.de/rech.FAU?sid=EFC668DB7&amp;dm=1&amp;auft=1" 
         type="Lehrbrief" place="Mainz" date="1769-08-22" 
         material_specifications="Papier" seal="printed"/>           
-       <digital_surrogate filename="archivaliendatenbank.png" 
-        URL="https://faust.mainz.de/rech.FAU?sid=EFC668DB7&amp;dm=1&amp;auft=1"/>
+       <digital_surrogate filename="Geburtsbrief Carl Anton Mayer" 
+        URL="/geburtsbriefemainz/pages/png/G17690822.JPG"/>
    </metadata>
  
    <edition>
@@ -29,11 +29,11 @@
   1 Jahr &#8212; Wochen in Arbeit gestanden &#361;nd solche Zeit &#252;ber Tre&#361; Flei&#223;ig Still Fridsam &#361;nd Ehr-<lb/>
   lich, wie einem jeglichen Handwercks Gesellen geb&#252;hret verhalten hat, welches wir also Attestiren<lb/>
   &#361;nd de&#223;halben &#361;nsere sambtliche Mit Meister diesen Gesellen nach Handwercks Gebra&#361;ch &#252;berall<lb/>
-   Z&#361;f&#246;rdern geziement ers&#361;chen wollen <place name="Mainz" type="place_of_issue" link="http://whgazetteer.org/places/13067462/portal">Ma&#255;ntz</place> den <text method="written" hand="Kurrentschrift" language="German"> >22[sten] A&#361;g&#361;st</text> Anno <text method="written" hand="Frakturschrift" language="German">1769</text><lb/>
-  <text method="written" hand="Kurrentschrift" language="German">
-  Erh&#228;lt aus neuen Allmosen zu <place name="Straßburg" type="destination" link="http://whgazetteer.org/places/12481324/portal">Stra&#223;<lb/>
+   Z&#361;f&#246;rdern geziement ers&#361;chen wollen <place name="Mainz" type="place_of_issue" link="http://whgazetteer.org/places/13067462/portal">Ma&#255;ntz</place> den <text method="written" hand="Kurrentschrift" language="German"> >22[sten] A&#361;g&#361;st</text> Anno <text method="written" hand="Frakturschrift" language="German">1769</text><lb/></text>
+  </div>
+    <div section="marginalia"><text method="written" hand="Kurrentschrift" language="German">Erh&#228;lt aus neuen Allmosen zu <place name="Straßburg" type="destination" link="http://whgazetteer.org/places/12481324/portal">Stra&#223;<lb/>
   burg</place> 2 &#223; [Schillinge?] d. 30ter [Octo]bris. 1769. Ritter<lb/></text>
-  </text></div>  
+    </div>  
     
   <div section="signature">
     <text method="written" hand="Kurrentschrift" language="German">
