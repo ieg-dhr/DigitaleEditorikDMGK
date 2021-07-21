@@ -5,13 +5,13 @@
 
 	<metadata>
 		<archival_description ArchiveName="Stadtarchiv Mainz" ArchiveLocation="Mainz" Bestand="Urkundenbestand" Klassifikation="Geburtsbriefe" Signatur="G / 1696 Januar 2"/>
-		<source_description source_ID="G16960102" catalogue_record="https://faust.mainz.de/objekt_start.fau?prj=internet&amp;dm=archiv&amp;zeig=123708" type="Geburtsbrief" place="Loco Valle Onsernone" date="02-01-1696" material_specifications="Pergament"/>
+		<source_description source_ID="G16960102" catalogue_record="https://faust.mainz.de/objekt_start.fau?prj=internet&amp;dm=archiv&amp;zeig=123708" type="Geburtsbrief" place="Loco Valle Onsernone" date="1696-01-02" material_specifications="Pergament"/>
 		<!-- Siegel fehlt -->
-		<digital_surrogate filename="Geburtsbrief Remigius Meletta" URL="https://teaching-dhlab.pages.gitlab.rlp.net/geburtsbriefemainz/pages/png/G16850731r.JPG"/>
+		<digital_surrogate filename="Geburtsbrief Remigius Meletta" URL="/geburtsbriefemainz/pages/png/G16960102.JPG"/>
 	</metadata>
 
 	<edition>
-		<transcription_info first_transcription_date="2021-05-21" last_revision_date="2021-07-10"/>
+		<transcription_info first_transcription_date="2021-05-21" last_revision_date="2021-07-20"/>
 		<editors name="Linnaea Söhn" institution="JGU Mainz"/>
 	</edition>
 
@@ -47,7 +47,7 @@
 			</div>
 			<div section="signature">
 				<text method="written" hand="Antiqua" language="Latin">
-					<people name="Johannes Baptist Nizoli" gender="male">Joannes Baptista</people> Quadri<lb/>
+					<people name="Johannes Baptist Nizoli" gender="male" role="issuer">Joannes Baptista</people> Quadri<lb/>
 					p[ro] t[empore] Parochus <place name="Loco" type="place_of_issue" link="http://whgazetteer.org/places/13458395/portal">Loci Vallis<lb/>
 					Lusarnonnensis</place> et notarius<lb/>
 					Ap[ostoli]cus<lb/>
@@ -56,14 +56,14 @@
 			</div>
 		</body>
 		<translation>Wir Johannes Baptist Nizoli, KONSUL der Gemeinde auf Zeit,
-            und die Menschen / Männer des Ortes Lusarn (Tessin), die dem Rat der ältesten / mächtigsten Herren des Bistums Como Untertan sind in den zwölf Kantonen der unverletzlichen Schweizer Eidgenossenschaft, schenken Glauben und bekennen:
-            dass der Herr Remigius Meletta, der Sohn des Petrus Meletta und der Johanna de la Chiesa, der Frau des genannten Petrus, im Jahr 1658 am 31. Oktober als unser geliebter Nachbar geboren wurde, jedoch am 2. November des genannten Jahres getauft wurde, wobei Herr Magister Jacob Cantarino als Pate und Frau Helena, die Frau des Anwalts Petrus Regolato aus demselben Ort Lusarn als Patin anwesend waren, [und dass der Täufling] in gültiger Ehe empfangen wurde und aus einer alteingesessen und allerehrwürdigsten Familie als Nachwuchs hervorging[.]
+            und die Menschen / Männer aus Loco im Onsernonetal [wörtlich: Valle Lusarnonnensis], die dem Rat der ältesten / mächtigsten Herren des Bistums Como Untertan sind in den zwölf Kantonen der unverletzlichen Schweizer Eidgenossenschaft, schenken Glauben und bekennen:
+            dass der Herr Remigius Meletta, der Sohn des Petrus Meletta und der Johanna de la Chiesa, der Frau des genannten Petrus, im Jahr 1658 am 31. Oktober als unser geliebter Nachbar geboren wurde, jedoch am 2. November des genannten Jahres getauft wurde, wobei Herr Magister Jacob Cantarino als Pate und Frau Helena, die Frau des Anwalts Petrus Regolato aus demselben Onsernonetal [wörtlich: Valle Lusarnonnensis] als Patin anwesend waren, [und dass der Täufling] in gültiger Ehe empfangen wurde und aus einer alteingesessen und allerehrwürdigsten Familie als Nachwuchs hervorging[.]
             Tatsächlich war der gesamte Verlauf seines Lebens immer von seinen aufrichtigen Handlungen und guten Sitten geprägt, so dass es niemanden gibt, der gegen den dargelegten Lebenslauf und den beschriebenen Charakter protestieren könnte;
             Weil nämlich das Leben jenes [Mannes] ehrlich und integer ist, und von uns ebenso nicht gedacht werden kann, dass er gestürzt sein könnte wegen irgendeines Verbrechens seinerseits, sondern dass er Gewinn und Sicherung durch seine ehrliche Arbeit [wörtlich: mit ehrlichem Schweiß] anstatt durch Betrug suchte.
             Darum, geneigte Leser, bitten wir ernstlich jene, zu denen unsere Bestätigungen gelangen werden, diesen unseren allerdings uns lieben und wohl verdienten Nachbarn unter dem Namen Remigius Meletta mit aller Menschlichkeit, Wohlwollen, und Nächstenliebe aufzunehmen und zu fördern, und ihm einen angenehmen Empfang bei sich bereiten zu wollen;
             gerade dies [erbitten wir], dass sie versprechen, sich ihm gegenüber wohlwollend zu erweisen in jeder ähnlichen Situation, wie auch allen Übrigen der Aufrichtigkeit verpflichteten Leuten. Zur größeren Bekräftigung dieser Dinge haben wir den Beamten unserer Gemeinde beauftragt, öffentlich diese unsere bekannten Verlautbarungen zu notieren, und [dafür zu sorgen, dass es gewürdigt würde, mit dem gewöhnlichen Siegel [der Gemeinde] versehen zu werden;
             und in voller Bekräftigung all dieser [Dinge] haben wir allerdings demütig unseren berühmtesten und großartigen Herrn Johann Fabri [oder: Johannes Faber], den derzeitigen ehrwürdigsten Statthalter und Vorsteher gebeten, dass er selbst unterzeichne, da jenes zu bestätigen nicht dem Ehrwürdigen und Gelehrten Herrn der Kirche unserer genannten Pfarrei zusteht.
-            Gegeben in Lusarn am 2. Januar im Jahre unseres Heils 1696.
+            Gegeben in Loco im Onsernonetal [wörtlich: Valle Lusarnonnensis] am 2. Januar im Jahre unseres Heils 1696.
             [Unterschriften]
         </translation>
 		<visual_element type="decorations" location="frame" specification="curved lines"/>
