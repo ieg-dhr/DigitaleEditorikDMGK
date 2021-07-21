@@ -74,7 +74,9 @@
     </text>
    </div>
   </body>
-  <visual_element type="cityscape" location="top_center" specification="Stadtansicht von Wien"/>
-  <visual_element type="coats_of_arms" location="center" specification="aufgeklebtes Wappen"/>
+  <visual_element type="cityscape" location="top_center" specification="Kaiserliches Wappen in der Mitte oben"/>
+   <visual_element type="coats_of_arms" location="center" specification="Stadtansicht von Wien"/>
+  <visual_element type="coats_of_arms" location="center" specification="aufgeklebte Wappen"/>
+  <visual_element type="coats_of_arms" location="frame" specification="barocker Rahmen mit antikisierenden Säulen"/>
  </content>
 </source>
