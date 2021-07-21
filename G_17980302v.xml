@@ -9,7 +9,7 @@
    catalogue_record="https://faust.mainz.de/hzeig.FAU?sid=A8CF0B4F21&amp;dm=1&amp;ind=1&amp;zeig=G+/+1798+M%E4rz+2"
    type="Lehrbrief" place="Wien" date="02-03-1798"/>
   <digital_surrogate filename="Geburtsbrief Georg Gramer"
-   URL="https://faust.mainz.de/zvimg.FAU?sid=A8CF0B4F&amp;DM=1&amp;qpos=129736&amp;ipos=2&amp;erg=H&amp;hst=1&amp;rpos=archivaliendatenbank.png"
+   URL="/geburtsbriefemainz/pages/png/G17980302r.JPG"
   />
  </metadata>
 
@@ -41,6 +41,6 @@
       >Wien</place><lb/> 2&#73; März 1798 </text>
    </div>
   </body>
-  <visual_element type="coats_of_arms" location="bottom_left"/>
+  <visual_element type="coats_of_arms" location="bottom_left" specification="Stadtwappen?"/>
  </content>
 </source>
