@@ -64,8 +64,9 @@
 </div>
 </body> 
     
-<visual_element type="cityscape" location="center" specification="Stadtansicht von Wien mit Stephansdom"/>
-<visual_element type="coats_of_arms" location="top_center" specification="Kaiserliches Wappen und zwei weitere Wappen, ggf. für die Stadt Wien und die Zunft"/>
-<visual_element type="decorations" location="frame" specification="Barockes Portal mit zwei antikisierenden Säulen"/>
+<visual_element type="cityscape" location="top_center" specification="Stadtansicht von Mainz"/>
+<visual_element type="coats_of_arms" location="top_center" specification="Kurfürstliches Wappen in der Mitte, Stadtwappen von Mainz rechts, weiteres Wappen links"/>
+<visual_element type="decorations" location="frame" specification="Barocker Rahmen mit Weinreben, Personifikationen von Rhein und Main in den unteren Ecken"/>
+<visual_element type="decorations" location="bottom_center" specification="Zunkftmitglieder an einem Tisch versammelt, Wandergeselle im Vordergrund"/>
 </content>
 </source>
