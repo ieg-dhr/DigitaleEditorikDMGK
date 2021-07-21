@@ -7,9 +7,9 @@
    Bestand="Geburtsbriefe" Klassifikation="Geburtsbriefe" Signatur="G / 1798 März 2"/>
   <source_description source_ID="G17980302v"
    catalogue_record="https://faust.mainz.de/hzeig.FAU?sid=A8CF0B4F21&amp;dm=1&amp;ind=1&amp;zeig=G+/+1798+M%E4rz+2"
-   type="Lehrbrief" place="Wien" date="02-03-1798"/>
+   type="Lehrbrief" place="Wien" date="1798-03-02"/>
   <digital_surrogate filename="Geburtsbrief Georg Gramer"
-   URL="/geburtsbriefemainz/pages/png/G17980302r.JPG"
+   URL="/geburtsbriefemainz/pages/png/G17980302v.JPG"
   />
  </metadata>
 
@@ -41,6 +41,6 @@
       >Wien</place><lb/> 2&#73; März 1798 </text>
    </div>
   </body>
-  <visual_element type="coats_of_arms" location="bottom_left" specification="Stadtwappen?"/>
+  <visual_element type="coats_of_arms" location="bottom_left" specification="Wappen"/>
  </content>
 </source>
