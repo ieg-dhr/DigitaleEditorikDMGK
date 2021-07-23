@@ -11,7 +11,7 @@
 			material_specifications="Pergament" seal="wax"/>
 		<!--JG: working link for quick navigation: https://faust.mainz.de/rech.FAU?sid=C043A6263&dm=1&auft=1-->
 		<digital_surrogate filename="Geburtsbrief Jeanne le Pourceau II"
-			URL="https://teaching-dhlab.pages.gitlab.rlp.net/geburtsbriefemainz/pages/png/G16850801.JPG"/>
+			URL="/geburtsbriefemainz/pages/png/G16850801.JPG"/>
 		<!-- https://faust.mainz.de/zvimg.FAU?sid=C043A626&DM=1&qpos=123569&ipos=1&erg=A&hst=1&rpos=archivaliendatenbank.png-->
 	</metadata>
 	<edition>
