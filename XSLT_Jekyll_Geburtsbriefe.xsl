@@ -71,10 +71,14 @@
             <xsl:value-of select="."/>
         </a>
     </xsl:template>
+    
+     <!-- LINEBREAKS -->
 
     <xsl:template match="lb">
         <br/>
     </xsl:template>
+    
+     <!-- RAHMEN UM VERSCHIEDENE TEXT-TEILE -->
     
     <xsl:template match="div">
         <p padding="10px" style="border: 1px solid #34baaf;">
