@@ -9,7 +9,7 @@ var style_GeburtsbriefefrPersonengruppen_1 = function(feature, resolution){
     var value = ""
     var labelText = "";
     size = 0;
-    var labelFont = "10px, sans-serif";
+    var labelFont = "7px, sans-serif";
     var labelFill = "#000000";
     var bufferColor = "";
     var bufferWidth = 0;
@@ -17,8 +17,8 @@ var style_GeburtsbriefefrPersonengruppen_1 = function(feature, resolution){
     var offsetX = 8;
     var offsetY = 3;
     var placement = 'point';
-    if ("" !== null) {
-        labelText = String("");
+   if (feature.get("Place") !== null) {
+        labelText = String(feature.get("Place"));
     }
     var style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 4.0 + size,
