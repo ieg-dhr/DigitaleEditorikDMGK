@@ -12,86 +12,77 @@ var wms_layers = [];
                 url: 'http://tile.openstreetmap.org/{z}/{x}/{y}.png'
             })
         });
-var format_Geburtsbriefe_geokodiertWOMEN_1 = new ol.format.GeoJSON();
-var features_Geburtsbriefe_geokodiertWOMEN_1 = format_Geburtsbriefe_geokodiertWOMEN_1.readFeatures(json_Geburtsbriefe_geokodiertWOMEN_1, 
+var format_GeburtsbriefefrPersonengruppen_1 = new ol.format.GeoJSON();
+var features_GeburtsbriefefrPersonengruppen_1 = format_GeburtsbriefefrPersonengruppen_1.readFeatures(json_GeburtsbriefefrPersonengruppen_1, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_Geburtsbriefe_geokodiertWOMEN_1 = new ol.source.Vector({
+var jsonSource_GeburtsbriefefrPersonengruppen_1 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Geburtsbriefe_geokodiertWOMEN_1.addFeatures(features_Geburtsbriefe_geokodiertWOMEN_1);cluster_Geburtsbriefe_geokodiertWOMEN_1 = new ol.source.Cluster({
-  distance: 10,
-  source: jsonSource_Geburtsbriefe_geokodiertWOMEN_1
-});
-var lyr_Geburtsbriefe_geokodiertWOMEN_1 = new ol.layer.Vector({
+jsonSource_GeburtsbriefefrPersonengruppen_1.addFeatures(features_GeburtsbriefefrPersonengruppen_1);
+var lyr_GeburtsbriefefrPersonengruppen_1 = new ol.layer.Vector({
                 declutter: true,
-                source:cluster_Geburtsbriefe_geokodiertWOMEN_1, 
-                style: style_Geburtsbriefe_geokodiertWOMEN_1,
+                source:jsonSource_GeburtsbriefefrPersonengruppen_1, 
+                style: style_GeburtsbriefefrPersonengruppen_1,
                 interactive: true,
-                title: '<img src="styles/legend/Geburtsbriefe_geokodiertWOMEN_1.png" /> Geburtsbriefe_geokodiert - WOMEN'
+                title: '<img src="styles/legend/GeburtsbriefefrPersonengruppen_1.png" /> Geburtsbriefe für Personengruppen'
             });
-var format_Geburtsbriefe_geokodiertGROUPS_2 = new ol.format.GeoJSON();
-var features_Geburtsbriefe_geokodiertGROUPS_2 = format_Geburtsbriefe_geokodiertGROUPS_2.readFeatures(json_Geburtsbriefe_geokodiertGROUPS_2, 
+var format_GeburtsbriefefrMnner_2 = new ol.format.GeoJSON();
+var features_GeburtsbriefefrMnner_2 = format_GeburtsbriefefrMnner_2.readFeatures(json_GeburtsbriefefrMnner_2, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_Geburtsbriefe_geokodiertGROUPS_2 = new ol.source.Vector({
+var jsonSource_GeburtsbriefefrMnner_2 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Geburtsbriefe_geokodiertGROUPS_2.addFeatures(features_Geburtsbriefe_geokodiertGROUPS_2);cluster_Geburtsbriefe_geokodiertGROUPS_2 = new ol.source.Cluster({
-  distance: 10,
-  source: jsonSource_Geburtsbriefe_geokodiertGROUPS_2
-});
-var lyr_Geburtsbriefe_geokodiertGROUPS_2 = new ol.layer.Vector({
+jsonSource_GeburtsbriefefrMnner_2.addFeatures(features_GeburtsbriefefrMnner_2);
+var lyr_GeburtsbriefefrMnner_2 = new ol.layer.Vector({
                 declutter: true,
-                source:cluster_Geburtsbriefe_geokodiertGROUPS_2, 
-                style: style_Geburtsbriefe_geokodiertGROUPS_2,
+                source:jsonSource_GeburtsbriefefrMnner_2, 
+                style: style_GeburtsbriefefrMnner_2,
                 interactive: true,
-                title: '<img src="styles/legend/Geburtsbriefe_geokodiertGROUPS_2.png" /> Geburtsbriefe_geokodiert - GROUPS'
+                title: '<img src="styles/legend/GeburtsbriefefrMnner_2.png" /> Geburtsbriefe für Männer'
             });
-var format_Geburtsbriefe_geokodiertFOREIGN_3 = new ol.format.GeoJSON();
-var features_Geburtsbriefe_geokodiertFOREIGN_3 = format_Geburtsbriefe_geokodiertFOREIGN_3.readFeatures(json_Geburtsbriefe_geokodiertFOREIGN_3, 
+var format_GeburtsbriefefrFrauen_3 = new ol.format.GeoJSON();
+var features_GeburtsbriefefrFrauen_3 = format_GeburtsbriefefrFrauen_3.readFeatures(json_GeburtsbriefefrFrauen_3, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_Geburtsbriefe_geokodiertFOREIGN_3 = new ol.source.Vector({
+var jsonSource_GeburtsbriefefrFrauen_3 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Geburtsbriefe_geokodiertFOREIGN_3.addFeatures(features_Geburtsbriefe_geokodiertFOREIGN_3);
-var lyr_Geburtsbriefe_geokodiertFOREIGN_3 = new ol.layer.Vector({
+jsonSource_GeburtsbriefefrFrauen_3.addFeatures(features_GeburtsbriefefrFrauen_3);
+var lyr_GeburtsbriefefrFrauen_3 = new ol.layer.Vector({
                 declutter: true,
-                source:jsonSource_Geburtsbriefe_geokodiertFOREIGN_3, 
-                style: style_Geburtsbriefe_geokodiertFOREIGN_3,
+                source:jsonSource_GeburtsbriefefrFrauen_3, 
+                style: style_GeburtsbriefefrFrauen_3,
                 interactive: true,
-                title: '<img src="styles/legend/Geburtsbriefe_geokodiertFOREIGN_3.png" /> Geburtsbriefe_geokodiert - FOREIGN'
+                title: '<img src="styles/legend/GeburtsbriefefrFrauen_3.png" /> Geburtsbriefe für Frauen'
             });
-var format_Export_Geburtsbriefe_geokodiertMEN_4 = new ol.format.GeoJSON();
-var features_Export_Geburtsbriefe_geokodiertMEN_4 = format_Export_Geburtsbriefe_geokodiertMEN_4.readFeatures(json_Export_Geburtsbriefe_geokodiertMEN_4, 
+var format_FremdsprachigeGeburtsbriefe_4 = new ol.format.GeoJSON();
+var features_FremdsprachigeGeburtsbriefe_4 = format_FremdsprachigeGeburtsbriefe_4.readFeatures(json_FremdsprachigeGeburtsbriefe_4, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_Export_Geburtsbriefe_geokodiertMEN_4 = new ol.source.Vector({
+var jsonSource_FremdsprachigeGeburtsbriefe_4 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Export_Geburtsbriefe_geokodiertMEN_4.addFeatures(features_Export_Geburtsbriefe_geokodiertMEN_4);cluster_Export_Geburtsbriefe_geokodiertMEN_4 = new ol.source.Cluster({
-  distance: 10,
-  source: jsonSource_Export_Geburtsbriefe_geokodiertMEN_4
-});
-var lyr_Export_Geburtsbriefe_geokodiertMEN_4 = new ol.layer.Vector({
+jsonSource_FremdsprachigeGeburtsbriefe_4.addFeatures(features_FremdsprachigeGeburtsbriefe_4);
+var lyr_FremdsprachigeGeburtsbriefe_4 = new ol.layer.Vector({
                 declutter: true,
-                source:cluster_Export_Geburtsbriefe_geokodiertMEN_4, 
-                style: style_Export_Geburtsbriefe_geokodiertMEN_4,
+                source:jsonSource_FremdsprachigeGeburtsbriefe_4, 
+                style: style_FremdsprachigeGeburtsbriefe_4,
                 interactive: true,
-                title: '<img src="styles/legend/Export_Geburtsbriefe_geokodiertMEN_4.png" /> Export_Geburtsbriefe_geokodiert - MEN'
+                title: '<img src="styles/legend/FremdsprachigeGeburtsbriefe_4.png" /> Fremdsprachige Geburtsbriefe'
             });
 
-lyr_OSMStandard_0.setVisible(true);lyr_Geburtsbriefe_geokodiertWOMEN_1.setVisible(true);lyr_Geburtsbriefe_geokodiertGROUPS_2.setVisible(true);lyr_Geburtsbriefe_geokodiertFOREIGN_3.setVisible(true);lyr_Export_Geburtsbriefe_geokodiertMEN_4.setVisible(true);
-var layersList = [lyr_OSMStandard_0,lyr_Geburtsbriefe_geokodiertWOMEN_1,lyr_Geburtsbriefe_geokodiertGROUPS_2,lyr_Geburtsbriefe_geokodiertFOREIGN_3,lyr_Export_Geburtsbriefe_geokodiertMEN_4];
-lyr_Geburtsbriefe_geokodiertWOMEN_1.set('fieldAliases', {'Archival record': 'Archival record', 'Title': 'Title', 'Recipient\'s gender': 'Recipient\'s gender', 'Language': 'Language', 'Issuer': 'Issuer', 'Date': 'Date', 'Archival provenance': 'Archival provenance', 'Permalink': 'Permalink', 'Related place 1': 'Related place 1', 'Related place 2': 'Related place 2', 'Related place 3': 'Related place 3', 'Related place 4': 'Related place 4', 'Recipient\'s place of origin': 'Recipient\'s place of origin', 'data reliability': 'data reliability', });
-lyr_Geburtsbriefe_geokodiertGROUPS_2.set('fieldAliases', {'Archival record': 'Archival record', 'Title': 'Title', 'Recipient\'s gender': 'Recipient\'s gender', 'Language': 'Language', 'Issuer': 'Issuer', 'Date': 'Date', 'Archival provenance': 'Archival provenance', 'Permalink': 'Permalink', 'Related place 1': 'Related place 1', 'Related place 2': 'Related place 2', 'Related place 3': 'Related place 3', 'Related place 4': 'Related place 4', 'Recipient\'s place of origin': 'Recipient\'s place of origin', 'data reliability': 'data reliability', });
-lyr_Geburtsbriefe_geokodiertFOREIGN_3.set('fieldAliases', {'Archival record': 'Archival record', 'Title': 'Title', 'Recipient\'s gender': 'Recipient\'s gender', 'Language': 'Language', 'Issuer': 'Issuer', 'Date': 'Date', 'Archival provenance': 'Archival provenance', 'Permalink': 'Permalink', 'Related place 1': 'Related place 1', 'Related place 2': 'Related place 2', 'Related place 3': 'Related place 3', 'Related place 4': 'Related place 4', 'Recipient\'s place of origin': 'Recipient\'s place of origin', 'data reliability': 'data reliability', });
-lyr_Export_Geburtsbriefe_geokodiertMEN_4.set('fieldAliases', {'Archival record': 'Archival record', 'Title': 'Title', 'Recipient\'s gender': 'Recipient\'s gender', 'Language': 'Language', 'Issuer': 'Issuer', 'Date': 'Date', 'Archival provenance': 'Archival provenance', 'Permalink': 'Permalink', 'Related place 1': 'Related place 1', 'Related place 2': 'Related place 2', 'Related place 3': 'Related place 3', 'Related place 4': 'Related place 4', 'Recipient\'s place of origin': 'Recipient\'s place of origin', 'data reliability': 'data reliability', });
-lyr_Geburtsbriefe_geokodiertWOMEN_1.set('fieldImages', {'Archival record': 'TextEdit', 'Title': 'TextEdit', 'Recipient\'s gender': 'TextEdit', 'Language': 'TextEdit', 'Issuer': 'TextEdit', 'Date': 'TextEdit', 'Archival provenance': 'TextEdit', 'Permalink': 'TextEdit', 'Related place 1': 'TextEdit', 'Related place 2': 'TextEdit', 'Related place 3': 'TextEdit', 'Related place 4': 'TextEdit', 'Recipient\'s place of origin': 'TextEdit', 'data reliability': 'TextEdit', });
-lyr_Geburtsbriefe_geokodiertGROUPS_2.set('fieldImages', {'Archival record': 'TextEdit', 'Title': 'TextEdit', 'Recipient\'s gender': 'TextEdit', 'Language': 'TextEdit', 'Issuer': 'TextEdit', 'Date': 'TextEdit', 'Archival provenance': 'TextEdit', 'Permalink': 'TextEdit', 'Related place 1': 'TextEdit', 'Related place 2': 'TextEdit', 'Related place 3': 'TextEdit', 'Related place 4': 'TextEdit', 'Recipient\'s place of origin': 'TextEdit', 'data reliability': 'TextEdit', });
-lyr_Geburtsbriefe_geokodiertFOREIGN_3.set('fieldImages', {'Archival record': 'TextEdit', 'Title': 'TextEdit', 'Recipient\'s gender': 'TextEdit', 'Language': 'TextEdit', 'Issuer': 'TextEdit', 'Date': 'TextEdit', 'Archival provenance': 'TextEdit', 'Permalink': 'TextEdit', 'Related place 1': 'TextEdit', 'Related place 2': 'TextEdit', 'Related place 3': 'TextEdit', 'Related place 4': 'TextEdit', 'Recipient\'s place of origin': 'TextEdit', 'data reliability': 'TextEdit', });
-lyr_Export_Geburtsbriefe_geokodiertMEN_4.set('fieldImages', {'Archival record': 'TextEdit', 'Title': 'TextEdit', 'Recipient\'s gender': 'TextEdit', 'Language': 'TextEdit', 'Issuer': 'TextEdit', 'Date': 'TextEdit', 'Archival provenance': 'TextEdit', 'Permalink': 'TextEdit', 'Related place 1': 'TextEdit', 'Related place 2': 'TextEdit', 'Related place 3': 'TextEdit', 'Related place 4': 'TextEdit', 'Recipient\'s place of origin': 'TextEdit', 'data reliability': 'TextEdit', });
-lyr_Geburtsbriefe_geokodiertWOMEN_1.set('fieldLabels', {'Archival record': 'inline label', 'Title': 'inline label', 'Recipient\'s gender': 'inline label', 'Language': 'inline label', 'Issuer': 'inline label', 'Date': 'inline label', 'Archival provenance': 'inline label', 'Permalink': 'inline label', 'Related place 1': 'no label', 'Related place 2': 'no label', 'Related place 3': 'no label', 'Related place 4': 'no label', 'Recipient\'s place of origin': 'inline label', 'data reliability': 'inline label', });
-lyr_Geburtsbriefe_geokodiertGROUPS_2.set('fieldLabels', {'Archival record': 'inline label', 'Title': 'inline label', 'Recipient\'s gender': 'inline label', 'Language': 'inline label', 'Issuer': 'inline label', 'Date': 'inline label', 'Archival provenance': 'inline label', 'Permalink': 'inline label', 'Related place 1': 'no label', 'Related place 2': 'no label', 'Related place 3': 'no label', 'Related place 4': 'no label', 'Recipient\'s place of origin': 'inline label', 'data reliability': 'inline label', });
-lyr_Geburtsbriefe_geokodiertFOREIGN_3.set('fieldLabels', {'Archival record': 'inline label', 'Title': 'inline label', 'Recipient\'s gender': 'inline label', 'Language': 'inline label', 'Issuer': 'inline label', 'Date': 'inline label', 'Archival provenance': 'inline label', 'Permalink': 'inline label', 'Related place 1': 'no label', 'Related place 2': 'no label', 'Related place 3': 'no label', 'Related place 4': 'no label', 'Recipient\'s place of origin': 'inline label', 'data reliability': 'inline label', });
-lyr_Export_Geburtsbriefe_geokodiertMEN_4.set('fieldLabels', {'Archival record': 'inline label', 'Title': 'inline label', 'Recipient\'s gender': 'inline label', 'Language': 'inline label', 'Issuer': 'inline label', 'Date': 'inline label', 'Archival provenance': 'inline label', 'Permalink': 'inline label', 'Related place 1': 'no label', 'Related place 2': 'no label', 'Related place 3': 'no label', 'Related place 4': 'no label', 'Recipient\'s place of origin': 'inline label', 'data reliability': 'inline label', });
-lyr_Export_Geburtsbriefe_geokodiertMEN_4.on('precompose', function(evt) {
+lyr_OSMStandard_0.setVisible(true);lyr_GeburtsbriefefrPersonengruppen_1.setVisible(true);lyr_GeburtsbriefefrMnner_2.setVisible(true);lyr_GeburtsbriefefrFrauen_3.setVisible(true);lyr_FremdsprachigeGeburtsbriefe_4.setVisible(true);
+var layersList = [lyr_OSMStandard_0,lyr_GeburtsbriefefrPersonengruppen_1,lyr_GeburtsbriefefrMnner_2,lyr_GeburtsbriefefrFrauen_3,lyr_FremdsprachigeGeburtsbriefe_4];
+lyr_GeburtsbriefefrPersonengruppen_1.set('fieldAliases', {'Archival record': 'Archival record', 'Title': 'Title', 'Recipient\'s gender': 'Recipient\'s gender', 'Language': 'Language', 'Issuer': 'Issuer', 'Date': 'Date', 'Recipient\'s place of origin': 'Recipient\'s place of origin', });
+lyr_GeburtsbriefefrMnner_2.set('fieldAliases', {'Archival record': 'Archival record', 'Title': 'Title', 'Recipient\'s gender': 'Recipient\'s gender', 'Language': 'Language', 'Issuer': 'Issuer', 'Date': 'Date', 'Recipient\'s place of origin': 'Recipient\'s place of origin', 'FIELD10': 'FIELD10', 'FIELD11': 'FIELD11', 'FIELD12': 'FIELD12', });
+lyr_GeburtsbriefefrFrauen_3.set('fieldAliases', {'Archival record': 'Archival record', 'Title': 'Title', 'Recipient\'s gender': 'Recipient\'s gender', 'Language': 'Language', 'Issuer': 'Issuer', 'Date': 'Date', 'Recipient\'s place of origin': 'Recipient\'s place of origin', });
+lyr_FremdsprachigeGeburtsbriefe_4.set('fieldAliases', {'Archival record': 'Archival record', 'Title': 'Title', 'Recipient\'s gender': 'Recipient\'s gender', 'Language': 'Language', 'Issuer': 'Issuer', 'Date': 'Date', 'Recipient\'s place of origin': 'Recipient\'s place of origin', });
+lyr_GeburtsbriefefrPersonengruppen_1.set('fieldImages', {'Archival record': '', 'Title': '', 'Recipient\'s gender': '', 'Language': '', 'Issuer': '', 'Date': '', 'Recipient\'s place of origin': '', });
+lyr_GeburtsbriefefrMnner_2.set('fieldImages', {'Archival record': 'TextEdit', 'Title': 'TextEdit', 'Recipient\'s gender': 'TextEdit', 'Language': 'TextEdit', 'Issuer': 'TextEdit', 'Date': 'TextEdit', 'Recipient\'s place of origin': 'TextEdit', 'FIELD10': '', 'FIELD11': '', 'FIELD12': '', });
+lyr_GeburtsbriefefrFrauen_3.set('fieldImages', {'Archival record': 'TextEdit', 'Title': 'TextEdit', 'Recipient\'s gender': 'TextEdit', 'Language': 'TextEdit', 'Issuer': 'TextEdit', 'Date': 'TextEdit', 'Recipient\'s place of origin': 'TextEdit', });
+lyr_FremdsprachigeGeburtsbriefe_4.set('fieldImages', {'Archival record': 'TextEdit', 'Title': 'TextEdit', 'Recipient\'s gender': 'TextEdit', 'Language': 'TextEdit', 'Issuer': 'TextEdit', 'Date': 'TextEdit', 'Recipient\'s place of origin': 'TextEdit', });
+lyr_GeburtsbriefefrPersonengruppen_1.set('fieldLabels', {'Archival record': 'inline label', 'Title': 'inline label', 'Recipient\'s gender': 'inline label', 'Language': 'inline label', 'Issuer': 'inline label', 'Date': 'inline label', 'Recipient\'s place of origin': 'inline label', });
+lyr_GeburtsbriefefrMnner_2.set('fieldLabels', {'Archival record': 'inline label', 'Title': 'inline label', 'Recipient\'s gender': 'inline label', 'Language': 'inline label', 'Issuer': 'inline label', 'Date': 'inline label', 'Recipient\'s place of origin': 'inline label', 'FIELD10': 'no label', 'FIELD11': 'no label', 'FIELD12': 'no label', });
+lyr_GeburtsbriefefrFrauen_3.set('fieldLabels', {'Archival record': 'inline label', 'Title': 'inline label', 'Recipient\'s gender': 'inline label', 'Language': 'inline label', 'Issuer': 'inline label', 'Date': 'inline label', 'Recipient\'s place of origin': 'inline label', });
+lyr_FremdsprachigeGeburtsbriefe_4.set('fieldLabels', {'Archival record': 'inline label', 'Title': 'inline label', 'Recipient\'s gender': 'inline label', 'Language': 'inline label', 'Issuer': 'inline label', 'Date': 'inline label', 'Recipient\'s place of origin': 'inline label', });
+lyr_FremdsprachigeGeburtsbriefe_4.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
