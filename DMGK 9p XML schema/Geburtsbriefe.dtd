@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Geburtsbrief (metadata, content)>
+    <!ELEMENT metadata (archival_description, digital_surrogate, source)> <!--For archival descriptions in XML, see e.g. https://www.loc.gov/ead/ead3schema.html-->
+        <!ELEMENT archival_description EMPTY>
+            <!ATTLIST archival_description ArchiveName CDATA #REQUIRED>
+            <!ATTLIST archival_description ArchiveLocation CDATA #REQUIRED>
+            <!ATTLIST archival_description Bestand CDATA #REQUIRED>
+            <!ATTLIST archival_description Klassifikation CDATA #REQUIRED>
+            <!ATTLIST archival_description Signatur CDATA #REQUIRED>
+        <!ELEMENT digital_surrogate EMPTY>
+            <!ATTLIST digital_surrogate filename CDATA #IMPLIED>
+            <!ATTLIST digital_surrogate URL CDATA #IMPLIED>
+        <!ELEMENT source EMPTY>
+            <!ATTLIST source date CDATA #REQUIRED>
+            <!ATTLIST source size CDATA #IMPLIED>
+            
+            
+    <!ELEMENT content (body, translation?, visual_elements*)>
+        <!ELEMENT body (div*)>
+            <!ELEMENT div (text*, people*, place*)>
+                <!ATTLIST div section (text|signature|marginalia) #REQUIRED>
+                    <!ELEMENT text (#PCDATA)>
+                        <!ATTLIST text method (printed|written) #REQUIRED>
+                        <!ATTLIST text hand CDATA #IMPLIED> <!--Are there different hands in early modern German, like the distinction we make between 'English secretary' and 'Italian' in other languages?-->
+                        <!ATTLIST text language (German|French|Latin) #REQUIRED>
+                    <!ELEMENT people EMPTY>
+                        <!ATTLIST people name CDATA #REQUIRED>
+                        <!ATTLIST people role CDATA #IMPLIED>
+                    <!ELEMENT place EMPTY>
+                        <!ATTLIST place name CDATA #REQUIRED>
+                        <!ATTLIST place country CDATA #REQUIRED>
+       <!ELEMENT translation (#PCDATA)>
+       <!ELEMENT visual_elements EMPTY>
+          <!ATTLIST visual_elements type (coats_of_arms|cityscape) #REQUIRED> 
+        
+ <!--We should also think about how to capture other material aspects, e.g. whether there's a seal attached, etc. -->

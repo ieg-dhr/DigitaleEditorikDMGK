@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="source">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="metadata"/>
+        <xs:element ref="edition"/>
+        <xs:element ref="content"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="metadata">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="archival_description"/>
+        <xs:element ref="source_description"/>
+        <xs:element ref="digital_surrogate"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- For archival descriptions in XML, see e.g. https://www.loc.gov/ead/ead3schema.html -->
+  <xs:element name="archival_description">
+    <xs:complexType>
+      <xs:attributeGroup ref="attlist.archival_description"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.archival_description">
+    <xs:attribute name="ArchiveName" use="required"/>
+    <xs:attribute name="ArchiveLocation" use="required"/>
+    <xs:attribute name="Bestand" use="required"/>
+    <xs:attribute name="Klassifikation" use="required"/>
+    <xs:attribute name="Signatur" use="required"/>
+  </xs:attributeGroup>
+  <!-- omit, since we have source ID now? -->
+  <xs:element name="source_description">
+    <xs:complexType>
+      <xs:attributeGroup ref="attlist.source_description"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.source_description">
+    <xs:attribute name="source_ID" use="required"/>
+    <xs:attribute name="catalogue_record" use="required"/>
+    <xs:attribute name="type" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="Geburtsbrief"/>
+          <xs:enumeration value="Lehrbrief"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="place" use="required"/>
+    <xs:attribute name="date" use="required"/>
+    <xs:attribute name="material_specifications"/>
+    <xs:attribute name="seal">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="wax"/>
+          <xs:enumeration value="printed"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <!-- Gyyyymmdd or Lyyyymmdd -->
+  <!-- URL of individual record in the online catalogue -->
+  <!-- Ausstellungsort -->
+  <!-- dd-mm-yyyy -->
+  <!-- Materialangaben -->
+  <!-- angeheftet/ausgedruckt -->
+  <!--  JG: still not sure, should it be part of visual elements or new element entirely? And should we mention it's material, e.g. paper or wax? Is implied now -->
+  <xs:element name="digital_surrogate">
+    <xs:complexType>
+      <xs:attributeGroup ref="attlist.digital_surrogate"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.digital_surrogate">
+    <xs:attribute name="filename"/>
+    <xs:attribute name="URL"/>
+  </xs:attributeGroup>
+  <xs:element name="edition">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="transcription_info"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="editors"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="transcription_info">
+    <xs:complexType>
+      <xs:attributeGroup ref="attlist.transcription_info"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.transcription_info">
+    <xs:attribute name="first_transcription_date" use="required"/>
+    <xs:attribute name="last_revision_date" use="required"/>
+  </xs:attributeGroup>
+  <!-- dd-mm-yyyy -->
+  <!-- dd-mm-yyyy -->
+  <xs:element name="editors">
+    <xs:complexType>
+      <xs:attributeGroup ref="attlist.editors"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.editors">
+    <xs:attribute name="name" use="required"/>
+    <xs:attribute name="institution" use="required"/>
+  </xs:attributeGroup>
+  <!-- Vorname Nachname -->
+  <xs:element name="content">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="body"/>
+        <xs:element minOccurs="0" ref="translation"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="visual_element"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="body">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="div"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="div">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="text"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="attlist.div"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.div">
+    <xs:attribute name="section" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="text"/>
+          <xs:enumeration value="signature"/>
+          <xs:enumeration value="marginalia"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:element name="text">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="people"/>
+        <xs:element ref="place"/>
+        <xs:element ref="lb"/>
+      </xs:choice>
+      <xs:attributeGroup ref="attlist.text"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.text">
+    <xs:attribute name="method" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="printed"/>
+          <xs:enumeration value="written"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="hand" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="Antiqua"/>
+          <xs:enumeration value="Kurrentschrift"/>
+          <xs:enumeration value="Frakturschrift"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="language" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="German"/>
+          <xs:enumeration value="French"/>
+          <xs:enumeration value="Latin"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <!-- to discuss with Monika -->
+  <!-- Explain why language tag here and not in source element: accompony letters which include several languages -->
+  <xs:element name="people">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="lb"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="attlist.people"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.people">
+    <xs:attribute name="name" use="required"/>
+    <xs:attribute name="gender">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="male"/>
+          <xs:enumeration value="female"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="confession">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="Lutheran"/>
+          <xs:enumeration value="Calvinist"/>
+          <xs:enumeration value="Catholic"/>
+          <xs:enumeration value="Anabaptist"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="role">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="recipient"/>
+          <xs:enumeration value="issuer"/>
+          <xs:enumeration value="witness"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <!-- JG: should create an authority file with IDs -->
+  <!-- Discuss w/ Monika: place holders for links to external resources? -->
+  <!-- JG: need to define more roles? -->
+  <xs:element name="place">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="lb"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="attlist.place"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.place">
+    <xs:attribute name="name" use="required"/>
+    <xs:attribute name="type" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="place_of_birth"/>
+          <xs:enumeration value="destination"/>
+          <xs:enumeration value="place_of_issue"/>
+          <xs:enumeration value="other"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="current_Landkreis"/>
+    <xs:attribute name="country" use="required"/>
+  </xs:attributeGroup>
+  <!-- JG: should create an authority file with IDs -->
+  <!-- geburtsort|ausstellungsort|zielort|sonstige_Orte -->
+  <!-- JG: discuss w/ Monika: necessary/useful? -->
+  <xs:element name="lb">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="translation" type="xs:string"/>
+  <xs:element name="visual_element">
+    <xs:complexType>
+      <xs:attributeGroup ref="attlist.visual_element"/>
+    </xs:complexType>
+  </xs:element>
+  <!-- JG: arguably needs further refinement -->
+  <xs:attributeGroup name="attlist.visual_element">
+    <xs:attribute name="type" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="coats_of_arms"/>
+          <xs:enumeration value="cityscape"/>
+          <xs:enumeration value="decorations"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="specification"/>
+  </xs:attributeGroup>
+</xs:schema>
+<!-- e.g. specify whether coats of arms is of a ruling house, guild, etc -->

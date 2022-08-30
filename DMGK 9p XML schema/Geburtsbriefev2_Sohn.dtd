@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT source (metadata, edition, content)>
+    <!ELEMENT metadata (archival_description, source_description, digital_surrogate)> <!--For archival descriptions in XML, see e.g. https://www.loc.gov/ead/ead3schema.html-->
+        <!ELEMENT archival_description EMPTY>
+            <!ATTLIST archival_description ArchiveName CDATA #REQUIRED>
+            <!ATTLIST archival_description ArchiveLocation CDATA #REQUIRED>
+            <!ATTLIST archival_description Bestand CDATA #REQUIRED>
+            <!ATTLIST archival_description Klassifikation CDATA #REQUIRED>
+            <!ATTLIST archival_description Signatur CDATA #REQUIRED> <!--omit, since we have source ID now?-->
+        <!ELEMENT source_description EMPTY>
+            <!ATTLIST source_description source_ID CDATA #REQUIRED> <!--Gyyyymmdd or Lyyyymmdd-->
+            <!ATTLIST source_description catalogue_record CDATA #REQUIRED> <!--URL of individual record in the online catalogue-->
+            <!ATTLIST source_description type (Geburtsbrief|Lehrbrief) #REQUIRED>
+            <!ATTLIST source_description place CDATA #REQUIRED> <!-- Ausstellungsort -->
+            <!ATTLIST source_description date CDATA #REQUIRED> <!--  dd-mm-yyyy -->
+            <!ATTLIST source_description material_specifications CDATA #IMPLIED>  <!-- Materialangaben -->
+            <!ATTLIST source_description seal (wax|printed) #IMPLIED> <!--  angeheftet/ausgedruckt --> <!-- JG: still not sure, should it be part of visual elements or new element entirely? And should we mention it's material, e.g. paper or wax? Is implied now-->
+        <!ELEMENT digital_surrogate EMPTY>
+            <!ATTLIST digital_surrogate filename CDATA #IMPLIED>
+            <!ATTLIST digital_surrogate URL CDATA #IMPLIED>
+    
+    <!ELEMENT edition (transcription_info*, editors*)>
+        <!ELEMENT transcription_info EMPTY>
+            <!ATTLIST transcription_info first_transcription_date CDATA #REQUIRED> <!--  dd-mm-yyyy -->
+            <!ATTLIST transcription_info last_revision_date CDATA #REQUIRED> <!--  dd-mm-yyyy -->
+        <!ELEMENT editors EMPTY>
+            <!ATTLIST editors name CDATA #REQUIRED> <!-- Vorname Nachname -->
+            <!ATTLIST editors institution CDATA #REQUIRED>
+           
+    <!ELEMENT content (body, translation?, visual_element*)>
+        <!ELEMENT body (div*)>
+            <!ELEMENT div (text*)>
+                <!ATTLIST div section (text|signature|marginalia) #REQUIRED>
+                    <!ELEMENT text (#PCDATA | people | place | lb)*>
+                        <!ATTLIST text method (printed|written) #REQUIRED>
+                        <!ATTLIST text hand (Antiqua|Kurrentschrift|Frakturschrift) #REQUIRED> <!--to discuss with Monika-->
+                        <!ATTLIST text language (German|French|Latin) #REQUIRED> <!--Explain why language tag here and not in source element: accompony letters which include several languages-->
+                            <!ELEMENT people (#PCDATA | lb)*>
+                                <!ATTLIST people name CDATA #REQUIRED> <!--JG: should create an authority file with IDs--> <!--Discuss w/ Monika: place holders for links to external resources?-->
+                                <!ATTLIST people gender (male|female) #IMPLIED>
+                                <!ATTLIST people confession (Lutheran|Calvinist|Catholic|Anabaptist) #IMPLIED>
+                                <!ATTLIST people role (recipient|issuer|witness) #IMPLIED> <!--JG: need to define more roles?-->
+                             <!ELEMENT place (#PCDATA | lb)*>
+                                <!ATTLIST place name CDATA #REQUIRED> <!--JG: should create an authority file with IDs-->
+                                <!ATTLIST place type (place_of_birth|destination|place_of_issue|other) #REQUIRED> <!-- geburtsort|ausstellungsort|zielort|sonstige_Orte -->
+                                <!ATTLIST place current_Landkreis CDATA #IMPLIED> <!--JG: discuss w/ Monika: necessary/useful?-->
+                                <!ATTLIST place country CDATA #REQUIRED>
+                            <!ELEMENT lb EMPTY>
+       <!ELEMENT translation (#PCDATA)>
+       <!ELEMENT visual_element EMPTY> <!--JG: arguably needs further refinement-->
+          <!ATTLIST visual_element type (coats_of_arms|cityscape|decorations) #REQUIRED>
+          <!ATTLIST visual_element specification CDATA #IMPLIED> <!-- e.g. specify whether coats of arms is of a ruling house, guild, etc -->
