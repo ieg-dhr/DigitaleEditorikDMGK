@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Recipe_XMLtoXML.xsl"?>
+<cookbook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://jg.dhlab.de/Teaching/recipe.xsd"> 
+      
+    <recipe name="Apple pie">
+        <ingredients name='Apples'/>
+        <ingredients name='Butter'/>
+        <ingredients name="Flour"/>
+        <ingredients name="Cinnamon"/>
+        <ingredients name="Sugar"/>
+        <ingredients name="Eggs"/>
+        <instructions>In a small bowl, combine the sugars, flour and spices; set aside. In a large bowl, toss apples with lemon juice. Add sugar mixture; toss to coat. Line a 9-in. pie plate with bottom crust; trim even with edge. Fill with apple mixture; dot with butter. Roll remaining crust to fit top of pie; place over filling. Trim, seal and flute edges. Cut slits in crust.
+            Beat egg white until foamy; brush over crust. Sprinkle with sugar. Cover edges loosely with foil. Bake at 375° for 25 minutes. Remove foil and bake until crust is golden brown and filling is bubbly, 20-25 minutes longer. Cool on a wire rack.</instructions>
+    </recipe>
+    <recipe name="Cheesecake">
+        <ingredients name="Graham crackers"/>
+        <ingredients name="Cream cheese"/>
+        <ingredients name="Granulated sugar"/>
+        <ingredients name="Vanilla extract"/>
+        <ingredients name="Sour cream"/>
+        <ingredients name="Large eggs"/>
+        <ingredients name="Heavy whipping cream "/>
+        <instructions>Process graham crackers, mix with sugar, salt, butter: Pulse the graham crackers in a food processor or blender until finely ground. Put in a large bowl, and stir in the sugar and salt. Stir in the melted butter.Preheat oven to 350°F (175°C), with rack in lower third of oven.</instructions>
+    </recipe>
+</cookbook>
+ 
+

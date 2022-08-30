@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    
+    <page filename="00000026.tif"  pagination="4" reader="Harvey"  /> 
+    <annotation>
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="head" book_orientation="0">
+                    <marginalia_text> generosa, et regia pueroru[m] indoles, Romuli, et Remi. Qualis fer&egrave; Cyri pa[e]dia; et mult&ograve; ante Heroum.
+                    </marginalia_text>
+                    <person name="Romulus"/>
+                    <person name="Remus"/>
+                    <person name="Cyrus the Great"/>
+                </position>
+            </language>
+            <translation>The eminent and royal qualities of the boys Romulus and Remus. 
+                Almost as the education of Cyrus and of the Heroes long before.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Viuitur ex rapto. Prima mundi Disciplina, Pra[e]da. Statimq[ue] vel robore, vel fraude res gerebatur. Hinc prima associatio, feriarum celebratio, ludoru[m] institutio, et plausibilis qua[e]dam sodalium conuentio. 
+                        Hae nuga[e] seria ducent. Tales socij facil&egrave; fiunt commilitones.
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>One lives from robbing. Plunder is the first discipline in the world. And right from the start the business is done with either force or deceit. From this practice the first forming of groups originates, the cultivation of holidays, 
+                the creation of plays and some acceptable form of assembly of the group members. These trifles will lead to serious things. Such companions easily become fellow-soldiers.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Heroicum facinus animosoru[m] adolescentu[m]; Tyranni ca[e]des. Usurpatoris merces. Sanguis sanguine compensatur. Legitimus ha[e]res in integrum restituitur. 
+                        Tyrannu[m] usurpatore[m] tollere, non tyrannis est, sed a[e]quitas.
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>The heroic deed of the young men: the killing of the tyrant. It is the price the usurper has to pay. Blood is compensated with blood. 
+                The lawful heir is brought back to his former condition. It is not tyranny but fairness to get rid of a tyrant-usurper.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Reges a Dijs inaugurati.
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>Kings consecrated by the gods through augury.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>i[nfr]a, 7.</marginalia_text>
+                    <internal_ref>
+                        <target ref="PrincetonPA6452:00000023" text="7"/>
+                    </internal_ref>
+                </position>
+            </language>
+            <translation>[See] below, 7. </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="sex uultures">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>aues voraces, et pra[e]datrices.
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>Ravenous birds and plunderers.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Fraterno primi maduerunt sanguine muri. Lucanus l. 1.
+                    </marginalia_text>
+                    <person name="Lucan"/>
+                    <book title="Pharsalia"/>
+                </position>
+            </language>
+            <translation>The first walls dripped with brotherly blood. Lucan, bk. 1.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Romulus, conditor, et Rex Romae.
+                    </marginalia_text>
+                    <person name="Romulus"/>
+                    <location name="Rome"/>
+                </position>
+            </language>
+            <translation>Romulus as founder and king of Rome.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Munitio, prima cura.
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>Fortification, the first concern.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>{ Tabula Herculis, et Caci. cum dialogo Euandri, et Herculis: item Ara Herculi dicata. jucunda parenthesis: qualia fer&egrave; Heroica Episodia.
+                    </marginalia_text>
+                    <person name="Hercules"/>
+                    <person name="Cacus"/>
+                    <person name="Evander"/>
+                </position>
+            </language>
+            <translation>The scene of Hercules and Cacus, with the dialogue of Evandrus and Hercules, as well as the altar devoted to Hercules. A pleasing parenthesis, more or less like heroic episodes.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>De parricidio Romuli, quod Dij non vindicarunt, Augustinus l. 3. c. 6. de Ciuitate Dei.
+                        De primo terrena[e] Ciuitatis auctore fratricida Cain: cuius impietati, Romana[e] vrbis conditor germani coede responderit. Idem l. 15. c. 5. Qu&ograve;d Roma conditorem suum Romulum diligendo Deum fecerit: 
+                        Ecclesia autem Christum, deum credendo, dilexerit. l. 22. c. 6 et 7. Qu&ograve;d eo tempore Roma sit condita, quo regnu[m] Assyriorum intercidit; quo Ezechias regnauit in Juda[e]a. l. 18. c. 22.
+                        Qu&ograve;d regnante Romulo, septem Sapientes claruerint; quo tempore decem tribus, qua[e] Israel dicebantur, in captiuitate[m] &agrave; Chalda[e]is ducta[e] sunt: idemq[ue] 
+                        Romulus mortuus diuino honore donatus est. l. eod. c. 24. Synchronismus.
+                        De temporibus prophetaru[m], qui tunc de vocatione gentium multa cecineru[n]t, quando Romanorum regnu[m] coepit, Assyriorumq[ue] defecit. l. eod. c. 27.
+                    </marginalia_text>
+                    <person name="Romulus"/>
+                    <person name="Augustine"/>
+                    <person name="Cain"/>
+                    <person name="Jesus Christ"/>
+                    <person name="Hezekiah"/>
+                    <book title="De Civitate Dei"/>
+                    <location name="Rome"/>
+                    <location name="Judah"/>
+                    <location name="Assyria"/>
+                  </position>
+            </language>
+            <translation>Of the fratricide of Romulus, which the gods did not avenge, Augustine, City of God bk. 3, c. 6.
+                Of the first founder of the earthly city, Cain: the fratricide whose impiety was mirrored in the founder of Rome, who slew his own brother, idem, bk. 5, c. 5. That the Romans made Romulus a god because they loved him; 
+                whereas the Church loves Christ because she believes that He is God, idem bk. 22, c. 6 and 7. That Rome was founded at the time when the kingdom of the Assyrians came to an end, and when Hezekiah reigned in Judah. 
+                Bk. 18, c. 22. That the Seven Sages lived during the reign of Romulus; and that, at the same time, the ten tribes called Israel were led away captive by the Chaldeans; and that the same Romulus was given divine honours at his death.
+                The same book, c. 24. Synchronism. Of the times of the prophets, who many times foretold the calling of the Gentiles at the time when the Roman Empire began and the that of the Assyrians fell. The same book, c. 27.</translation>
+        </marginalia>
+        
+        <underline method="pen" type="straight"  language="LA" text="animisq[ue] sumpto"/>
+        <underline method="pen" type="straight"  language="LA" text="non feras tantum"/>
+        <underline method="pen" type="straight"  language="LA" text="latrones praeda onustos impetum"/>
+        <underline method="pen" type="straight"  language="LA" text="pastoribusq[ue] rapta diuidere"/>
+        <underline method="pen" type="straight"  language="LA" text="cresce[n]te indies grege iuuenu[m]"/>
+        <underline method="pen" type="straight"  language="LA" text="ferias aciocos"/>
+        <underline method="pen" type="straight"  language="LA" text="Lupercal hoc"/>
+        <underline method="pen" type="straight"  language="LA" text="Iudicru[m] ferunt"/>
+        <underline method="pen" type="straight"  language="LA" text="Eua[n]drum, qui"/>
+        <underline method="pen" type="straight"  language="LA" text="genere Arcadum"/>
+        <underline method="pen" type="straight"  language="LA" text="solenne"/>
+        <underline method="pen" type="straight"  language="LA" text="instituisse"/>
+        <underline method="pen" type="straight"  language="LA" text="nudi iuuenes Lycaeum Pana uenera[n]tes"/>
+        <underline method="pen" type="straight"  language="LA" text="lasciuiam currerent"/>
+        <underline method="pen" type="straight"  language="LA" text="Inuum"/>
+        <underline method="pen" type="straight"  language="LA" text="insidiatos ob iram praedae amissae latrones"/>
+        <underline method="pen" type="straight"  language="LA" text="Romulus ui se defendisset"/>
+        <underline method="pen" type="straight"  language="LA" text="Remum cepisse: captum regi Amulio"/>
+        <underline method="pen" type="straight"  language="LA" text="Numitoris agros ab his impetum fieri"/>
+        <underline method="pen" type="straight"  language="LA" text="collecta iuuenum manu hostilem in modum praedas agere"/>
+        <underline method="pen" type="straight"  language="LA" text="Numitori ad supplicium Remus deditur"/>
+        <underline method="pen" type="straight"  language="LA" text="Faustulo spes fuerat, regiam stirpem apud se educari"/>
+        <underline method="pen" type="straight"  language="LA" text="expositos iussu regis infantes"/>
+        <underline method="pen" type="straight"  language="LA" text="rem immatura[m]"/>
+        <underline method="pen" type="straight"  language="LA" text="per occasionem"/>
+        <underline method="pen" type="straight"  language="LA" text="per necessitate[m] aperiri"/>
+        <underline method="pen" type="straight"  language="LA" text="necessitas prior"/>
+        <underline method="pen" type="straight"  language="LA" text="metu subactus"/>
+        <underline method="pen" type="straight"  language="LA" text="Romulo rem aperit"/>
+        <underline method="pen" type="straight"  language="LA" text="Numitori"/>
+        <underline method="pen" type="straight"  language="LA" text="geminos esse fratres"/>
+        <underline method="pen" type="straight"  language="LA" text="ipsam minime seruilem indolem"/>
+        <underline method="pen" type="straight"  language="LA" text="quin Remum"/>
+        <underline method="pen" type="straight"  language="LA" text="undiq[ue] regi dolus nectitur"/>
+        <underline method="pen" type="straight"  language="LA" text="Romulus non cum globo iuuenum"/>
+        <underline method="pen" type="straight"  language="LA" text="nec"/>
+        <underline method="pen" type="straight"  language="LA" text="ad uim apertam par"/>
+        <underline method="pen" type="straight"  language="LA" text="sed alijs alio itinere iussis certo tempore ad"/>
+        <underline method="pen" type="straight"  language="LA" text="ad regem impetum facit"/>
+        <underline method="pen" type="straight"  language="LA" text="domo Numitoris alia co[m]parata"/>
+        <underline method="pen" type="straight"  language="LA" text="adiuuat Remus"/>
+        <underline method="pen" type="straight"  language="LA" text="regem obtruncant"/>
+        <underline method="pen" type="straight"  language="LA" text="Numitor inter primum tumultum hostes inuasisse urbem, atq[ue] adortos regiam"/>
+        <underline method="pen" type="straight"  language="LA" text="pubem Albanam in arcem praesidio"/>
+        <underline method="pen" type="straight"  language="LA" text="iuuenes perpetrata caede pergere ad se gratulantes uidit"/>
+        <underline method="pen" type="straight"  language="LA" text="extempl&ograve; aduocato"/>
+        <underline method="pen" type="straight"  language="LA" text="scelera in se fratris"/>
+        <underline method="pen" type="straight"  language="LA" text="nepotum"/>
+        <underline method="pen" type="straight"  language="LA" text="ut geniti, ut educati, ut cogniti"/>
+        <underline method="pen" type="straight"  language="LA" text="caedem deinceps tyranni, se que eius autorem"/>
+        <underline method="pen" type="straight"  language="LA" text="Iuuenes per mediam"/>
+        <underline method="pen" type="straight"  language="LA" text="auum regem salutassent"/>
+        <underline method="pen" type="straight"  language="LA" text="omni multitudine consentiens uox ratum nomen"/>
+        <underline method="pen" type="straight"  language="LA" text="imperiumq[ue] regi effecit"/>
+        <underline method="pen" type="straight"  language="LA" text="Numitori Albana"/>
+        <underline method="pen" type="straight"  language="LA" text="Romulum Remumq[ue]"/>
+        <underline method="pen" type="straight"  language="LA" text="locis ubi expositi, ubiq[ue]"/>
+        <underline method="pen" type="straight"  language="LA" text="urbis conde[n]d[a]e"/>
+        <underline method="pen" type="straight"  language="LA" text="multitudo Albanorum Latinorumq[ue]"/>
+        <underline method="pen" type="straight"  language="LA" text="pastores quoq[ue]"/>
+        <underline method="pen" type="straight"  language="LA" text="spem facerent"/>
+        <underline method="pen" type="straight"  language="LA" text="paruam Albam, paruum Lauinium"/>
+        <underline method="pen" type="straight"  language="LA" text="urbe qu[a]e co[n]deretur, fore"/>
+        <underline method="pen" type="straight"  language="LA" text="auitum malum, regni cupido"/>
+        <underline method="pen" type="straight" language="LA" text="inde foedum"/>
+        <underline method="pen" type="straight" language="LA" text="certamen coortum"/>
+        <underline method="pen" type="straight" language="LA" text="satis miti principio"/>
+        <underline method="pen" type="straight" language="LA" text="gemini essent"/>
+        <underline method="pen" type="straight" language="LA" text="nec aetatis"/>
+        <underline method="pen" type="straight" language="LA" text="discrimen facere"/>
+        <underline method="pen" type="straight" language="LA" text="dij in"/>
+        <underline method="pen" type="straight" language="LA" text="quorum tutela ea loca"/>
+        <underline method="pen" type="straight" language="LA" text="augurijs legere[n]t qui nomen nou[a]e urbi daret"/>
+        <underline method="pen" type="straight" language="LA" text="co[n]ditam imperio"/>
+        <underline method="pen" type="straight" language="LA" text="Palatinum Romulus, Remus"/>
+        <underline method="pen" type="straight" language="LA" text="ad inaugurandum"/>
+        <underline method="pen" type="straight" language="LA" text="Priori Remo augurium"/>
+        <underline method="pen" type="straight" language="LA" text="sex uultures"/>
+        <underline method="pen" type="straight" language="LA" text="duplex numerus Romulo"/>
+        <underline method="pen" type="straight" language="LA" text="utrunque regem sua multitudo consalutauerat"/>
+        <underline method="pen" type="straight" language="LA" text="tempore illi"/>
+        <underline method="pen" type="straight" language="LA" text="hi numero"/>
+        <underline method="pen" type="straight" language="LA" text="regnum trahebant"/>
+        <underline method="pen" type="straight" language="LA" text="cum altercatione"/>
+        <underline method="pen" type="straight" language="LA" text="certamine iraru[m]"/>
+        <underline method="pen" type="straight" language="LA" text="caedem uertuntur"/>
+        <underline method="pen" type="straight" language="LA" text="turba ictus Remus cecidit"/>
+        <underline method="pen" type="straight" language="LA" text="ludibrio fratris Remum nouos transiluisse"/>
+        <underline method="pen" type="straight" language="LA" text="ab irato Romulo"/>
+        <underline method="pen" type="straight" language="LA" text="Sic deinde"/>
+        <underline method="pen" type="straight" language="LA" text="quicunque alius transiliet"/>
+        <underline method="pen" type="straight" language="LA" text="interfectum"/>
+        <underline method="pen" type="straight" language="LA" text="Ita solus potitus imperio Romulus"/>
+        <underline method="pen" type="straight" language="LA" text="condita urbs"/>
+        <underline method="pen" type="straight" language="LA" text="conditoris nomine appellata"/>
+        <underline method="pen" type="straight" language="LA" text="Palatinum primum"/>
+        <underline method="pen" type="straight" language="LA" text="munijt"/>
+        <underline method="pen" type="curved" language="LA" text="Graeco"/>
+        <underline method="pen" type="straight" language="LA" text="Herculi"/>
+        <underline method="pen" type="straight" language="LA" text="Herculem"/>
+        <underline method="pen" type="straight" language="LA" text="Geryone interempto"/>
+        <underline method="pen" type="straight" language="LA" text="boues mira specie"/>
+        <underline method="pen" type="straight" language="LA" text="se armentum"/>
+        <underline method="pen" type="straight" language="LA" text="nando traiecerat"/>
+        <underline method="pen" type="straight" language="LA" text="ipsum fessum uia"/>
+        <underline method="pen" type="straight" language="LA" text="eum cibo uinoq[ue] grauatum"/>
+        <underline method="pen" type="straight" language="LA" text="pastor"/>
+        <underline method="pen" type="straight" language="LA" text="nomine Cacus, ferox uiribus, captus"/>
+        
+        <symbol name="HT" place="head"/>
+        
+        <symbol name="SS" place="left_margin"/>
+        <symbol name="SS" place="left_margin"/> <!--cepit, next to marginal note-->
+        <symbol name="SS" place="left_margin"/> <!--Interuenit-->
+        <symbol name="SS" place="left_margin"/> <!--pressisset-->
+        
+        <symbol name="SS" place="right_margin"/> 
+        <symbol name="SS" place="right_margin"/>
+        <symbol name="JC" place="right_margin"/>
+        <symbol name="SS" place="right_margin"/>
+        <symbol name="Mercury" place="right_margin"/>
+        <symbol name="SS" place="right_margin"/>
+        <symbol name="SS" place="right_margin"/>
+        <symbol name="SS" place="right_margin"/>
+        <symbol name="SS" place="right_margin"/>
+        
+       <mark name="quotation_mark" method="pen" place="left_margin"/> <!--next to first marginal note in left margin-->
+        <mark name="bracket" method="pen" place="left_margin"/> <!-- ad idipsum-->
+        <mark name="plus_sign" method="pen" place="left_margin"/> <!--dia-->
+        <mark name="equal_sign" method="pen" place="left_margin"/> <!--set-->
+        
+        <mark name="quotation_mark" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!--lu-->
+        <mark name="plus_sign" method="pen" place="right_margin"/> <!--Ro- -->
+        <mark name="dash" method="pen" place="right_margin"/> <!--edu-->
+        <mark name="plus_sign" method="pen" place="right_margin"/> <!--necessitate[m]-->
+        <mark name="plus_sign" method="pen" place="right_margin"/> <!--me- -->
+        <mark name="dash" method="pen" place="right_margin"/> <!--ue-->
+        <mark name="plus_sign" method="pen" place="right_margin"/> <!-- eius -->
+        <mark name="equal_sign" method="pen" place="right_margin"/> <!--foedum-->
+        <mark name="plus_sign" method="pen" place="right_margin"/> <!--qui-->
+        <mark name="dash" method="pen" place="right_margin"/> <!--ostendis-->
+        <mark name="quotation_mark" method="pen" place="right_margin"/> <!--fra- -->
+        <mark name="plus_sign" method="pen" place="right_margin"/> 
+        <mark name="dash" method="pen" place="right_margin"/> <!--Pala-->
+        <mark name="comma" method="pen" place="right_margin"/> <!--Graeco-->
+        <mark name="dash" method="pen" place="right_margin"/> <!--ar-->
+        
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="animisq[ue]"/>
+        <mark name="dash" method="pen" place="intext"/> <!--tantum-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="latrones"/>
+        <mark name="quotation_mark" method="pen" place="intext" language="LA" text="aciocos"/>
+        <mark name="quotation_mark" method="pen" place="intext" language="LA" text="Lupercal"/>
+        <mark name="comma" method="pen" place="intext"/> <!--Arcadica, Palantiu[m]-->
+        <mark name="comma" method="pen" place="intext"/> <!-- solenne, allatum-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="latrones"/>
+        <mark name="equal_sign" method="pen" place="intext"/> <!--Romulus ui-->
+        <mark name="equal_sign" method="pen" place="intext"  language="LA" text="regi"/> 
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="praedas"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Numitori"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="regiam"/>
+        <mark name="dot" method="pen" place="intext"/> <!--sciebat, &-->
+        <mark name="equal_sign" method="pen" place="intext"/> <!--per occasionem-->
+        <mark name="equal_sign" method="pen" place="intext"/>  <!--per necessitate[m]-->
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="necessitas"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Romulo"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="geminos"/>
+        <mark name="dot" method="pen" place="intext"/> <!--indolem, tetigerat-->
+        <mark name="comma" method="pen" place="intext"/> <!-- nepotem, scisitandoq[ue] -->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="undiq[ue]"/>
+        <mark name="equal_sign" method="pen" place="intext"/> <!-- undiq[ue] regi-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Romulus"/>
+        <mark name="equal_sign" method="pen" place="intext"/> <!--uim apertam-->
+        <mark name="equal_sign" method="pen" place="intext"/> <!-- alio itinere-->
+        <mark name="plus_sign" method="pen" place="intext"/> <!--ad regem impetum-->
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="regem"/>
+        <mark name="plus_sign" method="pen" place="intext"/> <!--regem obtruncant-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Numitor"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="hostes"/>
+        <mark name="dot" method="pen" place="intext"/> <!--dictitans, cum-->
+        <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="arcem"/>
+        <mark name="plus_sign" method="pen" place="intext"/> <!--perpetrata-->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--essent, caedem-->
+        <mark name="equal_sign" method="pen" place="intext"/> <!--deinceps tyranni-->
+        <mark name="equal_sign" method="pen" place="intext"/> <!-- auum regem -->
+        <mark name="dot" method="pen" place="intext"/> <!--salutassent, secuta-->
+        <mark name="equal_sign" method="pen" place="intext"/> <!--omni multitudine-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Numitori"/>
+        <mark name="apostrophe" method="pen" place="intext"/> <!--re-->
+        <mark name="dot" method="pen" place="intext"/> <!--re, Romulum-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Romulum"/>
+        <mark name="plus_sign" method="pen" place="intext"/> <!--urbis conde[n]de-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="pastores"/>
+        <mark name="dot" method="pen" place="intext"/> <!-- accesserant, qui -->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="paruam"/>
+        <mark name="plus_sign" method="pen" place="intext"/> <!-- ea urbe-->
+        <mark name="equal_sign" method="pen" place="intext"/> <!--auitum malum-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="regni"/>
+        <mark name="dot" method="pen" place="intext"/> <!--cupido, atq[ue]-->
+        <mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- ut, dij -->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="legere[n]t"/>
+        <mark name="plus_sign" method="pen" place="intext"/> <!--imperio regeret-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="inaugurandum"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Priori"/>
+        <mark name="quotation_mark" method="pen" place="intext"/> <!--sex uultures-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="duplex"/>
+        <mark name="plus_sign" method="pen" place="intext"/> <!--utrunque regem-->
+        <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="sua"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="tempore"/>
+        <mark name="dot" method="pen" place="intext"/> <!--praecepto, at-->
+        <mark name="plus_sign" method="pen" place="intext"/> <!-- hi numero-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="caedem"/>
+        <mark name="straight_quotation_mark" method="pen" place="intext"/> <!--turba-->
+        <mark name="plus_sign" method="pen" place="intext"/> <!-- Remus cecidit-->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--muros: inde-->
+        <mark name="comma" method="pen" place="intext"/> <!--crepitans, adiecisset-->
+        <mark name="plus_sign" method="pen" place="intext"/> <!--alius transiliet-->
+        <mark name="dot" method="pen" place="intext"/> <!-- mea, interfectum -->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="solus"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="munijt"/>
+        <mark name="dot" method="pen" place="intext"/> <!-- ritu, Graeco -->
+        <mark name="comma" method="pen" place="intext"/> <!--Graeco Herculi-->
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="Herculi"/>
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--facit. Herculem-->
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="Herculem"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- loca Geryone -->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Geryone"/>
+        <mark name="comma" method="pen" place="intext"/> <!--interempto, boues-->
+        <mark name="plus_sign" method="pen" place="intext"/> <!--cibo, uinoq[ue]-->
+        <mark name="dot" method="pen" place="intext"/> <!-- pressisset, pastor -->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Cacus"/>
+        
+    </annotation>
+</transcription>
+

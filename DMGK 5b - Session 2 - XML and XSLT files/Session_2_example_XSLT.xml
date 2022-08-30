@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<?xml-stylesheet type="text/xsl" href="Recipe_XSLT_example_AOR.xsl"?>
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    
+    <page filename="00000026.tif"  pagination="4" reader="Harvey"  /> 
+    <annotation>
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="head" book_orientation="0">
+                    <marginalia_text> generosa, et regia pueroru[m] indoles, Romuli, et Remi. Qualis fer&egrave; Cyri pa[e]dia; et mult&ograve; ante Heroum.
+                    </marginalia_text>
+                    <person name="Romulus"/>
+                    <person name="Remus"/>
+                    <person name="Cyrus the Great"/>
+                </position>
+            </language>
+            <translation>The eminent and royal qualities of the boys Romulus and Remus. 
+                Almost as the education of Cyrus and of the Heroes long before.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>De parricidio Romuli, quod Dij non vindicarunt, Augustinus l. 3. c. 6. de Ciuitate Dei.
+                        De primo terrena[e] Ciuitatis auctore fratricida Cain: cuius impietati, Romana[e] vrbis conditor germani coede responderit. Idem l. 15. c. 5. Qu&ograve;d Roma conditorem suum Romulum diligendo Deum fecerit: 
+                        Ecclesia autem Christum, deum credendo, dilexerit. l. 22. c. 6 et 7. Qu&ograve;d eo tempore Roma sit condita, quo regnu[m] Assyriorum intercidit; quo Ezechias regnauit in Juda[e]a. l. 18. c. 22.
+                        Qu&ograve;d regnante Romulo, septem Sapientes claruerint; quo tempore decem tribus, qua[e] Israel dicebantur, in captiuitate[m] &agrave; Chalda[e]is ducta[e] sunt: idemq[ue] 
+                        Romulus mortuus diuino honore donatus est. l. eod. c. 24. Synchronismus.
+                        De temporibus prophetaru[m], qui tunc de vocatione gentium multa cecineru[n]t, quando Romanorum regnu[m] coepit, Assyriorumq[ue] defecit. l. eod. c. 27.
+                    </marginalia_text>
+                    <person name="Romulus"/>
+                    <person name="Augustine"/>
+                    <person name="Cain"/>
+                    <person name="Jesus Christ"/>
+                    <person name="Hezekiah"/>
+                    <book title="De Civitate Dei"/>
+                    <location name="Rome"/>
+                    <location name="Judah"/>
+                    <location name="Assyria"/>
+                </position>
+            </language>
+            <translation>Of the fratricide of Romulus, which the gods did not avenge, Augustine, City of God bk. 3, c. 6.
+                Of the first founder of the earthly city, Cain: the fratricide whose impiety was mirrored in the founder of Rome, who slew his own brother, idem, bk. 5, c. 5. That the Romans made Romulus a god because they loved him; 
+                whereas the Church loves Christ because she believes that He is God, idem bk. 22, c. 6 and 7. That Rome was founded at the time when the kingdom of the Assyrians came to an end, and when Hezekiah reigned in Judah. 
+                Bk. 18, c. 22. That the Seven Sages lived during the reign of Romulus; and that, at the same time, the ten tribes called Israel were led away captive by the Chaldeans; and that the same Romulus was given divine honours at his death.
+                The same book, c. 24. Synchronism. Of the times of the prophets, who many times foretold the calling of the Gentiles at the time when the Roman Empire began and the that of the Assyrians fell. The same book, c. 27.</translation>
+        </marginalia>
+        
+    </annotation>
+</transcription>
+
