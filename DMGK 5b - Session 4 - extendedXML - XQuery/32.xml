@@ -1,0 +1,726 @@
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI
+  xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:id="L1916_32">
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Nannie Beazley to Piaras B&#233;asla&#237;, 14 February 1916</title>
+        <author>Nannie Beazley nee Hickey</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+                    The Letters of 1916
+                </edition>
+        <respStmt>
+          <resp>General Editor</resp>
+          <name xml:id="SS">Susan Schreibman</name>
+        </respStmt>
+        <respStmt>
+          <resp>Editor</resp>
+          <name xml:id="EC">Emma Clarke</name>
+        </respStmt>
+        <respStmt>
+          <resp>Editor</resp>
+          <name xml:id="HH">Hannah Healy</name>
+        </respStmt>
+        <respStmt>
+          <resp>Contributor</resp>
+          <name xml:id="AoifeR">AoifeR</name>
+        </respStmt>
+        <respStmt>
+          <resp>Contributor</resp>
+          <name xml:id="Ciaranwallace">Ciaranwallace</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <address>
+            <name>An Foras Feasa</name>
+            <orgName>Maynooth University</orgName>
+            <placeName>
+              <region>Co. Kildare</region>
+              <country>IRE</country>
+              <settlement>Maynooth</settlement>
+            </placeName>
+          </address>
+        </publisher>
+        <idno>L1916_32</idno>
+        <availability status="restricted">
+          <p>
+            <!-- Copyright status-specific thing... -->
+          </p>
+          <p>All rights reserved. No part of this image may be reproduced, distributed, or
+            transmitted in any form or by any means, including photocopying, recording, or other
+            electronic or mechanical methods, without the prior written permission of the
+            institutional or private owner of the image and the Letters of 1916 project. For
+            permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+          <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <!--<seriesStmt>
+                 Series statement is for book series
+                <p>PUT A STATEMENT</p></seriesStmt>-->
+      <notesStmt>
+        <note type="summary">
+  <p>Letter from Nannie Beazely, who was based in the English midlands, to her son, Piaras B&#233;asla&#237; (1881&#8211;1965). The German navy had carried out a large raid across the English midlands on the night of the 31 of January. People dimmed their lights to avoid destruction from further Zeppelin raids as a response. The conscription mentioned refers to the Military Service Act of 1916 that conscripted men between the ages of 18 and 40, fighting age, into the British Army. Married men were originally exempt but the bill changed in June 1916 to include them. John Castlereagh may be Viscount C S H Castlereagh, originally Captain of the Royal Horse Guards, promoted to Major in the General Staff. He was awarded the 1914 Star. This letter is part of a collection of letters by Piaras&#8217; parents, mostly during B&#233;aslai&#8217;s internment. B&#233;asla&#237; was an English born influential member of the IRB. In February of 1916 he published the F&#224;inne, a publication to organise Gaelic speakers. He soon abandoned it and became involved in politics and would later fight in the Easter Rising.</p>
+</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository ref="#NLI">National Library of Ireland</repository>
+            <!-- 
+                                Original DCN: NLI 33,973/5
+                             
+                        -->
+            <collection type="public"/>
+            <!--MANDATORY -->
+            <!--check for correctness: use the script which split the string!-->
+            <idno>NLI 33,973/5</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc xml:id="corresp1">
+        <correspAction type="received">
+          <persName ref="#Beazley_P">Piaras B&#233;asla&#237;</persName>
+          <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+        </correspAction>
+        <correspAction type="sent">
+          <persName ref="#Beazley_N">Nannie Beazley nee Hickey</persName>
+          <placeName ref="#Cheshire">Cheshire</placeName>
+          <date when="1916-02-07">7 February 1916</date>
+          <!-- Make the date human-readable : rcd: strftime-->
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <!-- Type of the letter should be separate -->
+        <keywords>
+          <list>
+            <item n="gender">Female</item>
+            <!--put an IF -->
+            <item n="tag">Family life</item>
+            <item n="tag">World War 1: 1914-1918</item>
+          </list>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>
+          <!-- Write this -->
+        </p>
+      </editorialDecl>
+      <projectDesc>
+        <p>
+          <!-- Was done by crowdsourcing, Python, magic, etc. -->
+        </p>
+      </projectDesc>
+      <appInfo>
+        <application xml:id="LetEd" ident="LetEd" version="1">
+          <desc>
+                  LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+                  Built using the Python 
+            <ref target="http://flask.pocoo.org/">Flask Framework</ref>
+                  and the 
+            <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+               
+          </desc>
+        </application>
+        <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+          <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze,
+                  Maynooth University, 2015.
+                  
+            <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+          </desc>
+        </application>
+        <application xml:id="Omeka" ident="Omeka" version="1.5">
+          <desc></desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2013-09-30T14:03:41" who="#NULL">
+                
+                     Object initialised
+                
+            </change>
+      <change when="2013-09-30T14:03:41" who="#EC">
+                
+                    Page 35 modified:
+                    
+        <!-- 
+"Glengariff."<lb/>
+Rudgrave Square,<lb/>
+Egremont,<lb/>
+Cheshire.<lb/>
+Feb 14-1916<lb/>
+Darling Pierce<lb/>
+Many happy returns<lb/> of the day!  I am at a <lb/> loss to know what to send <lb/> you; but I think this <lb/> little gold safety pin, with<lb/> a real ruby, will come<lb/> in handy, &amp; will not get <lb/> lost so easily as the <lb/> ordinary pin.  They are <lb/> much <unclear>worse</unclear> here. <pb/> 
+-->
+      </change>
+      <change when="2013-09-30T14:13:04" who="#NULL">
+                
+                     Object initialised
+                
+            </change>
+      <change when="2013-09-30T14:13:04" who="#EC">
+                
+                    Page 34 modified:
+                    
+        <!-- 
+We have <unclear>____ ____</unclear><lb/>here now.  Darkness <lb/> every where for fear of the <lb/><del><unclear>bogie</unclear></del>" bogie man overhead. <lb/><unclear>Not  on gas</unclear> yet in the <lb/> streets, &amp; the horses all <lb/> blinded <unclear>___</unclear>.<lb/>
+Oh dear! What a <lb/> time it is! 
+-->
+      </change>
+      <change when="2013-11-03T11:51:56" who="#Ciaranwallace">
+                
+                    Page 35 modified:
+                    
+        <!-- 
+"Glengariff."<lb/>
+Rudgrave Square,<lb/>
+Egremont,<lb/>
+Cheshire.<lb/>
+Feb 14-1916<lb/>
+Darling Pierce<lb/>
+Many happy returns<lb/> of the day!  I am at a <lb/> loss to know what to send <lb/> you; but I think this <lb/> little gold safety pin, with<lb/> a real ruby, will come<lb/> in handy, &amp; will not get <lb/> lost so easily as the <lb/> ordinary pin.  They are <lb/> much worn here. <pb/> 
+-->
+      </change>
+      <change when="2013-11-03T12:00:32" who="#Ciaranwallace">
+                
+                    Page 34 modified:
+                    
+        <!-- 
+We have queer times <lb/>here now.  Darkness <lb/> every where for fear of the <lb/><del>bogie man overhead. <lb/><unclear>Not  a gas jet in the <lb/> streets, &amp; the horses all <lb/> blinded up.<lb/>
+Oh dear! What a <lb/> time it is! Conscription commences in March + all must come in married and single of fighting age.
+
+I predict that John Castlereagh is going in for a title.
+
+God bless you my darling boy and may every blessing and grace be yours.
+
+Take care of your health.
+
+Fond love from
+
+Mother 
+-->
+      </change>
+      <change when="2013-11-13T18:26:18" who="#AoifeR">
+                
+                    Page 34 modified:
+                    
+        <!-- 
+We have queer times <lb/>here now.  Darkness <lb/> every where for fear of the <lb/> "bogie man overhead". <lb/> Not a gas jet in the <lb/> streets, &amp; the houses all <lb/> blinded up.<lb/>
+Oh dear! What a <lb/> time it is! Conscription<lb/> commences in March &amp; all must come in married &amp; single of fighting age.
+
+I predict that John Castlereagh is going <lb/>in for a title.
+
+God bless you my <lb/>darling boy, &amp; may every blessing &amp; grace be yours.
+
+Take care of your health.<lb/>
+
+Fond love from<lb/>
+
+Mother<pb/> 
+-->
+      </change>
+      <change when="2013-12-31T19:08:09" who="#SS">
+                
+                    Page 35 modified:
+                    
+        <!-- 
+"Glengariff."
+Rudgrave Square,
+Egremont,
+Cheshire.
+
+Feb 7 1916
+Darling Pierce
+<p>Many happy returns
+of the day!  I am at a 
+loss to know what to send
+you; but I think this <lb/> 
+little gold safety pin, with<lb/> 
+a real ruby, will come<lb/> in handy, &amp; will not get <lb/> lost so easily as the <lb/> ordinary pin.  They are <lb/> much worn here. <p> 
+-->
+      </change>
+      <change when="2013-12-31T19:08:15" who="#SS">
+                
+                    Page 35 modified:
+                    
+        <!-- 
+"Glengariff."
+Rudgrave Square,
+Egremont,
+Cheshire.
+
+Feb 7 1916
+Darling Pierce
+<p>Many happy returns
+of the day!  I am at a 
+loss to know what to send
+you; but I think this <lb/> 
+little gold safety pin, with<lb/> 
+a real ruby, will come<lb/> in handy, &amp; will not get <lb/> lost so easily as the <lb/> ordinary pin.  They are <lb/> much worn here. <p> 
+-->
+      </change>
+      <change when="2013-12-31T19:10:58" who="#SS">
+                
+                    Page 34 modified:
+                    
+        <!-- 
+We have queer times <lb/>here now.  Darkness <lb/> every where for fear of the <lb/> "bogie man overhead". <lb/> Not a gas jet in the <lb/> streets, &amp; the houses all <lb/> blinded up.</p><p>Oh dear! What a <lb/> time it is! Conscription<lb/> commences in March &amp; all must come in married &amp; single of fighting age.</p><p>I predict that John Castlereagh is going <lb/>in for a title.</p><p>God bless you my <lb/>darling boy, &amp; may every blessing &amp; grace be yours.</p><p>Take care of your health.</p>
+
+Fond love from<lb/>
+
+Mother 
+-->
+      </change>
+      <change when="2013-12-31T19:11:01" who="#SS">
+                
+                    Page 34 modified:
+                    
+        <!-- 
+We have queer times <lb/>here now.  Darkness <lb/> every where for fear of the <lb/> "bogie man overhead". <lb/> Not a gas jet in the <lb/> streets, &amp; the houses all <lb/> blinded up.</p><p>Oh dear! What a <lb/> time it is! Conscription<lb/> commences in March &amp; all must come in married &amp; single of fighting age.</p><p>I predict that John Castlereagh is going <lb/>in for a title.</p><p>God bless you my <lb/>darling boy, &amp; may every blessing &amp; grace be yours.</p><p>Take care of your health.</p>
+
+Fond love from<lb/>
+
+Mother 
+-->
+      </change>
+      <change when="2015-06-26T00:00:00" who="#HH">
+                
+                    Proofing of transcription and XML tags begun in 
+        <ref target="#omeka">Omeka</ref>.
+                    (Further edits by 
+        <name ref="#HH"/> should be
+                    considered as proofing by project editors.)
+                
+            
+      </change>
+      <change when="2015-06-26T11:06:00" who="#HH">
+                
+                    Page 35 modified:
+                    
+        <!-- 
+"Glengariff."
+Rudgrave Square,
+Egremont,
+Cheshire.
+
+Feb 7 1916
+Darling Pierce
+<p>Many happy returns
+of the day!  I am at a 
+loss to know what to send
+you; but I think this <lb/> 
+little gold safety pin, with<lb/> 
+a real ruby, will come<lb/> in handy, &amp; will not get <lb/> lost so easily as the <lb/> ordinary pin.  They are <lb/> much worn here. <p> 
+-->
+      </change>
+      <change when="2015-06-26T11:07:52" who="#HH">
+                
+                    Page 35 modified:
+                    
+        <!-- 
+<address>"Glengariff."<lb/>
+Rudgrave Square,<lb/>
+Egremont,<lb/>
+Cheshire.</address><date>
+Feb 14 &#x2014; 1916</date><salute>Darling Pierce</salute><p>Many happy returns<lb/>
+of the day!  I am at a <lb/>
+loss to know what to send<lb/>
+you; but I think this <lb/> 
+little gold safety pin, with<lb/> 
+a real ruby, will come<lb/> in handy, &amp; will not get <lb/> lost so easily as the <lb/> ordinary pin.  They are <lb/> much worn here.<pb/> 
+-->
+      </change>
+      <change when="2015-06-26T11:07:52" who="#HH">
+                
+                    Page 35 modified:
+                    
+        <!-- 
+<address>"Glengariff."<lb/>
+Rudgrave Square,<lb/>
+Egremont,<lb/>
+Cheshire.</address><date>
+Feb 14 &#x2014; 1916</date><salute>Darling Pierce</salute><p>Many happy returns<lb/>
+of the day!  I am at a <lb/>
+loss to know what to send<lb/>
+you; but I think this <lb/> 
+little gold safety pin, with<lb/> 
+a real ruby, will come<lb/> in handy, &amp; will not get <lb/> lost so easily as the <lb/> ordinary pin.  They are <lb/> much worn here.<pb/> 
+-->
+      </change>
+      <change when="2015-06-26T11:08:23" who="#HH">
+                
+                    Page 35 modified:
+                    
+        <!-- 
+<address>"Glengariff."<lb/>
+Rudgrave Square,<lb/>
+Egremont,<lb/>
+Cheshire.</address><date>
+Feb 14 &#x2014; 1916</date><salute>Darling Pierce</salute><p>Many happy returns<lb/>
+of the day!  I am at a <lb/>
+loss to know what to send<lb/>
+you; but I think this <lb/> 
+little gold safety pin, with<lb/> 
+a real ruby, will come<lb/> in handy, &amp; will not get <lb/> lost so easily as the <lb/> ordinary pin.  They are <lb/> much worn here.<pb/> 
+-->
+      </change>
+      <change when="2015-06-26T11:08:40" who="#HH">
+                
+                    Page 35 modified:
+                    
+        <!-- 
+<address>"Glengariff."<lb/>
+Rudgrave Square,<lb/>
+Egremont,<lb/>
+Cheshire.</address><date>
+Feb 14 &#x2014; 1916</date><salute>Darling Pierce</salute><p>Many happy returns<lb/>
+of the day!  I am at a <lb/>
+loss to know what to send<lb/>
+you; but I think this <lb/> 
+little gold safety pin, with<lb/> 
+a real ruby, will come<lb/> in handy, &amp; will not get <lb/> lost so easily as the <lb/> ordinary pin.  They are <lb/> much worn here.</p><pb/> 
+-->
+      </change>
+      <change when="2015-06-26T11:08:51" who="#HH">
+                
+                    Page 34 modified:
+                    
+        <!-- 
+We have queer times <lb/>here now.  Darkness <lb/> every where for fear of the <lb/> "bogie man overhead". <lb/> Not a gas jet in the <lb/> streets, &amp; the houses all <lb/> blinded up.</p><p>Oh dear! What a <lb/> time it is! Conscription<lb/> commences in March &amp; all must come in married &amp; single of fighting age.</p><p>I predict that John Castlereagh is going <lb/>in for a title.</p><p>God bless you my <lb/>darling boy, &amp; may every blessing &amp; grace be yours.</p><p>Take care of your health.</p>
+
+Fond love from<lb/>
+
+Mother 
+-->
+      </change>
+      <change when="2015-06-26T11:11:33" who="#HH">
+                
+                    Page 34 modified:
+                    
+        <!-- 
+<p>We have queer times <lb/>here now.  Darkness <lb/> every where for fear of the <lb/><del>bogie</del> "bogie man overhead". <lb/> Not a gas jet in the <lb/> streets, &amp; the houses all <lb/> blinded up.</p><p>Oh dear! What a <lb/> time it is! Conscription<lb/> commences in March <lb/>&amp; all must come in<lb/> married &amp; single of <lb/>fighting age.</p><pb/><p>I predict that John<lb/> Castlereagh is going <lb/>in for a title.</p><p>God bless you my <lb/>darling boy, &amp; may every blessing &amp; grace be yours.</p><p>Take care of your health.</p><salute>Fond love from</salute>
+
+Mother 
+-->
+      </change>
+      <change when="2015-12-08T14:40:19" who="#PythonScript">
+                
+                    Importing to 
+        <ref target="#PythonScript"/>:
+                    New instance of page 35 created using version from 
+        <date when="2013-09-30T14:03:41"/>
+      </change>
+      <change when="2015-12-08T14:40:19" who="#PythonScript">
+                
+                    Importing to 
+        <ref target="#PythonScript"/>:
+                    Old revision of page 35 removed (version from 
+        <date when="2013-09-30T14:03:41"/>)
+                
+            
+      </change>
+      <change when="2015-12-08T14:40:19" who="#PythonScript">
+                
+                    Importing to 
+        <ref target="#PythonScript"/>:
+                    Old revision of page 35 removed (version from 
+        <date when="2013-11-03T11:51:56"/>)
+                
+            
+      </change>
+      <change when="2015-12-08T14:40:19" who="#PythonScript">
+                
+                    Importing to 
+        <ref target="#PythonScript"/>:
+                    Old revision of page 35 removed (version from 
+        <date when="2013-12-31T19:08:09"/>)
+                
+            
+      </change>
+      <change when="2015-12-08T14:40:19" who="#PythonScript">
+                
+                    Importing to 
+        <ref target="#PythonScript"/>:
+                    Old revision of page 35 removed (version from 
+        <date when="2013-12-31T19:08:15"/>)
+                
+            
+      </change>
+      <change when="2015-12-08T14:40:19" who="#PythonScript">
+                
+                    Importing to 
+        <ref target="#PythonScript"/>:
+                    Old revision of page 35 removed (version from 
+        <date when="2015-06-26T11:06:00"/>)
+                
+            
+      </change>
+      <change when="2015-12-08T14:40:19" who="#PythonScript">
+                
+                    Importing to 
+        <ref target="#PythonScript"/>:
+                    Old revision of page 35 removed (version from 
+        <date when="2015-06-26T11:07:52"/>)
+                
+            
+      </change>
+      <change when="2015-12-08T14:40:19" who="#PythonScript">
+                
+                    Importing to 
+        <ref target="#PythonScript"/>:
+                    Old revision of page 35 removed (version from 
+        <date when="2015-06-26T11:07:52"/>)
+                
+            
+      </change>
+      <change when="2015-12-08T14:40:19" who="#PythonScript">
+                
+                    Importing to 
+        <ref target="#PythonScript"/>:
+                    Old revision of page 35 removed (version from 
+        <date when="2015-06-26T11:08:23"/>)
+                
+            
+      </change>
+      <change when="2015-12-08T14:40:19" who="#PythonScript">
+                
+                    Importing to 
+        <ref target="#PythonScript"/>:
+                    Old revision of page 35 removed (version from 
+        <date when="2015-06-26T11:08:40"/>)
+                
+            
+      </change>
+      <change when="2015-12-08T14:40:19" who="#PythonScript">
+                
+                    Importing to 
+        <ref target="#PythonScript"/>:
+                    New instance of page 34 created using version from 
+        <date when="2013-09-30T14:13:04"/>
+      </change>
+      <change when="2015-12-08T14:40:19" who="#PythonScript">
+                
+                    Importing to 
+        <ref target="#PythonScript"/>:
+                    Old revision of page 34 removed (version from 
+        <date when="2013-09-30T14:13:04"/>)
+                
+            
+      </change>
+      <change when="2015-12-08T14:40:19" who="#PythonScript">
+                
+                    Importing to 
+        <ref target="#PythonScript"/>:
+                    Old revision of page 34 removed (version from 
+        <date when="2013-11-03T12:00:32"/>)
+                
+            
+      </change>
+      <change when="2015-12-08T14:40:19" who="#PythonScript">
+                
+                    Importing to 
+        <ref target="#PythonScript"/>:
+                    Old revision of page 34 removed (version from 
+        <date when="2013-11-13T18:26:18"/>)
+                
+            
+      </change>
+      <change when="2015-12-08T14:40:19" who="#PythonScript">
+                
+                    Importing to 
+        <ref target="#PythonScript"/>:
+                    Old revision of page 34 removed (version from 
+        <date when="2013-12-31T19:10:58"/>)
+                
+            
+      </change>
+      <change when="2015-12-08T14:40:19" who="#PythonScript">
+                
+                    Importing to 
+        <ref target="#PythonScript"/>:
+                    Old revision of page 34 removed (version from 
+        <date when="2013-12-31T19:11:01"/>)
+                
+            
+      </change>
+      <change when="2015-12-08T14:40:19" who="#PythonScript">
+                
+                    Importing to 
+        <ref target="#PythonScript"/>:
+                    Old revision of page 34 removed (version from 
+        <date when="2015-06-26T11:08:51"/>)
+                
+            
+      </change>
+      <change when="2015-12-08T14:40:19" who="#PythonScript">
+                
+                    Importing to 
+        <ref target="#PythonScript"/>:
+                    Old revision of page 34 removed (version from 
+        <date when="2015-06-26T11:11:33"/>)
+                
+            
+      </change>
+      <change when="2015-12-08T14:40:39" who="#PythonScript">
+                
+                    Creating Letter object in 
+        <ref target="#PythonScript"/>:
+                    New letter created with initial page 35 (version from 
+        <date when="2015-06-26T11:08:40"/>)
+                
+            
+      </change>
+      <change when="2015-12-08T14:40:41" who="#PythonScript">
+                
+                    Creating Letter object in 
+        <ref target="#PythonScript"/>:
+                    Page 34 added to letter (version from 
+        <date when="2015-06-26T11:11:34"/>)
+                
+            
+      </change>
+      <change when="2015-12-08T14:40:43" who="#PythonScript">
+                
+                     Filtered from Completed List
+                
+            </change>
+      <change when="2015-12-08T14:40:52" who="#PythonScript">
+                
+                    Clean tags: Page 34 cleaned of 5 tag errors.
+                
+            </change>
+      <change when="2015-12-08T14:40:52" who="#PythonScript">
+                
+                    Clean tags: Page 35 cleaned of 2 tag errors.
+                
+            </change>
+      <change when="2015-12-08T14:40:53" who="#PythonScript">
+                
+                     Page types determined
+                
+            </change>
+      <change when="2015-12-08T14:40:56" who="#PythonScript">
+                
+                     Opener and closer wrapped
+                
+            </change>
+      <change when="2015-12-08T14:40:57" who="#PythonScript">
+                
+                     Fixed addrLine and dateLine in opener/closer
+                
+            </change>
+      <change when="2015-12-08T14:40:59" who="#PythonScript">
+                
+                     Extract collection idnos
+                
+            </change>
+      <change when="2015-12-10T12:05:47" who="#PythonScript">
+                
+                     TEI template built
+                
+            </change>
+      <change when="2015-06-26T00:00:00" who="#HH"> OmekaProof </change>
+      <change when="2015-11-10T10:27:00" who="#Linda"> proofing01 10.11.2015 </change>
+      <change when="2015-11-10T10:29:00" who="#Linda"> proofing02 10.11.2015 </change>
+      <change when="2015-11-13T13:23:17" who="#RH"> Validated XML </change>
+      <change when="2015-01-12T15:00:00" who="#VDG">TEI validated</change>
+      <change when="2015-12-10T15:40:20" who="#RB">FLAG: abstract needs to be proofed!</change>
+      <change when="2015-12-11T09:59:53" who="#RH">
+					Declared Complete
+				</change>
+    
+				<change when="2016-02-23T17:38:41" who="#NealeRo">
+					SITE CHECKED
+				</change>
+	
+				<change when="2016-02-24T10:43:35" who="#NealeRo">
+					site checked
+				</change>
+	</revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic xml:id="L1916_32_img_35" url="0b075ff2fdf36e8074ce9e433ec94b94.jpg"/>
+    <graphic xml:id="L1916_32_img_34" url="78d1a83e6e52f1af2ba4e1e2494d4923.jpg"/>
+  </facsimile>
+  <text>
+    <group>
+      <pb facs="#L1916_32_img_35" n="35"/>
+      <text type="letter" decls="#corresp1">
+        <!-- issue to resolve with a previous process? -->
+        <body>
+          <opener>
+            <address>
+              <addrLine>"Glengariff."</addrLine>
+              <addrLine>Rudgrave Square,</addrLine>
+              <addrLine>Egremont,</addrLine>
+              <addrLine>Cheshire.</addrLine>
+            </address>
+            <dateline>
+              <date>Feb 14 &#8212; 1916</date>
+            </dateline>
+            <salute>Darling Pierce</salute>
+           </opener>
+          <p>Many happy returns 
+            <lb/> of the day! I am at a 
+            <lb/> loss to know what to send 
+            <lb/> you;
+        but I think this 
+            <lb/> little gold safety pin, with 
+            <lb/> a real ruby, will come 
+            <lb/> in
+        handy, &amp; will not get 
+            <lb/> lost so easily as the 
+            <lb/> ordinary pin. They are 
+            <lb/>
+        much worn here. 
+          </p>
+          <pb n="34" facs="#L1916_32_img_34"/>
+          <p>We have queer times 
+            <lb/>here now. Darkness 
+            <lb/> every where for fear of the 
+            <lb/>
+            <del>bogie</del> "bogie man overhead". 
+            <lb/> Not a gas jet in the 
+            <lb/> streets, &amp; the
+        houses all 
+            <lb/> blinded up. 
+          </p>
+          <p>Oh dear! What a 
+            <lb/> time it is! Conscription 
+            <lb/> commences in March 
+            <lb/>&amp; all must
+        come in 
+            <lb/> married &amp; single of 
+            <lb/>fighting age. 
+          </p>
+          <cb/>
+          <p>I predict that John 
+            <lb/> Castlereagh is going 
+            <lb/>in for a title. 
+          </p>
+          <p>God bless you my 
+            <lb/>darling boy, &amp; may every 
+            <lb/>blessing &amp; grace be yours. 
+          </p>
+          <p>Take care of your health.</p>
+          <closer>
+            <salute>Fond love from</salute>
+  
+            <signed>Mother</signed>
+          </closer>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI>
