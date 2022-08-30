@@ -1,0 +1,39 @@
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+selectors). */
+body {
+  margin: 25px;
+  background-color: rgb(240,240,240);
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  background-color: CadetBlue;
+}
+
+/* Applies to all <h1>...</h1> elements. */
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 5px;
+  color: #006400;
+}
+
+/* Applies to all <h3>...</h3> elements. */
+h3 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-top: 5px;
+  text-decoration: underline;
+}
+
+/* Applies to all <h4>...</h4> elements. */
+h4 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 5px;
+  text-decoration: underline overline wavy blue;
+}
+
+/* Applies to all elements with <... class="note"> specified. */
+.note { 
+    color: DarkBlue;
+    font-size: small;
+    }
