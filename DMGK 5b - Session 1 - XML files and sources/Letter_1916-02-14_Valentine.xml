@@ -1,0 +1,199 @@
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:id="L1916_32">
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Nannie Beazley to Piaras B&#233;asla&#237;, 14 February 1916</title>
+        <author>Nannie Beazley née Hickey</author>
+      </titleStmt>
+      <editionStmt>
+        <edition> The Letters of 1916 </edition>
+        <respStmt>
+          <resp>General Editor</resp>
+          <name xml:id="SS">Susan Schreibman</name>
+        </respStmt>
+        <respStmt>
+          <resp>Editor</resp>
+          <name xml:id="EC">Emma Clarke</name>
+        </respStmt>
+        <respStmt>
+          <resp>Editor</resp>
+          <name xml:id="HH">Hannah Healy</name>
+        </respStmt>
+        <respStmt>
+          <resp>Contributor</resp>
+          <name xml:id="AoifeR">AoifeR</name>
+        </respStmt>
+        <respStmt>
+          <resp>Contributor</resp>
+          <name xml:id="Ciaranwallace">Ciaranwallace</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <address>
+            <name>An Foras Feasa</name>
+            <orgName>Maynooth University</orgName>
+            <placeName>
+              <region>Co. Kildare</region>
+              <country>IRE</country>
+              <settlement>Maynooth</settlement>
+            </placeName>
+          </address>
+        </publisher>
+        <idno>L1916_32</idno>
+        <availability status="restricted">
+          <p>
+            <!-- Copyright status-specific thing... -->
+          </p>
+          <p>All rights reserved. No part of this image may be reproduced, distributed, or
+            transmitted in any form or by any means, including photocopying, recording, or other
+            electronic or mechanical methods, without the prior written permission of the
+            institutional or private owner of the image and the Letters of 1916 project. For
+            permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+          <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <!--<seriesStmt>
+                 Series statement is for book series
+                <p>PUT A STATEMENT</p></seriesStmt>-->
+      <notesStmt>
+        <note type="summary">
+          <p>Letter from Nannie Beazely, who was based in the English midlands, to her son, Piaras
+            B&#233;asla&#237; (1881&#8211;1965). The German navy had carried out a large raid across
+            the English midlands on the night of the 31 of January. People dimmed their lights to
+            avoid destruction from further Zeppelin raids as a response. The conscription mentioned
+            refers to the Military Service Act of 1916 that conscripted men between the ages of 18
+            and 40, fighting age, into the British Army. Married men were originally exempt but the
+            bill changed in June 1916 to include them. John Castlereagh may be Viscount C S H
+            Castlereagh, originally Captain of the Royal Horse Guards, promoted to Major in the
+            General Staff. He was awarded the 1914 Star. This letter is part of a collection of
+            letters by Piaras&#8217; parents, mostly during B&#233;aslai&#8217;s internment.
+            B&#233;asla&#237; was an English born influential member of the IRB. In February of 1916
+            he published the F&#224;inne, a publication to organise Gaelic speakers. He soon
+            abandoned it and became involved in politics and would later fight in the Easter
+            Rising.</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository ref="#NLI">National Library of Ireland</repository>
+            <!-- 
+                                Original DCN: NLI 33,973/5
+                             
+                        -->
+            <collection type="public"/>
+            <!--MANDATORY -->
+            <!--check for correctness: use the script which split the string!-->
+            <idno>NLI 33,973/5</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc xml:id="corresp1">
+        <correspAction type="received">
+          <persName ref="#Beazley_P">Piaras B&#233;asla&#237;</persName>
+          <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+        </correspAction>
+        <correspAction type="sent">
+          <persName ref="#Beazley_N">Nannie Beazley nee Hickey</persName>
+          <placeName ref="#Cheshire">Cheshire</placeName>
+          <date when="1916-02-07">7 February 1916</date>
+          <!-- Make the date human-readable : rcd: strftime-->
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <!-- Type of the letter should be separate -->
+        <keywords>
+          <list>
+            <item n="gender">Female</item>
+            <!--put an IF -->
+            <item n="tag">Family life</item>
+            <item n="tag">World War 1: 1914-1918</item>
+          </list>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>
+          <!-- Write this -->
+        </p>
+      </editorialDecl>
+      <projectDesc>
+        <p>
+          <!-- Was done by crowdsourcing, Python, magic, etc. -->
+        </p>
+      </projectDesc>
+      <appInfo>
+        <application xml:id="LetEd" ident="LetEd" version="1">
+          <desc> LetEd. letter editing tool built by Richard Hadden, Maynooth University, 2015.
+            Built using the Python <ref target="http://flask.pocoo.org/">Flask Framework</ref> and
+            the <ref target="https://github.com/umd-mith/angles">Angles web-based XML editor</ref>.
+          </desc>
+        </application>
+        <application xml:id="PythonScript" ident="LetterProcessing" version="2">
+          <desc>Letter processing pipeline built by Richard Hadden &amp; Linda Spinazze, Maynooth
+            University, 2015. <ref target="https://github.com/oculardexterity/Letters-Processing"/>
+          </desc>
+        </application>
+        <application xml:id="Omeka" ident="Omeka" version="1.5">
+          <desc/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2020-11-10T17:26:40" who="MonikaBarget"/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic xml:id="L1916_32_img_35" url="0b075ff2fdf36e8074ce9e433ec94b94.jpg"/>
+    <graphic xml:id="L1916_32_img_34" url="78d1a83e6e52f1af2ba4e1e2494d4923.jpg"/>
+  </facsimile>
+  <text>
+    <group>
+      <pb facs="#L1916_32_img_35" n="35"/>
+      <text type="letter" decls="#corresp1">
+        <!-- issue to resolve with a previous process? -->
+        <body>
+          <opener>
+            <address>
+              <addrLine>"Glengariff"</addrLine>
+              <addrLine>Rudgrave Square,</addrLine>
+              <addrLine>Egremont,</addrLine>
+              <addrLine>Cheshire.</addrLine>
+            </address>
+            <dateline>
+              <date>Feb 14 &#8212; 1916</date>
+            </dateline>
+            <salute>Darling Pierce</salute>
+          </opener>
+          <p>Many happy returns <lb/> of the day! I am at a <lb/> loss to know what to send <lb/>
+            you; but I think this <lb/> little gold safety pin, with <lb/> a real ruby, will come
+            <lb/> in handy, &amp; will not get <lb/> lost so easily as the <lb/> ordinary pin. They
+            are <lb/> much worn here. </p>
+          <pb n="34" facs="#L1916_32_img_34"/>
+          <p>We have queer times <lb/>here now. Darkness <lb/> every where for fear of the <lb/>
+            <del>bogie</del> "bogie man overhead". <lb/> Not a gas jet in the <lb/> streets, &amp;
+            the houses all <lb/> blinded up. </p>
+          <p>Oh dear! What a <lb/> time it is! Conscription <lb/> commences in March <lb/>&amp; all
+            must come in <lb/> married &amp; single of <lb/>fighting age. </p>
+          <cb/>
+          <p>I predict that John <lb/> Castlereagh is going <lb/>in for a title. </p>
+          <p>God bless you my <lb/>darling boy, &amp; may every <lb/>blessing &amp; grace be yours. </p>
+          <p>Take care of your health.</p>
+          <closer>
+            <salute>Fond love from</salute>
+            <signed>Mother</signed>
+          </closer>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI>

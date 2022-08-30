@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="../Downloads/littlehales4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Littlehales1808-12-02-20-1-14">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from C.K. Bushe to E.B. Littlehales</title>
+                <author>Bushe, Charles Kendal </author>
+				<respStmt>
+                    <resp>Encoded by</resp>
+                    <name>Sinéad Greene</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Maynooth University Library</publisher>
+                <publisher>An Foras Feasa</publisher>
+                <address>
+                    <addrLine>Maynooth</addrLine>
+                    <addrLine>Co Kildare</addrLine>
+                    <addrLine>Ireland</addrLine>
+                </address>
+                <availability>
+                    <p>Reproduction rights owned by Maynooth University Library.</p>
+                </availability>
+                <date>2017</date>
+            </publicationStmt>
+            <notesStmt>
+                <note>This document was created as part of a class project in Autumn 2017 for the Digital Scholarly Editing module under the direction of Professor Susan Schreibman. This module is a component of the MA in Digital Humanities at Maynooth University. Team members were assigned to create a digital scholarly edition from a selection of correspondence in the Littlehales Archive collection at Maynooth University. The team members involved in the creation of the final edition are Monika Barget, James Byrne, Sinéad Greene, Sharon Healy, Michael Kurzmeier, and Lauren Tracy.</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>The correspondence processed for this digital edition is part of a larger collection, being the Littlehales Archive collection at Maynooth University. The correspondence is dated to 1808, and was written by Edward B. Littlehales, J. Beckett and Charles Bushe.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date when="1808-12-02">2 December 1808</date></creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter"><pb facs="1808-12-02-20-1-14a"/>
+                <opener>
+					<p><note type="private">Private</note></p>
+					<p><address>
+                        <addrLine>Ely Place</addrLine>
+                   	</address></p>
+				   	<p><date>December 2 1808</date></p>
+                    <p><salute>My dear Sir <persName key="per03">Edward</persName>:</salute></p>
+				</opener>
+                	<p>I send you herewith
+					<lb/>this little note, you wished to have
+					<lb/>&#8212; I shall say nothing more, about
+					<lb/>about the <gap/> until I have made
+					<lb/>further enquiries.</p>
+                <closer>
+					<signed>
+					<p>Yours most <unclear>humbly</unclear>
+						<lb/><persName key="per02">Charles Bushe</persName></p>
+					</signed>
+				</closer>              
+				<pb facs="1808-12-02-20-1-14b"/>
+                <p>Substance of a communication made
+					<lb/>to a gentleman of credit by a person
+					<lb/>who upon former occasions gave him
+					<lb/>information which proved to be correct.</p>
+                <p>He states thaat he has good reason to
+					<lb/>believe that a Directory is at present
+                    <lb/>assembled in Dublin, in correspondence
+					<lb/>with France, &#38; in communication with 
+					<lb/>the Insurgents in Limerick and Kerry</p>
+                <p>That there has been for some time
+					<lb/>past a private intercourse between
+					<lb/>France &#38; the disaffected in Dublin 
+					<lb/>&#38; that an Agent (one of those engaged
+					<lb/>in the Rebellion of 1798) has 
+				<pb facs="1808-12-02-20-1-14c"/> 
+					lately arrived in Ireland from
+					<lb/>France on a treasonable mission.</p>
+				<p>Who this <gap/> Agent
+					<lb/>is, the informed does not at
+					<lb/>present know.</p>  
+			</div>
+			<div type ="envelope">
+				<pb facs="1808-12-02-20-1-14d"/>
+					<ab><p>Secret
+						<lb/>Sir <persName key="per03">Edward B. Littlehales</persName>
+						<lb/><gap/>
+						<lb/>Phoenix Park</p></ab>          
+            </div>                            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,3052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="http://www.tei-c.org/ns/1.0" xmlns="http://relaxng.org/ns/structure/1.0"
+  datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="TEI">
+      <element name="teiHeader">
+        <attribute>
+          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+          <data type="NCName"/>
+        </attribute>
+        <element name="fileDesc">
+          <element name="titleStmt">
+            <element name="title">
+              <text/>
+            </element>
+            <zeroOrMore>
+              <ref name="author"/>
+            </zeroOrMore>
+          </element>
+          <element name="editionStmt">
+            <element name="edition">
+              <text/>
+            </element>
+            <oneOrMore>
+              <element name="respStmt">
+                <element name="resp">
+                  <text/>
+                </element>
+                <ref name="name"/>
+              </element>
+            </oneOrMore>
+          </element>
+          <element name="publicationStmt">
+            <element name="publisher">
+              <ref name="address"/>
+            </element>
+            <ref name="idno"/>
+            <element name="availability">
+              <attribute name="status">
+                <data type="NCName"/>
+              </attribute>
+              <oneOrMore>
+                <ref name="p"/>
+              </oneOrMore>
+            </element>
+            <ref name="date"/>
+          </element>
+          <element name="notesStmt">
+            <oneOrMore>
+              <ref name="note"/>
+            </oneOrMore>
+          </element>
+          <element name="sourceDesc">
+            <element name="msDesc">
+              <element name="msIdentifier">
+                <element name="repository">
+                  <attribute name="ref">
+                    <choice>
+                      <value>#AL</value>
+                      <value>#CCCA</value>
+                      <value>#ICPA</value>
+                      <value>#IJA</value>
+                      <value>#LDA</value>
+                      <value>#MMM</value>
+                      <value>#MAI</value>
+                      <value>#NAI</value>
+                      <value>#NLI</value>
+                      <value>#NMI</value>
+                      <value>#PRONI</value>
+                      <value>#PCMA</value>
+                      <value>#TCD</value>
+                      <value>#UCD</value>
+                      <value>#UCC</value>
+                      <value>#WCA</value>
+                      <value>#AIHS</value>
+                      <value>#BlairHalliday</value>
+                      <value>#FinnFamily</value>
+                      <value>#LawrenceScott</value>
+                      <value>#LiamSmith</value>
+                      <value>#Private_Collection</value>
+                      <value>#ClaireMissen</value>
+                      <value>#AdamsFamily</value>
+                      <value>#ShackletonFamily</value>
+                      <value>#MichaelHannah</value>
+                      <value>#PatCarroll</value>
+                      <value>#RoryOLoughlin</value>
+                      <value>#JamesRyle</value>
+                      <value>#SighleHumphreys</value>
+                      <value>#PatEnglish</value>
+                      <value>#ONeillFamily</value>
+                      <value>#OLaoghaireFamily</value>
+                      <value>#McGrath</value>
+                      <value>#KellyFamily</value>
+                      <value>#Garland</value>
+                      <value>#OModhrainFamily</value>
+                      <value>#JoyceTimms</value>
+                      <value>#GenevieveHarden</value>
+                      <value>#MooneyFamily</value>
+                      <value>#RPA</value>
+                      <value>#FLSA</value>
+                      <value>#BrennanFamily</value>
+                      <value>#MichaelGorman</value>
+                      <value>#FadzenFamily</value>
+                      <value>#WaldronFamily</value>
+                      <value>#LongfordMuseum</value>
+                      <value>#RCPI</value>
+                      <value>#KerryLibrary</value>
+                    </choice>
+                  </attribute>
+                  <text/>
+                </element>
+                <element name="collection">
+                  <attribute name="type">
+                    <choice>
+                      <value>public</value>
+                      <value>private</value>
+                    </choice>
+                  </attribute>
+                  <text/>
+                </element>
+                <ref name="idno"/>
+              </element>
+            </element>
+          </element>
+        </element>
+        <element name="profileDesc">
+          <oneOrMore>
+            <element name="correspDesc">
+              <attribute name="xml:id">
+                <ref name="correspID"/>
+              </attribute>
+              <oneOrMore>
+                <element name="correspAction">
+                  <attribute name="type">
+                    <choice>
+                      <value>received</value>
+                      <value>sent</value>
+                    </choice>
+                  </attribute>
+                  <zeroOrMore>
+                    <ref name="persName"/>
+                  </zeroOrMore>
+                  <optional>
+                    <ref name="placeName"/>
+                  </optional>
+                  <optional>
+                    <ref name="date"/>
+                  </optional>
+                </element>
+              </oneOrMore>
+            </element>
+          </oneOrMore>
+          <element name="textClass">
+            <element name="keywords">
+              <element name="list">
+                <oneOrMore>
+                  <element name="item">
+                    <attribute name="n">
+                      <choice>
+                        <value>gender</value>
+                        <value>tag</value>
+                        <value>death</value>
+                      </choice>
+                    </attribute>
+                    <text/>
+                  </element>
+                </oneOrMore>
+              </element>
+            </element>
+          </element>
+          <element name="langUsage">
+            <element name="language">
+              <attribute name="ident">
+                <choice>
+                  <value>en</value>
+                  <value>ga</value>
+                </choice>
+              </attribute>
+              <choice>
+                <value>English</value>
+                <value>Irish</value>
+              </choice>
+            </element>
+          </element>
+        </element>
+        <element name="encodingDesc">
+          <element name="editorialDecl">
+            <oneOrMore>
+              <ref name="p"/>
+            </oneOrMore>
+          </element>
+          <element name="projectDesc">
+            <ref name="p"/>
+          </element>
+          <element name="appInfo">
+            <oneOrMore>
+              <element name="application">
+                <attribute name="ident">
+                  <data type="NCName"/>
+                </attribute>
+                <attribute name="version">
+                  <choice>
+                    <value>1</value>
+                    <value>1.5</value>
+                    <value>2</value>
+                  </choice>
+                </attribute>
+                <attribute>
+                  <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+                  <choice>
+                    <value>PythonScript</value>
+                    <value>LetEd</value>
+                    <value>Omeka</value>
+                  </choice>
+                </attribute>
+                <element name="desc">
+                  <oneOrMore>
+                    <choice>
+                      <text/>
+                      <ref name="ref"/>
+                    </choice>
+                  </oneOrMore>
+
+                </element>
+
+              </element>
+            </oneOrMore>
+          </element>
+        </element>
+        <element name="revisionDesc">
+          <oneOrMore>
+            <element name="change">
+              <attribute name="when">
+                <data type="dateTime"/>
+              </attribute>
+              <attribute name="who"/>
+              <oneOrMore>
+                <choice>
+                  <text/>
+                  <ref name="name"/>
+                  <ref name="ref"/>
+                  <ref name="date"/>
+                </choice>
+              </oneOrMore>
+
+            </element>
+          </oneOrMore>
+        </element>
+      </element>
+      <element name="facsimile">
+        <oneOrMore>
+          <ref name="graphic"/>
+        </oneOrMore>
+      </element>
+      <ref name="text"/>
+    </element>
+  </start>
+  <define name="name">
+    <element name="name">
+      <optional>
+        <attribute name="xml:id"/>
+      </optional>
+      <optional>
+        <attribute name="ref"/>
+      </optional>
+
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="sic"/>
+          <empty/>
+        </choice>
+      </oneOrMore>
+
+    </element>
+  </define>
+  <define name="address">
+    <element name="address">
+      <choice>
+        <oneOrMore>
+          <element name="addrLine">
+            <oneOrMore>
+              <choice>
+                <text/>
+                <ref name="date"/>
+                <ref name="foreign"/>
+                <ref name="lineLevel"/>
+
+              </choice>
+            </oneOrMore>
+          </element>
+        </oneOrMore>
+        <group>
+          <ref name="name"/>
+          <element name="orgName">
+            <text/>
+          </element>
+          <ref name="placeName"/>
+        </group>
+      </choice>
+    </element>
+  </define>
+  <define name="idno">
+    <element name="idno">
+      <optional>
+        <attribute name="n">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <text/>
+    </element>
+  </define>
+  <define name="p">
+    <element name="p">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="breaks"/>
+          <ref name="lineLevel"/>
+          <ref name="foreign"/>
+          <ref name="fw"/>
+          <ref name="list"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="date">
+    <element name="date">
+      <optional>
+        <attribute name="when">
+          <choice>
+            <ref name="dateValue"/>
+            <data type="dateTime"/>
+          </choice>
+        </attribute>
+
+      </optional>
+      <optional>
+        <attribute name="notBefore"/>
+      </optional>
+      <optional>
+        <attribute name="notAfter"/>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="hi"/>
+          <ref name="add"/>
+          <ref name="del"/>
+          <ref name="sic"/>
+          <ref name="unclear"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="note">
+    <element name="note">
+      <optional>
+        <attribute name="type">
+          <choice>
+            <value>summary</value>
+            <value>translation</value>
+          </choice>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="breaks"/>
+          <ref name="p"/>
+          <ref name="date"/>
+          <ref name="address"/>
+          <ref name="lineLevel"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+
+  <define name="placeName">
+    <element name="placeName">
+      <optional>
+        <attribute name="ref">
+          <choice>
+            <value>#Ireland</value>
+            <value>#England</value>
+            <value>#Durham</value>
+            <value>#Abbeyleix</value>
+            <value>#Abingdon</value>
+            <value>#Achill</value>
+            <value>#Aghadowey</value>
+            <value>#Ahascragh</value>
+            <value>#Ahoghill</value>
+            <value>#Alderney</value>
+            <value>#Alexandria</value>
+            <value>#Altrincham</value>
+            <value>#An_Grianan</value>
+            <value>#Ancoats</value>
+            <value>#Ardeevin</value>
+            <value>#Armagh</value>
+            <value>#Athenry</value>
+            <value>#Athlone</value>
+            <value>#Aughnalcoy</value>
+            <value>#Avoca</value>
+            <value>#Aylesbury_Prison</value>
+            <value>#Bagenalstown</value>
+            <value>#Bailieborough</value>
+            <value>#Bala</value>
+            <value>#Ballina</value>
+            <value>#Ballinacurra</value>
+            <value>#Ballinasloe</value>
+            <value>#Ballincoona</value>
+            <value>#Ballinea</value>
+            <value>#Ballinskelligs</value>
+            <value>#Ballsbridge</value>
+            <value>#Ballybunnion</value>
+            <value>#Ballycahane</value>
+            <value>#Ballycastle</value>
+            <value>#Ballylongford</value>
+            <value>#Ballymore</value>
+            <value>#Ballincollig</value>
+            <value>#Bandon</value>
+            <value>#Bangor</value>
+            <value>#Banteer</value>
+            <value>#Bath</value>
+            <value>#Battersea</value>
+            <value>#Bedford</value>
+            <value>#Ahogill</value>
+            <value>#Belfast</value>
+            <value>#Bere_Island</value>
+            <value>#Berlin</value>
+            <value>#Bermondsey</value>
+            <value>#Bulgaria</value>
+            <value>#Sofia</value>
+            <value>#Berne</value>
+            <value>#Bettystown</value>
+            <value>#Bexhill</value>
+            <value>#Birkenhead</value>
+            <value>#Birmingham</value>
+            <value>#Birr</value>
+            <value>#Blackburn</value>
+            <value>#Blackrock</value>
+            <value>#Lucan</value>
+            <value>#Booterstown</value>
+            <value>#Boscombe</value>
+            <value>#Boston</value>
+            <value>#Bournemouth</value>
+            <value>#Boyle</value>
+            <value>#Bray</value>
+            <value>#Bristol</value>
+            <value>#Brixton_Prison</value>
+            <value>#Broomfield_Camberley</value>
+            <value>#Chesham_Bois</value>
+            <value>#Buncrana</value>
+            <value>#Bundoran</value>
+            <value>#Buxton</value>
+            <value>#Cabra</value>
+            <value>#Cahirciveen</value>
+            <value>#Calais</value>
+            <value>#Cambridge</value>
+            <value>#Cardiff</value>
+            <value>#Carlingford</value>
+            <value>#Carlow</value>
+            <value>#Carrick_on_Shannon</value>
+            <value>#Carrigaholt</value>
+            <value>#Carson_City</value>
+            <value>#Cashelnagore</value>
+            <value>#Ashtown</value>
+            <value>#Castleblaney</value>
+            <value>#Castlebar</value>
+            <value>#Castlegregory</value>
+            <value>#Castleknock</value>
+            <value>#Cavan</value>
+            <value>#Celbridge</value>
+            <value>#Charleville</value>
+            <value>#Chatam</value>
+            <value>#Cheetam_Hill</value>
+            <value>#Chelsea</value>
+            <value>#Chertsey</value>
+            <value>#Cheshire</value>
+            <value>#Cloghran</value>
+            <value>#Clonliffe</value>
+            <value>#Clonmany</value>
+            <value>#Clontarf</value>
+            <value>#Coalisland</value>
+            <value>#Colchester</value>
+            <value>#Coleraine</value>
+            <value>#Coolaney</value>
+            <value>#Coole</value>
+            <value>#Cork</value>
+            <value>#Courtown</value>
+            <value>#Cratloe</value>
+            <value>#Crewe</value>
+            <value>#Criccieth</value>
+            <value>#Crossmolina</value>
+            <value>#Cuckfield</value>
+            <value>#Dalkey</value>
+            <value>#Dartmoor</value>
+            <value>#Derby</value>
+            <value>#Derry</value>
+            <value>#Derrynadivva</value>
+            <value>#Dingle</value>
+            <value>#Donaghadee</value>
+            <value>#Donegal</value>
+            <value>#Doneraile</value>
+            <value>#Donnybrook</value>
+            <value>#Downpatrick</value>
+            <value>#Drogheda</value>
+            <value>#Dromod</value>
+            <value>#Manorhamilton</value>
+            <value>#Drumcondra</value>
+            <value>#Dublin</value>
+            <value>#PhoenixPark</value>
+            <value>#Dublin_GPO</value>
+            <value>#Knockmaroon</value>
+            <value>#Dublin_Royal_Barracks</value>
+            <value>#Serbia</value>
+            <value>#Boulogne_Base</value>
+            <value>#Sirocco_Ironworks</value>
+            <value>#North_Circular_Road</value>
+            <value>#Everton_Terrace</value>
+            <value>#Chatham</value>
+            <value>#Caherciveen</value>
+            <value>#Portobello</value>
+            <value>#Everton_Terrace</value>
+            <value>#The_Curragh</value>
+            <value>#Portland_Prison</value>
+            <value>#Dun_Laoghaire</value>
+            <value>#Dundalk</value>
+            <value>#Dundrum</value>
+            <value>#Dungarvan</value>
+            <value>#Dunmanway</value>
+            <value>#Dunshaughlin</value>
+            <value>#Edinburgh</value>
+            <value>#Leith</value>
+            <value>#Ennis</value>
+            <value>#Enniscorthy</value>
+            <value>#Enniskerry</value>
+            <value>#Ewhurst</value>
+            <value>#Farnham</value>
+            <value>#Farranfore</value>
+            <value>#Fermoy</value>
+            <value>#Finglas</value>
+            <value>#Fivemiletown</value>
+            <value>#Folkstone</value>
+            <value>#Foxrock</value>
+            <value>#Foynes</value>
+            <value>#Frongoch_Prison</value>
+            <value>#Galway</value>
+            <value>#Glasgow</value>
+            <value>#Glenageary</value>
+            <value>#Glencoe</value>
+            <value>#Glendalough</value>
+            <value>#Glengarriff</value>
+            <value>#Gorey</value>
+            <value>#Gort</value>
+            <value>#Gortahork</value>
+            <value>#Graignamanagh</value>
+            <value>#Granard</value>
+            <value>#Grange</value>
+            <value>#Grantchester</value>
+            <value>#Greystones</value>
+            <value>#Gustrow</value>
+            <value>#Gütersloh</value>
+            <value>#Haddington</value>
+            <value>#Hardelot</value>
+            <value>#Harrogate_Hill</value>
+            <value>#Holywood</value>
+            <value>#Hope</value>
+            <value>#Hot_Springs</value>
+            <value>#Howth</value>
+            <value>#Hull</value>
+            <value>#Hunts</value>
+            <value>#Inniscarra</value>
+            <value>#Inverness</value>
+            <value>#Johnstown</value>
+            <value>#Kamuli</value>
+            <value>#Kells</value>
+            <value>#Kilballyowen</value>
+            <value>#Kilcar</value>
+            <value>#Kildare</value>
+            <value>#Kilkee</value>
+            <value>#Kilkenny</value>
+            <value>#Killadysert</value>
+            <value>#Killaloe</value>
+            <value>#Killarney</value>
+            <value>#Killiney</value>
+            <value>#Killorglin</value>
+            <value>#Killybegs</value>
+            <value>#Kilmacow</value>
+            <value>#Kilmainham_Gaol</value>
+            <value>#Kilmore_Wexford</value>
+            <value>#Kilmallock</value>
+            <value>#Hampshire</value>
+            <value>#Kingscourt</value>
+            <value>#Kingstown</value>
+            <value>#Kinsale</value>
+            <value>#Knockmoroon</value>
+            <value>#Knocknagoshel</value>
+            <value>#Knutsford_Prison</value>
+            <value>#Lahn</value>
+            <value>#Lambton_Castle</value>
+            <value>#Leadville</value>
+            <value>#Leeds</value>
+            <value>#Leitrim</value>
+            <value>#Lenox_Dale</value>
+            <value>#Letterkenny</value>
+            <value>#Lewes</value>
+            <value>#Lifford</value>
+            <value>#Limberg</value>
+            <value>#Limerick</value>
+            <value>#Lisadian</value>
+            <value>#Lisburn</value>
+            <value>#Lissmacaffrey</value>
+            <value>#Listowel</value>
+            <value>#Liverpool</value>
+            <value>#London</value>
+            <value>#Lancashire</value>
+            <value>#Channel_Islands</value>
+            <value>#Hertfordshire</value>
+            <value>#Glasnevin</value>
+            <value>#Londonderry</value>
+            <value>#Longford</value>
+            <value>#Lough_Derg</value>
+            <value>#Loughrea</value>
+            <value>#Lusk</value>
+            <value>#Maghera</value>
+            <value>#Magherafelt</value>
+            <value>#Magheramore</value>
+            <value>#Mallow</value>
+            <value>#Malta</value>
+            <value>#Manchester</value>
+            <value>#Manoora</value>
+            <value>#Manorhampton</value>
+            <value>#Marghere</value>
+            <value>#Maynooth</value>
+            <value>#Mendota</value>
+            <value>#Midleton</value>
+            <value>#Mohill</value>
+            <value>#Monaghan</value>
+            <value>#Monkstown</value>
+            <value>#Mount_St_Marys</value>
+            <value>#Mountjoy</value>
+            <value>#Mountjoy_Prison</value>
+            <value>#Mountmellick</value>
+            <value>#Moyvore</value>
+            <value>#Mudros</value>
+            <value>#Mullingar</value>
+            <value>#Munich</value>
+            <value>#Muontjoy</value>
+            <value>#Myshall</value>
+            <value>#Naas</value>
+            <value>#Navan</value>
+            <value>#New_York</value>
+            <value>#Newcastlewest</value>
+            <value>#Newry</value>
+            <value>#Newtownards</value>
+            <value>#Omagh</value>
+            <value>#Osterrade</value>
+            <value>#Oxford_Prison</value>
+            <value>#Pentonville_Prison</value>
+            <value>#Perth_Amboy</value>
+            <value>#Perthshire</value>
+            <value>#Petrograd</value>
+            <value>#Phibsborough</value>
+            <value>#Philadelphia</value>
+            <value>#Philipopolis</value>
+            <value>#Pittsburgh</value>
+            <value>#PortnaBlagh</value>
+            <value>#Portadown</value>
+            <value>#Portarlington</value>
+            <value>#Portland</value>
+            <value>#Portlaoise</value>
+            <value>#Portmarnock</value>
+            <value>#Paderborn</value>
+            <value>#Dunboyne</value>
+            <value>#Queenstown</value>
+            <value>#Queenstown_Cork</value>
+            <value>#Raheny</value>
+            <value>#Ranelagh</value>
+            <value>#Ravenswood</value>
+            <value>#Raphoe</value>
+            <value>#Ráth_Ó_Máine</value>
+            <value>#Ratha</value>
+            <value>#Rathfarnham</value>
+            <value>#Rathgar</value>
+            <value>#Rathkeale</value>
+            <value>#Rathmines</value>
+            <value>#Rathmore</value>
+            <value>#Reading</value>
+            <value>#Retford</value>
+            <value>#Dublin_Richmond_Barracks</value>
+            <value>#Richmond</value>
+            <value>#Rochestown</value>
+            <value>#Rockchapel</value>
+            <value>#Rockdene</value>
+            <value>#Rome</value>
+            <value>#Roscommon</value>
+            <value>#Roscrea</value>
+            <value>#Rosscarbery</value>
+            <value>#Rostrevor</value>
+            <value>#Rugby</value>
+            <value>#Saintfield</value>
+            <value>#Sallins</value>
+            <value>#Salonika</value>
+            <value>#Saltspring_Island</value>
+            <value>#San_Francisco</value>
+            <value>#Sandymount</value>
+            <value>#Scariff</value>
+            <value>#Schleswig</value>
+            <value>#Seacombe</value>
+            <value>#Sheffield</value>
+            <value>#Shillelagh</value>
+            <value>#Skibbereen</value>
+            <value>#Sligo</value>
+            <value>#Somme</value>
+            <value>#St_Anns_Hill_Tower</value>
+            <value>#St_Austens_Stafford</value>
+            <value>#St_Enda</value>
+            <value>#Stafford</value>
+            <value>#Stafford_Prison</value>
+            <value>#Stillorgan</value>
+            <value>#Stonehouse</value>
+            <value>#Strabane</value>
+            <value>#Stradbally</value>
+            <value>#Straffan</value>
+            <value>#Strangford</value>
+            <value>#Swords</value>
+            <value>#Templemore</value>
+            <value>#Thurles</value>
+            <value>#Tigris</value>
+            <value>#Tipperary</value>
+            <value>#Togherstown</value>
+            <value>#Tomcoole</value>
+            <value>#Tomgraney</value>
+            <value>#Toronto</value>
+            <value>#Tralee</value>
+            <value>#Tramore</value>
+            <value>#Tuam</value>
+            <value>#Tullamore</value>
+            <value>#Tullow</value>
+            <value>#Urlingford</value>
+            <value>#Ventry</value>
+            <value>#Wakefield_Prison</value>
+            <value>#Wandsworth_Prison</value>
+            <value>#Washington</value>
+            <value>#Waterford</value>
+            <value>#Welshpool</value>
+            <value>#Welshpool</value>
+            <value>#Westport</value>
+            <value>#Wexford</value>
+            <value>#Whiteabbey</value>
+            <value>#Whittlesea</value>
+            <value>#Woking</value>
+            <value>#Worcester</value>
+            <value>#Zossen</value>
+            <value>#Berkshire</value>
+            <value>#Wicklow</value>
+            <value>#France</value>
+            <value>#USA</value>
+            <value>#Epsom</value>
+            <value>#Iraq</value>
+            <value>#Kerry</value>
+            <value>#Cavan</value>
+            <value>#St_Omer</value>
+            <value>#Wicklow</value>
+            <value>#Armagh</value>
+            <value>#Warwickshire</value>
+            <value>#Longford</value>
+            <value>#Roscommon</value>
+            <value>#Monaghan</value>
+            <value>#Berkshire</value>
+            <value>#Headford</value>
+            <value>#Dolphins_Barn</value>
+            <value>#Germany_Zossen</value>
+            <value>#Germany</value>
+            <value>#Dublin_Castle</value>
+            <value>#Calais_France</value>
+            <value>#Clonakilty</value>
+            <value>#Dublin_Parkgate</value>
+            <value>#Berkinhead</value>
+            <value>#FourCourts</value>
+            <value>#CentralDublin</value>
+            <value>#ship_HMS_Defence</value>
+            <value>#Portobello_Dublin</value>
+            <value>#10_Downing_Street</value>
+            <value>#Whitehall</value>
+            <value>#BallyMahon</value>
+            <value>#11_Grosvenor_Place</value>
+            <value>#Camden_Street_82</value>
+            <value>#36_Upper_Fitzwilliam_Street</value>
+            <value>#Coolbangaher_Rectory</value>
+            <value>#52_Regent_Street</value>
+            <value>#2_Loretto_Villas</value>
+            <value>#Victoria_Barracks</value>
+            <value>#11_Rathmines_Park</value>
+            <value>#Middleton_College</value>
+            <value>#2_Dartmouth_Villas</value>
+            <value>#17_Rathmines_Road</value>
+            <value>#Ross_Mountnugent</value>
+            <value>#9_Montrose_Terrace</value>
+            <value>#61_Dartmouth_Square</value>
+            <value>#Candahar_Street_37</value>
+            <value>#59_Hollybank_Road</value>
+            <value>#7_Lower_Ormond_Quay</value>
+            <value>#101_Lower_Mount_Street</value>
+            <value>#5_Belvidere_Avenue</value>
+            <value>#20_Talbot_House</value>
+            <value>#57_Grosvenor_Square</value>
+            <value>#24_Charleston_Road</value>
+            <value>#32_Harcourt_Street</value>
+            <value>#76_Grafton_Street</value>
+            <value>#40_Herbert_Park</value>
+            <value>#1_Suffolk_Street</value>
+            <value>#14_Rathmines_Park</value>
+            <value>#Riversdale_Templeogue</value>
+            <value>#Westmoreland_Chambers</value>
+            <value>#39_Leeson_Park</value>
+            <value>#42_Pearse_Street</value>
+            <value>#Vice_Regal_Lodge</value>
+            <value>#30_Rosemary_Street</value>
+            <value>#Brooklyn_House</value>
+            <value>#Lancaster_House</value>
+            <value>#1_Dame_Street</value>
+            <value>#42_Lower_Baggot_Street</value>
+            <value>#James_Street</value>
+            <value>#Aldergrove</value>
+            <value>#Chancery_Lane</value>
+            <value>#Annesley_Place_1</value>
+            <value>#26_Crescent_Villas</value>
+            <value>#32_Hollybank_Avenue</value>
+            <value>#Crescent_View</value>
+            <value>#12_Mountain_View_Road</value>
+            <value>#4_cloughmore</value>
+            <value>#12_John_Street</value>
+            <value>#Travena</value>
+            <value>#4_Downside_Crescent</value>
+            <value>#24_Alma_Rd</value>
+            <value>#87_Clements_Inn</value>
+            <value>#Mount_Mapas_Killiney</value>
+            <value>#39_Leeson_Park</value>
+            <value>#Malabar_Ballsbridge</value>
+            <value>#Mount_Saint_Joseph_Abbey</value>
+            <value>#33_Victoria_Terrace</value>
+            <value>#21_Brook_Street</value>
+            <value>#Glenbane</value>
+            <value>#45_North_Strand</value>
+            <value>#31_The_Park</value>
+            <value>#Nobber_Railway_Station</value>
+            <value>#Lismacaffrey</value>
+            <value>#Westmoreland_Street_N</value>
+            <value>#12_Brighton_Vale</value>
+            <value>#9_Garville_Road</value>
+            <value>#6_Bouverie_Street</value>
+            <value>#11_Mountpleasant_Square</value>
+            <value>#443_South_Dearborn_Street</value>
+            <value>#Cashio_Lane</value>
+            <value>#Kildare_Place_2</value>
+            <value>#30_Blackfriars_Street</value>
+            <value>#Clongarry</value>
+            <value>#Dunowen</value>
+            <value>#1525_Queens_Street</value>
+            <value>#Heywood</value>
+            <value>#Trevena</value>
+            <value>#George_Street_55</value>
+            <value>#Winchester_House_343</value>
+            <value>#Sunday's_Well</value>
+            <value>#2_Darmouth_Square</value>
+            <value>#144_Leinster_Road</value>
+            <value>#43_Belvedere_Place</value>
+            <value>#79_Alderley_Road</value>
+            <value>#John's_Place</value>
+            <value>#15_Denny_Street</value>
+            <value>#163_Rathgar_Road</value>
+            <value>#Maryborough</value>
+            <value>#12_D'Olier_Street</value>
+            <value>#6_Westland_Row</value>
+            <value>#Shamerock_Terrace</value>
+            <value>#Beauparc</value>
+            <value>#60_Dawson_Street</value>
+            <value>#7_Columbia_Place</value>
+            <value>#41_York_Street</value>
+            <value>#Seafield_House_Bangor</value>
+            <value>#10_Pembroke_Road</value>
+            <value>#59_Upper_Stephens_Street</value>
+            <value>#Sandymount_Avenue_16</value>
+            <value>#11_Frankfort_Avenue</value>
+            <value>#16_Rathmines_Road</value>
+            <value>#Bank_of_Ireland</value>
+            <value>#Royal_College_of_Physicians</value>
+            <value>#40_Harcourt_Street</value>
+            <value>#Croydon</value>
+            <value>#Somerset_House</value>
+            <value>#22_Brookfield_Terrace</value>
+            <value>#Upper_Tooting</value>
+            <value>#14_Hatch_Street</value>
+            <value>#St_Patrick's_Cathedral</value>
+            <value>#67_Lower_Mount_Street</value>
+            <value>#Royal_College_of_Surgeons</value>
+            <value>#New_Scotland_Yard</value>
+            <value>#Heathfield</value>
+            <value>#Sir_Patrick_Dun's_Hospital</value>
+            <value>#Ulster_Bank</value>
+            <value>#3rd_London_General_Hopsital</value>
+            <value>#Ferncraig</value>
+            <value>#7_West_Cliff</value>
+            <value>#No_16_General Hospital</value>
+            <value>#15th_General</value>
+            <value>#Strand_Palace_Hotel</value>
+            <value>#Buckingham_Palace</value>
+            <value>#Seacourt</value>
+            <value>#Waterloo</value>
+            <value>#Jermyn_Court_Hotel</value>
+            <value>#Crumlin_Road</value>
+            <value>#17_Rue_de_lAnnonciation</value>
+            <value>#Palo_Alto</value>
+            <value>#Iowa</value>
+            <value># Dubuque</value>
+            <value>#43_Moyne_Road</value>
+            <value>#10_Adelphi_Terrace</value>
+            <value>#58_Dame_Street</value>
+            <value>#5_Stamford_Hill</value>
+            <value>#36_Foxbourne_Road</value>
+            <value>#27_Upper_Merrrion_Street</value>
+            <value>#38_Merrion_Square</value>
+            <value>#154_High_Road</value>
+            <value>#16_Cleveland_Road</value>
+            <value>#Hillmount</value>
+            <value>#5_Gardiner_Row</value>
+            <value>#King_George_Hospital</value>
+            <value>#National_Liberal_Club</value>
+            <value>#Gresham_Hotel</value>
+            <value>#2_South_Circular_Road</value>
+            <value>#34_St_Stephen's_Green</value>
+            <value>#35_St_Stephen's_Green</value>
+            <value>#Castlemaine_Avenue</value>
+            <value>#18_Merrion_Square</value>
+            <value>#The_Lord_Derby_War_Hospital</value>
+            <value>#83_Pall_Mall</value>
+            <value>#Ivanhoe</value>
+            <value>#Cashel</value>
+            <value>#Heathfield</value>
+            <value>#Branch_Medical_Council</value>
+            <value>#Marsden_Gardens_43</value>
+            <value>#North_Infirmary</value>
+            <value>#Barrington's_Hospital</value>
+            <value>#South_Charitable_Infirmary_and_County_Hospital</value>
+            <value>#Royal_Victoria_Hospital</value>
+            <value>#44_Hallam_Street</value>
+            <value>#Elpis</value>
+            <value>#Guy's_Hospital</value>
+            <value>#Whitley_Camp</value>
+            <value>#Guadaloupe_Barracks</value>
+            <value>#Melrose</value>
+            <value>#National_Health_Insurance_Commission</value>
+            <value>#39_Belgrave_Square</value>
+            <value>#10_Cadogan_Gardens</value>
+            <value>#Town_Hall</value>
+            <value>#1_Warwick_Terrace</value>
+            <value>#Rose_Villa</value>
+            <value>#War_Office</value>
+            <value>#Burring_Place</value>
+            <value>#Bordon_Camp</value>
+            <value>#Westminster</value>
+            <value>#Foilnadrough</value>
+            <value>#Inis_Mor</value>
+            <value>#Crossna</value>
+            <value>#Harbour_Office</value>
+            <value>#Palmerstown_Villas_8</value>
+            <value>#University_College_Dublin</value>
+            <value>#Annesley_House</value>
+            <value>#Ruskin_House</value>
+            <value>#South_End_19</value>
+            <value>#Beltra</value>
+            <value>#Old_Ford_Road_400</value>
+            <value>#Station_Road_4</value>
+            <value>#Cresent_View</value>
+            <value>#House_of_Commons</value>
+            <value>#The_Hut</value>
+            <value>#Richmond_Road_62</value>
+            <value>#Reading_Gaol</value>
+            <value>#South_Anne_Street_29</value>
+            <value>#Main_Street</value>
+            <value>#Ministry_of_Munitions</value>
+            <value>#Dolier_Street_12</value>
+            <value>#Downing_Street_10</value>
+            <value>#Nelson_Street</value>
+            <value>#Staughton's_Row</value>
+            <value>#The_Presbytery</value>
+            <value>#Forbes_House</value>
+            <value>#Dame_Street</value>
+            <value>#Upper_Merrion_Street_24</value>
+            <value>#Brewsterfield</value>
+            <value>#The_Green</value>
+            <value>#Shorncliffe</value>
+            <value>#H.M.S_Excellent</value>
+            <value>#Greenview_Terrace</value>
+            <value>#Palmerstown</value>
+            <value>#Home_Office</value>
+            <value>#Bride_Street</value>
+            <value>#Milltown</value>
+            <value>#Paisley</value>
+            <value>#Grand_Hotel_Malahide</value>
+            <value>#Irish_Office</value>
+            <value>#No_32_Nassau_Street</value>
+            <value>#No_43_Merrion_Square</value>
+            <value>#CrownSolicitorsOffice_Naas</value>
+            <value>#Verona_Esplanade_4</value>
+            <value>#Kilrush</value>
+            <value>#Bantry</value>
+            <value>#CharlemontHouse</value>
+            <value>#DepartmentAgriculture</value>
+            <value>#Caulstone</value>
+            <value>#Castlerea</value>
+            <value>#Dunmore</value>
+            <value>#Douglas_Rectory</value>
+            <value>#HillPublishingCompany</value>
+            <value>#CityHall</value>
+            <value>#CommissioningOffice</value>
+            <value>#Grosvenor_Place_11</value>
+            <value>#Mount_Temple_Terrace_7</value>
+            <value>#Coolbanagher_Rectory</value>
+            <value>#Kansas_Avenue_72</value>
+            <value>#Westmoreland_Street_34</value>
+            <value>#Hardwicke_Street</value>
+            <value>#Lower_Ormond_Quay_7</value>
+            <value>#Grosvenor_Square_57</value>
+            <value>#Post_Office</value>
+            <value>#Ards</value>
+            <value>#Ballyledder</value>
+            <value>#The_Square</value>
+            <value>#Macroom</value>
+            <value>#Belgrave_Square_39</value>
+            <value>#Rose_Cottage</value>
+            <value>#CityHallCork</value>
+            <value>#StJohnsGardens</value>
+            <value>#OPW_Dublin</value>
+            <value>#Gullane</value>
+            <value>#Cornhill</value>
+            <value>#Bleak_House</value>
+            <value>#Parliament_Street</value>
+            <value>#Knockaville</value>
+            <value>#Lahardane</value>
+            <value>#Hyde_Park_Gardens_24</value>
+            <value>#Vigo_Street</value>
+            <value>#Halston</value>
+            <value>#Monacherra</value>
+            <value>#Town_Hall_Waterford</value>
+            <value>#St_Stephen's_Green_34</value>
+            <value>#The_Palace</value>
+            <value>#Courthouse</value>
+            <value>#Black_Lion_House</value>
+            <value>#Ballinaparka</value>
+            <value>#Caseys_Cottages_3</value>
+            <value>#District_Asylum_Killarney</value>
+            <value>#Pall_Mall_83</value>
+            <value>#Gneeveguilla</value>
+            <value>#Mercy_Hospital</value>
+            <value>#New_Street_3</value>
+            <value>#Ashfield_Lodge</value>
+            <value>#Galgorm_Castle</value>
+            <value>#Lord_Derby_War_Hospital</value>
+            <value>#Marcus_Square_6</value>
+            <value>#Longwood_Avenue_18</value>
+            <value>#Upper_Merrion_Street</value>
+            <value>#Nenagh</value>
+            <value>#Carysfort_Ave_12</value>
+            <value>#General_Hospital_3</value>
+            <value>#Lunarton</value>
+            <value>#Archbishop_House_Bombay</value>
+            <value>#Tullow_Street_67</value>
+            <value>#New_Ross</value>
+            <value>#Westmoreland_Street_25</value>
+            <value>#English_Street</value>
+            <value>#Old_Queen_St</value>
+            <value>#Bouverie_Street_6</value>
+            <value>#Custom_House</value>
+            <value>#Brailsford_Rd_32</value>
+            <value>#Albert_Agricultural_College</value>
+            <value>#Raheenahone</value>
+            <value>#Mesopotamia</value>
+            <value>#Bombay</value>
+            <value>#Waterloo_Rd_41</value>
+            <value>#Killarney_Workhouse</value>
+            <value>#Basra</value>
+            <value>#Broad_Street</value>
+            <value>#Old_Town_Hall</value>
+            <value>#Garville_Rd_9</value>
+            <value>#Charles_Street</value>
+            <value>#Royal_Ave_51</value>
+            <value>#British_Embassy_USA</value>
+            <value>#Lower_Mount_St_27</value>
+            <value>#Capel_Street</value>
+            <value>#Moor_Park</value>
+            <value>#GHQ_BEF</value>
+            <value>#Middle_Abbey_Street_68</value>
+            <value>#Commissioners_Office_Belfast</value>
+            <value>#Ballinlug</value>
+            <value>#Marys_Road</value>
+            <value>#Royal_Hospital_Kilmainham</value>
+            <value>#South_Mall_39</value>
+            <value>#Agda_Camp</value>
+            <value>#Wharncliffe_War_Hospital</value>
+            <value>#Malone_Park_19</value>
+            <value>#Lisvarna</value>
+            <value>#Rawal_Pindi_Club</value>
+            <value>#Slieve-na-Failthe</value>
+            <value>#Enniskillen</value>
+            
+          </choice>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <element name="country">
+            <data type="NCName"/>
+          </element>
+          <element name="region">
+            <text/>
+          </element>
+          <element name="settlement">
+            <data type="NCName"/>
+          </element>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+
+
+  <define name="unclear">
+    <element name="unclear">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="add"/>
+          <ref name="hi"/>
+          <ref name="breaks"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="hi">
+    <element name="hi">
+      <attribute name="rend">
+        <choice>
+          <value>superscript</value>
+          <value>underline</value>
+        </choice>
+      </attribute>
+      <oneOrMore>
+        <choice>
+          <ref name="del"/>
+          <ref name="add"/>
+          <ref name="hi"/>
+          <ref name="sic"/>
+          <ref name="unclear"/>
+          <ref name="lb"/>
+          <text/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="foreign">
+    <element name="foreign">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="lineLevel"/>
+          <ref name="breaks"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="lb">
+    <element name="lb">
+      <empty/>
+      <optional>
+        <attribute name="rend">
+          <choice>
+            <value>hyphen</value>
+            <value>permanent</value>
+          </choice>
+        </attribute>
+      </optional>
+    </element>
+  </define>
+  <define name="cb">
+    <element name="cb">
+      <empty/>
+    </element>
+  </define>
+  <define name="pb">
+    <element name="pb">
+      <attribute name="facs">
+        <data type="string">
+          <param name="pattern">#L19[1-2][01236789]_[0-9]+_img_[0-9]+[a-z]?</param>
+        </data>
+      </attribute>
+      <attribute name="n">
+        <data type="integer"/>
+      </attribute>
+    </element>
+  </define>
+  <define name="ab">
+    <element name="ab">
+      <oneOrMore>
+        <choice>
+          <ref name="address"/>
+          <ref name="name"/>
+          <ref name="lb"/>
+          <ref name="foreign"/>
+          <ref name="lineLevel"/>
+          <text/>
+        </choice>
+      </oneOrMore>
+      <optional>
+        <attribute name="type">
+          <choice>
+            <value>prePrinted-Text</value>
+          </choice>
+        </attribute>
+      </optional>
+    </element>
+  </define>
+  <define name="head">
+    <element name="head">
+      <oneOrMore>
+        <choice>
+          <ref name="hi"/>
+
+          <ref name="del"/>
+
+          <ref name="add"/>
+
+          <ref name="lb"/>
+
+          <text/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="opener">
+    <element name="opener">
+      <oneOrMore>
+        <choice>
+          <ref name="address"/>
+          <ref name="dateline"/>
+          <ref name="name"/>
+          <ref name="salute"/>
+          <ref name="hi"/>
+          <ref name="lb"/>
+          <ref name="cb"/>
+          <ref name="gap"/>
+          <ref name="unclear"/>
+          <ref name="foreign"/>
+          <text/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="closer">
+    <element name="closer">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="salute"/>
+          <ref name="breaks"/>
+          <ref name="lineLevel"/>
+          <ref name="signed"/>
+          <ref name="address"/>
+          <ref name="dateline"/>
+          <ref name="gap"/>
+        </choice>
+      </oneOrMore>
+
+    </element>
+  </define>
+  <define name="salute">
+    <element name="salute">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="foreign"/>
+          <ref name="hi"/>
+          <ref name="lb"/>
+          <ref name="unclear"/>
+          <ref name="sic"/>
+          <ref name="gap"/>
+          <ref name="add"/>
+          <ref name="del"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="signed">
+    <element name="signed">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="unclear"/>
+          <ref name="hi"/>
+          <ref name="lb"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="div">
+    <element name="div">
+      <attribute name="type">
+        <choice>
+          <value>message</value>
+          <value>imageCaption</value>
+          <value>address</value>
+        </choice>
+      </attribute>
+      <zeroOrMore>
+        <choice>
+          <ref name="fw"/>
+          <ref name="head"/>
+          <ref name="note"/>
+        </choice>
+      </zeroOrMore>
+      <optional>
+        <ref name="opener"/>
+      </optional>
+      <zeroOrMore>
+        <choice>
+          <ref name="note"/>
+          <ref name="ab"/>
+          <ref name="p"/>
+          <ref name="breaks"/>
+        </choice>
+      </zeroOrMore>
+      <optional>
+        <ref name="closer"/>
+      </optional>
+
+      <zeroOrMore>
+        <choice>
+          <ref name="breaks"/>
+          <ref name="note"/>
+          <ref name="postscript"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+
+  <define name="text">
+    <element name="text">
+      <ref name="group"/>
+    </element>
+  </define>
+
+  <define name="innerText">
+    <element name="text">
+      <ref name="textAttr"/>
+    </element>
+  </define>
+
+
+
+  <define name="group">
+    <element name="group">
+      <zeroOrMore>
+        <choice>
+          <zeroOrMore>
+            <ref name="pb"/>
+          </zeroOrMore>
+          <oneOrMore>
+            <ref name="innerText"/>
+          </oneOrMore>
+        </choice>
+      </zeroOrMore>
+
+    </element>
+  </define>
+
+  <define name="fw">
+    <element name="fw">
+      <attribute name="type">
+        <value>prePrinted-Text</value>
+      </attribute>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="hi"/>
+          <ref name="lb"/>
+          <ref name="sic"/>
+          <ref name="del"/>
+          <ref name="add"/>
+          <ref name="address"/>
+          <ref name="foreign"/>
+        </choice>
+      </oneOrMore>
+
+    </element>
+  </define>
+
+  <define name="postscript">
+    <element name="postscript">
+      <oneOrMore>
+        <choice>
+          <ref name="p"/>
+          <ref name="lb"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+
+  <define name="add">
+    <element name="add">
+      <optional>
+        <attribute name="place">
+          <value>margin</value>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <ref name="unclear"/>
+          <ref name="hi"/>
+          <ref name="sic"/>
+          <ref name="address"/>
+          <ref name="lb"/>
+          <text/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+
+  <define name="del">
+    <element name="del">
+      <oneOrMore>
+        <choice>
+          <ref name="lb"/>
+          <text/>
+          <ref name="hi"/>
+          <ref name="time"/>
+          <ref name="gap"/>
+          <ref name="unclear"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+
+  <define name="sic">
+    <element name="sic">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="lb"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+
+  <define name="gap">
+    <element name="gap">
+      <empty/>
+    </element>
+  </define>
+
+  <define name="dateline">
+    <element name="dateline">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="date"/>
+          <ref name="foreign"/>
+          <ref name="del"/>
+          <ref name="unclear"/>
+          <ref name="hi"/>
+          <ref name="time"/>
+
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="graphic">
+    <element name="graphic">
+      <attribute name="url"/>
+      <attribute>
+        <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+        <data type="NCName"/>
+      </attribute>
+    </element>
+  </define>
+
+  <define name="textAttr" combine="choice">
+    <attribute name="type">
+      <choice>
+        <value>letter</value>
+        <value>envelope</value>
+        <value>telegram</value>
+      </choice>
+    </attribute>
+    <attribute name="decls"> </attribute>
+    <ref name="bodyNoDiv"/>
+  </define>
+
+  <define name="textAttr" combine="choice">
+    <attribute name="type">
+      <choice>
+        <value>additional</value>
+        <value>document</value>
+        <value>picture</value>
+      </choice>
+    </attribute>
+    <optional>
+      <attribute name="decls"/>
+    </optional>
+    <ref name="bodyNoDiv"/>
+  </define>
+
+
+  <define name="textAttr" combine="choice">
+    <attribute name="type">
+      <choice>
+        <value>postcard</value>
+      </choice>
+    </attribute>
+    <attribute name="decls"/>
+    <ref name="bodyDiv"/>
+  </define>
+
+  <define name="bodyNoDiv">
+    <element name="body">
+      <zeroOrMore>
+        <choice>
+          <ref name="fw"/>
+          <ref name="note"/>
+          <ref name="head"/>
+        </choice>
+      </zeroOrMore>
+      <optional>
+        <ref name="opener"/>
+      </optional>
+      <choice>
+        <ref name="ab"/>
+        <ref name="p"/>
+      </choice>
+      <zeroOrMore>
+        <choice>
+          <ref name="note"/>
+          <ref name="ab"/>
+          <ref name="p"/>
+          <ref name="breaks"/>
+        </choice>
+      </zeroOrMore>
+      <optional>
+        <ref name="closer"/>
+      </optional>
+      <zeroOrMore>
+        <choice>
+          <ref name="breaks"/>
+          <ref name="note"/>
+          <ref name="postscript"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+
+  <define name="bodyDiv">
+    <element name="body">
+      <oneOrMore>
+        <choice>
+          <ref name="div"/>
+          <ref name="pb"/>
+          <ref name="cb"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+
+  <define name="persName">
+    <element name="persName">
+      <attribute name="ref">
+        <choice>
+          <value>#Holahan_P</value>
+          <value>#Albert_x</value>
+          <value>#K_B_x</value>
+          <value>#Davin_M</value>
+          <value>#Kibble_F</value>
+          <value>#Walsh_T</value>
+          <value>#Campbell_N</value>
+          <value>#Malone_M</value>
+          <value>#Weddall_E</value>
+          <value>#Mary_x</value>
+          <value>#Gilbert_E_N</value>
+          <value>#Madeleine_x</value>
+          <value>#ORiordan_M</value>
+          <value>#OSuilleabhain_P</value>
+          <value>#OMahony_J</value>
+          <value>#OShea_J_C</value>
+          <value>#Taylor_F_M</value>
+          <value>#Kelly_E_A</value>
+          <value>#Florence</value>
+          <value>#ORahilly_N</value>
+          <value>#deBuitleir_M</value>
+          <value>#McGowan_E_E</value>
+          <value>#Schmutz_A</value>
+          <value>#Chief_Constable</value>
+          <value>#Prison_Warden</value>
+          <value>#Kelly_T</value>
+          <value>#Duffy_J_et_Co</value>
+          <value>#Duke_H_E</value>
+          <value>#OBriain_L</value>
+          <value>#Curran_A</value>
+          <value>#Teebay_K</value>
+          <value>#Killacky_x</value>
+          <value>#Coyle_C_M</value>
+          <value>#Lemass_H</value>
+          <value>#Fletcher-Vane_F_P</value>
+          <value>#Brade_R</value>
+          <value>#A_W_S_x</value>
+          <value>#Macoun_x</value>
+          <value>#NiAine_S</value>
+          <value>#Johnson_J_R</value>
+          <value>#Downing_F_A</value>
+          <value>#Mahaul_B_N</value>
+          <value>#Miles_W_P</value>
+          <value>#Kalia_D_R</value>
+          <value>#Turpin_H</value>
+          <value>#Blake_and_Kenny</value>
+          <value>#Preston_M_N</value>
+          <value>#Woodman_A</value>
+          <value>#Seagda_Ua</value>
+          <value>#Daly_M</value>
+          <value>#Ryan_x</value>
+          <value>#Maggie_x</value>
+          <value>#Cromien_J</value>
+          <value>#War_Employments_Inspector_x</value>
+          <value>#Aston_E_A</value>
+          <value>#Thompson_J</value>
+          <value>#Officer_Commander_IV</value>
+          <value>#Griffith_J</value>
+          <value>#Curtin_D_G</value>
+          <value>#Moynihan_M</value>
+          <value>#Moynihan_J</value>
+          <value>#Moran_M</value>
+          <value>#Gus_x</value>
+          <value>#Harris_H_E</value>
+          <value>#Lords_Justices_x</value>
+          <value>#McAllister_x</value>
+          <value>#Pomeroy_R_T</value>
+          <value>#Walsh_J</value>
+          <value>#Gaughan_L</value>
+          <value>#Miller_W</value>
+          <value>#McLoughlin_J</value>
+          <value>#John McLoughlin</value>
+          <value>#Chief_Secretary_x</value>
+          <value>#Whitlock_E</value>
+          <value>#Kennard_H_G</value>
+          <value>#StratfordBurton_G</value>
+          <value>#Hutchinson_R</value>
+          <value>#OFlanagan_M</value>
+          <value>#ODonnell_M_J</value>
+          <value>#Quin_M_J</value>
+          <value>#Halton_A</value>
+          <value>#Fogarty_M</value>
+          <value>#Cavanagh_M</value>
+          <value>#Royal_Library_of_Belgium</value>
+          <value>#ONolan_M</value>
+          <value>#Commanding_Officer_x</value>
+          <value>#OGrady_x</value>
+          <value>#Mattei_M</value>
+          <value>#Clark_J_J</value>
+          <value>#Harden_D</value>
+          <value>#Harden_S</value>
+          <value>#Citroen_M</value>
+          <value>#Houd_F_L_C</value>
+          <value>#Anderson_R</value>
+          <value>#Anderson_W_C</value>
+          <value>#Andrewes_E_A</value>
+          <value>#De_Buitleir_N</value>
+          <value>#Hyder_C_J</value>
+          <value>#Miss_Macoun_x</value>
+          <value>#Fellenberg_Montgomery_H</value>
+          <value>#Nolan_A</value>
+          <value>#Coote_W</value>
+          <value>#Dixon_M</value>
+          <value>#OCallaghan_P</value>
+          <value>#Crawford_Wright_M</value>
+          <value>#T_x</value>
+          <value>#Sister_Mangan</value>
+          <value>#Reidy_J</value>
+          <value>#Blackwood_B</value>
+          <value>#Barry_T</value>
+          <value>#MacCurtain_T</value>
+          <value>#Reade_E</value>
+          <value>#MacDermott_S</value>
+          <value>#Botha_L</value>
+          <value>#Burns_J_T</value>
+          <value>#Burns_J</value>
+          <value>#Harcourt_L</value>
+          <value>#Andrews_E_H</value>
+          <value>#Maloney_J</value>
+          <value>#Heath_T_L</value>
+          <value>#Chapman_E_L</value>
+          <value>#Command_Paymaster_x</value>
+          <value>#WorthyHorne_L</value>
+          <value>#Barklie_J</value>
+          <value>#Acting_Secretary_x</value>
+          <value>#Troup_E</value>
+          <value>#Sheehy_Skeffington_H</value>
+          <value>#Dillon_J</value>
+          <value>#MacNamara_T</value>
+          <value>#Major_General_x</value>
+          <value>#ODonoghue_P</value>
+          <value>#Secretary_Irish_Office_x</value>
+          <value>#SmithWright_J_H</value>
+          <value>#Garvey_T_B</value>
+          <value>#KingIrvine_R</value>
+          <value>#Kinsella_M</value>
+          <value>#McKinnonWood_T</value>
+          <value>#Gorman_M</value>
+          <value>#Fitzgerald_S</value>
+          <value>#Ward_B</value>
+          <value>#Burns_John</value>
+          <value>#Dolan_M_pte</value>
+          <value>#Ribhogh_ni_m</value>
+          <value>#Ceannt_E</value>
+          <value>#FitzGerald_M</value>
+          <value>#Dyer_P</value>
+          <value>#OConnor_J</value>
+          <value>#Brennan_J</value>
+          <value>#Brown_M</value>
+          <value>#Brown_N</value>
+          <value>#Brown_L</value>
+          <value>#Bulfin_E</value>
+          <value>#Malony_H</value>
+          <value>#Doyle_S</value>
+          <value>#Hely_Ltd</value>
+          <value>#MacDonagh_M</value>
+          <value>#MacDonagh_J</value>
+          <value>#Asquith_H_H</value>
+          <value>#OShea_J</value>
+          <value>#Horan_G</value>
+          <value>#Blythe_E</value>
+          <value>#Stack_A</value>
+          <value>#Law_H</value>
+          <value>#English_D</value>
+          <value>#Redmond_J</value>
+          <value>#Blythe_H</value>
+          <value>#Manager_Irish_Independent_x</value>
+          <value>#White_G_H</value>
+          <value>#De_Valera_S</value>
+          <value>#Campbell_xx</value>
+          <value>#Rundle_W_J</value>
+          <value>#Wheelwright_C</value>
+          <value>#Wheelwright_T</value>
+          <value>#Flanagan_M</value>
+          <value>#Johnson_G_R</value>
+          <value>#Bigge_A</value>
+          <value>#Bonham_Carter_M</value>
+          <value>#French_J</value>
+          <value>#Muldoon_J</value>
+          <value>#Vickery_E</value>
+          <value>#Secretary_Chief_Commissioner_of_Police</value>
+          <value>#Denis_X</value>
+          <value>#NiSheaghda_E</value>
+          <value>#McDonough_M_B</value>
+          <value>#McDonough_Mu</value>
+          <value>#Lloyd_George_D</value>
+          <value>#Dunne_J_J</value>
+          <value>#Sister_Cyprian_M</value>
+          <value>#Miss_Griffin_x</value>
+          <value>#MacDonagh_Jos</value>
+          <value>#MacDonagh_Jo</value>
+          <value>#MacDonagh_Mu</value>
+          <value>#Shorter_D</value>
+          <value>#Johnson_J</value>
+          <value>#Mahony_J_J</value>
+          <value>#Shekleton_S_J</value>
+          <value>#Shekleton_H</value>
+          <value>#OHegarty_P_S</value>
+          <value>#Carroll_P_A</value>
+          <value>#Rainey_J_W</value>
+          <value>#Ryan_J</value>
+          <value>#Clerk_Crown_and_Peace_County_Down</value>
+          <value>#OBrien_Moran_H</value>
+          <value>#Chamberlain_N</value>
+          <value>#McWeeney_E_J</value>
+          <value>#OFarrell_E</value>
+          <value>#Dowdall_J</value>
+          <value>#Swift_MacNeill_J_G</value>
+          <value>#Farrell_J_J</value>
+          <value>#Mangan_D</value>
+          <value>#ORahilly_B</value>
+          <value>#MFadyen_Brown_J</value>
+          <value>#Campbell_x</value>
+          <value>#Laurenson_R_V</value>
+          <value>#Judd_C_F</value>
+          <value>#Martina_S_M</value>
+          <value>#Hogan_K</value>
+          <value>#Jephson_A</value>
+          <value>#Curry_M</value>
+          <value>#Gore_Booth_E</value>
+          <value>#Farrell_J_J_et_al</value>
+          <value>#Wynne_H_A</value>
+          <value>#Fitzgerald_Barry_R</value>
+          <value>#OModhrain_E</value>
+          <value>#Sweetman_J</value>
+          <value>#Wray_S_A</value>
+          <value>#Brown_R</value>
+          <value>#Dunlop_R</value>
+          <value>#Hogan_J_F</value>
+          <value>#Waters_J</value>
+          <value>#ODonnell_F</value>
+          <value>#Boase_G</value>
+          <value>#Teresa_S</value>
+          <value>#Stone_E_D</value>
+          <value>#Duffy_G</value>
+          <value>#Colbert_L</value>
+          <value>#ODuibhguin_M</value>
+          <value>#Daly_J</value>
+          <value>#MacDermot_P_C</value>
+          <value>#Moorhead_J_R</value>
+          <value>#Browne_F_M</value>
+          <value>#Monteith_M_F</value>
+          <value>#Anthony_M</value>
+          <value>#Davidson_J</value>
+          <value>#Burke_M_J</value>
+          <value>#Nally_T</value>
+          <value>#Nally_N</value>
+          <value>#Connolly_W_M</value>
+          <value>#Connolly_J</value>
+          <value>#Goodman_W</value>
+          <value>#Lambton_A</value>
+          <value>#Lambton_J</value>
+          <value>#Cork_Citizens</value>
+          <value>#Governor_Richmond_Barracks_x</value>
+          <value>#Talbot_T</value>
+          <value>#May_x</value>
+          <value>#Governor_Dartmoor_Prison_x</value>
+          <value>#Eyre_J</value>
+          <value>#Bowes_W</value>
+          <value>#Mumford_C</value>
+          <value>#Wynne_S_S</value>
+          <value>#Fenlons_x</value>
+          <value>#Blackwell_E</value>
+          <value>#Lindley_F_O</value>
+          <value>#Miley_J</value>
+          <value>#Duffin_D</value>
+          <value>#Duffin_M</value>
+          <value>#Hanely_H_H</value>
+          <value>#Hamilton_E_G</value>
+          <value>#Shaw_F</value>
+          <value>#Lynn_R_J</value>
+          <value>#MacDonnell_H</value>
+          <value>#OBrien_N</value>
+          <value>#Groom_C_D</value>
+          <value>#Duffin_Ed</value>
+          <value>#Duffin_T</value>
+          <value>#ODriscoll_G</value>
+          <value>#Stanley_J_M</value>
+          <value>#Mr_Walker</value>
+          <value>#PlunkettDillon_G</value>
+          <value>#Plunkett_G_N</value>
+          <value>#McBrien_P</value>
+          <value>#OLoughlin_E</value>
+          <value>#OLoughlin_P</value>
+          <value>#Moore_M</value>
+          <value>#Private_Cahill</value>
+          <value>#Furise_R</value>
+          <value>#Leigh_White_A</value>
+          <value>#Bannister_G</value>
+          <value>#Caldwell_F</value>
+          <value>#Bradley_J</value>
+          <value>#Mahoney_M</value>
+          <value>#Fay_M</value>
+          <value>#Finn_J</value>
+          <value>#Lennon_W_S</value>
+          <value>#Lyden_x</value>
+          <value>#J_B_x</value>
+          <value>#Power_x</value>
+          <value>#Langan_J</value>
+          <value>#Power_C</value>
+          <value>#Power_K</value>
+          <value>#Farrelly_M</value>
+          <value>#Sheehan_G</value>
+          <value>#Carphin_J</value>
+          <value>#Guiness_P</value>
+          <value>#Nevinson_H_W</value>
+          <value>#Jackson_J</value>
+          <value>#Green_M</value>
+          <value>#Carphin_P_B</value>
+          <value>#deValera_E</value>
+          <value>#Walsh_E</value>
+          <value>#Heuston_J_J</value>
+          <value>#NiCathain_M</value>
+          <value>#Mr_Dolan</value>
+          <value>#MacDonagh_J</value>
+          <value>#Allan_F_J</value>
+          <value>#Arkwright_M</value>
+          <value>#Beazley_N</value>
+          <value>#Beazley_N</value>
+          <value>#Beazley_P</value>
+          <value>#Beazley_P_L</value>
+          <value>#Brabazon_R</value>
+          <value>#Brady_K</value>
+          <value>#Calnan_M</value>
+          <value>#Wimborne_L</value>
+          <value>#Crean_J</value>
+          <value>#Coffey_J</value>
+          <value>#Collins_M</value>
+          <value>#M_S_x</value>
+          <value>#Commandant_Richmond_Barracks</value>
+          <value>#Corrigan_E</value>
+          <value>#Dillon_A_C</value>
+          <value>#Dillon_L_G</value>
+          <value>#Dillon_R_E</value>
+          <value>#Doherty_L</value>
+          <value>#Doyle_M_F</value>
+          <value>#GavanDuffy_G</value>
+          <value>#GavanDuffy_M</value>
+          <value>#General_Military_Order</value>
+          <value>#General_Officer</value>
+          <value>#Hickey_R</value>
+          <value>#Jim_x_0</value>
+          <value>#Chenevix_Trench_C</value>
+          <value>#Chenevix_Trench_R</value>
+          <value>#Mooney_P</value>
+          <value>#Mooney_K</value>
+          <value>#Grey_E</value>
+          <value>#Schilling_A</value>
+          <value>#Londonderry_L</value>
+          <value>#Fitzmaurice_H</value>
+          <value>#Montgomery_W</value>
+          <value>#Montgomery_H_H</value>
+          <value>#Montgomery_S</value>
+          <value>#Davidson_C_M</value>
+          <value>#Johnson_H_A</value>
+          <value>#Nolan_T_V</value>
+          <value>#Wrafter_J</value>
+          <value>#Roche_D</value>
+          <value>#Duffin_O</value>
+          <value>#Duffin_R</value>
+          <value>#Castletown_L</value>
+          <value>#Bellew_G</value>
+          <value>#Morris_P</value>
+          <value>#Owens_R_L</value>
+          <value>#Guinell_A</value>
+          <value>#D_M_R_x</value>
+          <value>#Mangan_E</value>
+          <value>#Furey_T</value>
+          <value>#Joe</value>
+          <value>#Kelly_M</value>
+          <value>#Kenny_M</value>
+          <value>#M_x</value>
+          <value>#MacDonagh_J</value>
+          <value>#MacDonagh_M</value>
+          <value>#MacNeill_E</value>
+          <value>#Mary_M_x</value>
+          <value>#miss_Ryan</value>
+          <value>#Moore_B_Fr</value>
+          <value>#Moran_E</value>
+          <value>#Moran_L</value>
+          <value>#Mr_Oliver</value>
+          <value>#Mrs_Budson</value>
+          <value>#Mrs_Corrigan</value>
+          <value>#Mrs_Tweedy</value>
+          <value>#Murnane_E_F</value>
+          <value>#Murphy_L</value>
+          <value>#ODoherty_K</value>
+          <value>#OSullivan_P</value>
+          <value>#Plunkett_J</value>
+          <value>#Quinn_J</value>
+          <value>#Russell_G</value>
+          <value>#Ryan_J</value>
+          <value>#Seaghan_Z</value>
+          <value>#Stephens_J</value>
+          <value>#Triston_W_P</value>
+          <value>#Watters_L_J</value>
+          <value>#Wynne_A_A</value>
+          <value>#Wynne_E_A</value>
+          <value>#A_H</value>
+          <value>#ArmyVeterinaryService</value>
+          <value>#Barton_R_C</value>
+          <value>#Birrell_A</value>
+          <value>#Bowen_P_B</value>
+          <value>#Brade_W_H</value>
+          <value>#Brennan_V</value>
+          <value>#BrotherPius</value>
+          <value>#Burke_M_J</value>
+          <value>#Burrows_W</value>
+          <value>#Byrne_A</value>
+          <value>#Azam_S_M</value>
+          <value>#Campbell_Gordon_J</value>
+          <value>#Gordon_J</value>
+          <value>#Campbell_RIC</value>
+          <value>#Casement_A</value>
+          <value>#Casement_R</value>
+          <value>#Ceannt_A</value>
+          <value>#Chalmers_R</value>
+          <value>#Clarke_T_J</value>
+          <value>#Coffey_D</value>
+          <value>#Coffey_V</value>
+          <value>#Colbert_C</value>
+          <value>#Crawford_A_G</value>
+          <value>#Crawford_F_H</value>
+          <value>#Hutchinson_R_G</value>
+          <value>#Maguire_B</value>
+          <value>#Hely_Hutchinson_R</value>
+          <value>#Crofton_H_A</value>
+          <value>#Crumley_Pat</value>
+          <value>#Davidson_S_C</value>
+          <value>#Dawson_W_R</value>
+          <value>#Dolan_T</value>
+          <value>#Dowell_A</value>
+          <value>#Carson_R</value>
+          <value>#Doyle_W_Fr</value>
+          <value>#Duffin_C</value>
+          <value>#Duffin_E</value>
+          <value>#Duffin_H</value>
+          <value>#Dunn_V</value>
+          <value>#English_K</value>
+          <value>#English_Pat</value>
+          <value>#Ennion_T</value>
+          <value>#Ervine_S_J</value>
+          <value>#Falkiner_A_F</value>
+          <value>#Fallon_K</value>
+          <value>#Faolain_S</value>
+          <value>#Farrell_J_P</value>
+          <value>#Field_W</value>
+          <value>#Figgis_D</value>
+          <value>#Fitzgerald_A</value>
+          <value>#FitzGerald_D</value>
+          <value>#Fitzgerald_S</value>
+          <value>#French_G_A</value>
+          <value>#Furlong_A</value>
+          <value>#Gavegan_E_J</value>
+          <value>#Gerrard_T_M</value>
+          <value>#Chief_Secretary_Office_x</value>
+          <value>#Lawrance-Burke_S</value>
+          <value>#Condon_J</value>
+          <value>#Slocock_E_J</value>
+          <value>#Harrison_S_C</value>
+          <value>#McDonagh_T</value>
+          <value>#Gill_H_V</value>
+          <value>#Graffney_Co</value>
+          <value>#Grattan_Flood_W_H</value>
+          <value>#Hackney_G</value>
+          <value>#Hale_H</value>
+          <value>#Hamilton_Daly_E</value>
+          <value>#Hanna_W</value>
+          <value>#Hanna_W_F</value>
+          <value>#Hanna_T_J</value>
+          <value>#Hanrette_C_J</value>
+          <value>#Heathcote_C_H</value>
+          <value>#Heuston_S</value>
+          <value>#Superintendent_x</value>
+          <value>#Briggs_F</value>
+          <value>#Brayden_W_H</value>
+          <value>#Campbell_J_S</value>
+          <value>#Stantin_J_H_G</value>
+          <value>#R_H_x</value>
+          <value>#Sergeant_R_F</value>
+          <value>#Lynn_J</value>
+          <value>#BrigadierGeneral_x</value>
+          <value>#Carter_M_D</value>
+          <value>#Hutchinson_x</value>
+          <value>#Hobson_J_B</value>
+          <value>#Howe_B</value>
+          <value>#Hurley_D</value>
+          <value>#Hurley_J</value>
+          <value>#Joynt_M</value>
+          <value>#Kennedy_D_H</value>
+          <value>#Lawson_H</value>
+          <value>#Loughborough_Ball_A_J</value>
+          <value>#Lynch_D_J</value>
+          <value>#Lynn_K</value>
+          <value>#MacDiarmada_S</value>
+          <value>#MacDonagh_T</value>
+          <value>#Magill_A_P</value>
+          <value>#Martin_J</value>
+          <value>#Martin_Marie</value>
+          <value>#Martin_Mary</value>
+          <value>#Maxwell_J_G</value>
+          <value>#McCullough_D</value>
+          <value>#McGrath_J_J</value>
+          <value>#McGrath_P</value>
+          <value>#McHugh_E</value>
+          <value>#McNally_F</value>
+          <value>#Meehan_F_E</value>
+          <value>#Meehan_Fr</value>
+          <value>#Mellows_L</value>
+          <value>#Miss_Carney</value>
+          <value>#Mitchell_J_D</value>
+          <value>#Modhrain_T</value>
+          <value>#Monteith_R</value>
+          <value>#Mrs_Dryhurst</value>
+          <value>#Mullally_D</value>
+          <value>#Munro_C_A</value>
+          <value>#Murphy_J_J</value>
+          <value>#Murphy_P</value>
+          <value>#Nally_T</value>
+          <value>#Nathan_M</value>
+          <value>#Neazor_J</value>
+          <value>#NiModhrain_C</value>
+          <value>#Nolan_T_V</value>
+          <value>#OCarroll_R</value>
+          <value>#ODriscoll_D</value>
+          <value>#ODwyer_E_T</value>
+          <value>#OKelly_S_T</value>
+          <value>#OKelly_V</value>
+          <value>#ONeill_B</value>
+          <value>#ONeill_J</value>
+          <value>#ORahilly_A</value>
+          <value>#ORahilly_M_J</value>
+          <value>#OShea_P</value>
+          <value>#Parr_T</value>
+          <value>#Pearse_M</value>
+          <value>#Pearse_P_H</value>
+          <value>#McKee_W_S</value>
+          <value>#Kelly_J_Fr</value>
+          <value>#Town_Clerk_Blackrock</value>
+          <value>#Todd_R_H</value>
+          <value>#Hardy_J_A</value>
+          <value>#Burgess_Ch</value>
+          <value>#Lowe_W</value>
+          <value>#Phillips_Jo</value>
+          <value>#Pim_C</value>
+          <value>#Pim_H</value>
+          <value>#Pollock_J</value>
+          <value>#Purcell_S</value>
+          <value>#Razzaq_A</value>
+          <value>#Robinson_H_A</value>
+          <value>#Russell_E</value>
+          <value>#Ryan_A_T</value>
+          <value>#Ryan_C</value>
+          <value>#Ryan_J_M</value>
+          <value>#Ryan_P_F</value>
+          <value>#Scollan_J_J</value>
+          <value>#Shaw_G_B</value>
+          <value>#Sheridan_F</value>
+          <value>#Smyth_Th</value>
+          <value>#Spender_L</value>
+          <value>#Spender_W</value>
+          <value>#Spender_Family_x</value>
+          <value>#Percival_Maxwell_D</value>
+          <value>#Hezlet_C_O</value>
+          <value>#StopfordGreen_A</value>
+          <value>#Sullivan_A_M</value>
+          <value>#The_Irish_Relief_Fund_Bazaar</value>
+          <value>#Thomson_B_H</value>
+          <value>#Tomkin_N_J</value>
+          <value>#Tweedy_R</value>
+          <value>#Wallace_T_J</value>
+          <value>#Walsh_E</value>
+          <value>#Wickham_E_L</value>
+          <value>#Wylie_M</value>
+          <value>#Wynne_A_K</value>
+          <value>#Wynne_C_W</value>
+          <value>#Wynne_V</value>
+          <value>#Yeats_W_B</value>
+          <value>#Cribb_F_J</value>
+          <value>#Devlin_J_E</value>
+          <value>#Pearse_W</value>
+          <value>#Murphy_P_A</value>
+          <value>#Eagleston_A_J</value>
+          <value>#Magistrate_Office_Templemore</value>
+          <value>#County_Inspector_x</value>
+          <value>#ChicagoFerrotype_Co</value>
+          <value>#Davis_H</value>
+          <value>#Thrift_W_E</value>
+          <value>#Chairman_Bray_x</value>
+          <value>#Hayden_J_P</value>
+          <value>#Elder_R</value>
+          <value>#Montgomery_G_F</value>
+          <value>#Scraggs_T_D</value>
+          <value>#Walker_H_J</value>
+          <value>#Local_Government_Board_Dublin</value>
+          <value>#BoyleOReilly_M</value>
+          <value>#Kelly_R_C</value>
+          <value>#Tobin_R_F</value>
+          <value>#OConnell_M</value>
+          <value>#A_F_x</value>
+          <value>#Delaney_J</value>
+          <value>#Campbell_J_M</value>
+          <value>#Marcella_M</value>
+          <value>#Caunt_W_H</value>
+          <value>#Edward_x</value>
+          <value>#Shackleton_R</value>
+          <value>#Murray_E</value>
+          <value>#Jacob_C_E</value>
+          <value>#ORahilly_M_E</value>
+          <value>#Moloney_H</value>
+          <value>#Healings_K</value>
+          <value>#C_x</value>
+          <value>#Devlin_J</value>
+          <value>#Home_Office_London_x</value>
+          <value>#Taylor_J</value>
+          <value>#Blackwood_H</value>
+          <value>#Blackwood_H_G</value>
+          <value>#Brennan_Joseph</value>
+          <value>#Miles_Philip_William</value>
+          <value>#Oliver_D_W</value>
+          <value>#Craske_D</value>
+          <value>#Short_W</value>
+          <value>#Atkinson_Williams_M</value>
+          <value>#Kirker_H_F</value>
+          <value>#Russell_T_W</value>
+          <value>#Balfour_A_J</value>
+          <value>#Bruff_x</value>
+          <value>#Tyrrell_J</value>
+          <value>#Tyrrell_N</value>
+          <value>#Hannah_Family_x</value>
+          <value>#Stewart_T_V</value>
+          <value>#Irish_Brigade_Germany_x</value>
+          <value>#Edgeworth_Johnson_W</value>
+          <value>#Ernie_x</value>
+          <value>#Savage_Armstrong_M_E</value>
+          <value>#Samuel_H</value>
+          <value>#Murphy_S</value>
+          <value>#Welply_W_H</value>
+          <value>#Dore_E</value>
+          <value>#Cullen_T</value>
+          <value>#Shorter_C</value>
+          <value>#Young_E</value>
+          <value>#Gill_T</value>
+          <value>#Byrne_J</value>
+          <value>#Annie_F</value>
+          <value>#Lynch_R</value>
+          <value>#Sheaghda_Ni_C</value>
+          <value>#Stockman_H</value>
+          <value>#MacGiollaComhghall_E</value>
+          <value>#Bourke_Cockran_W</value>
+          <value>#Dolan_D</value>
+          <value>#Jack_X</value>
+          <value>#MacMahon_J_S</value>
+          <value>#Celia_x</value>
+          <value>#McArdle_P_J</value>
+          <value>#Jackson_E</value>
+          <value>#Gough_H</value>
+          <value>#Kelso_R</value>
+          <value>#Lyster_T_W</value>
+          <value>#Rankin_x</value>
+          <value>#Davidsons_Family</value>
+          <value>#War_Office_Secretary_x</value>
+          <value>#Captain_X</value>
+          <value>#Cobbe_W_H_M</value>
+          <value>#Wright_R_H</value>
+          <value>#Robin_J</value>
+          <value>#Dalton_W</value>
+          <value>#Henry_x</value>
+          <value>#Hampton_J_H</value>
+          <value>#Auntie_B_x</value>
+          <value>#Hadow_K</value>
+          <value>#Lyon_W_G</value>
+          <value>#OBrien_J_R</value>
+          <value>#Lamb_F_W</value>
+          <value>#Draper_H_D</value>
+          <value>#Hamilton_J</value>
+          <value>#Advertising_Manager_Belfast_Telegraph</value>
+          <value>#ffrench_Mullen_D</value>
+          <value>#Duke_H</value>
+          <value>#SpencerSmith_C</value>
+          <value>#Adams_A</value>
+          <value>#Adams_J</value>
+          <value>#Adams_M</value>
+          <value>#Woodman_A_G</value>
+          <value>#Evans_J</value>
+          <value>#Costello_M_C_C</value>
+          <value>#Moore_T_C_R</value>
+          <value>#Gough_J</value>
+          <value>#Kelly_S</value>
+          <value>#McCarthy_J</value>
+          <value>#George_D_L</value>
+          <value>#Commandant_Frongoch_x</value>
+          <value>#Waller_M_L</value>
+          <value>#Ag_x</value>
+          <value>#Gifford_Wilson_K_A</value>
+          <value>#Delaney_T_F</value>
+          <value>#Cotter_N</value>
+          <value>#Tate_M</value>
+          <value>#Martin_J_R</value>
+          <value>#Brabazon_H_G</value>
+          <value>#Cregan_M</value>
+          <value>#Hayes_P_C</value>
+          <value>#Haig_D</value>
+          <value>#Canson_R</value>
+          <value>#Nely_x</value>
+          <value>#OHanrahan_Mary</value>
+          <value>#OHanrahan_Marie</value>
+          <value>#Weafer_T</value>
+          <value>#Burgess_C</value>
+          <value>#Honorary_Secretary_x</value>
+          <value>#Woods_M</value>
+          <value>#Lyons_G_A</value>
+          <value>#OHanrahan_E</value>
+          <value>#OHanrahan_A</value>
+          <value>#OHanrahan_H</value>
+          <value>#Mallin_A</value>
+          <value>#Carson_E</value>
+          <value>#McCann_J</value>
+          <value>#Dillon_F</value>
+          <value>#Kirker_Fitzwalter_H</value>
+          <value>#King_George_V</value>
+          <value>#Cox_Ch</value>
+          <value>#Russell_Wallace_T</value>
+          <value>#Batty_E_F</value>
+          <value>#Megaw_S_A</value>
+          <value>#Tennant_H_J</value>
+          <value>#MacMaster_D</value>
+          <value>#McDonagh_T</value>
+          <value>#Griffith_M</value>
+          <value>#Johnson_R_J</value>
+          <value>#OBrien_W</value>
+          <value>#Byrne_A</value>
+          <value>#Griffith_A</value>
+          <value>#Furey_T</value>
+          <value>#Dane_J_M</value>
+          <value>#Connolly_Joseph</value>
+          <value>#Northcote_J_S</value>
+          <value>#Farrant_x</value>
+          <value>#C_W_F</value>
+          <value>#Healy_T_M</value>
+          <value>#Ginnell_L_J</value>
+          <value>#Acetylene_Corporation</value>
+          <value>#Messrs_Corrigan_and_Corrigan</value>
+          <value>#NiModhrain_M</value>
+          <value>#Sheehan_W</value>
+          <value>#Brosnan_J</value>
+          <value>#McDonnell_J</value>
+          <value>#Cotter_M</value>
+          <value>#McCotter_x</value>
+          <value>#Foran_P</value>
+          <value>#Tate_M</value>
+          <value>#Leighton_D</value>
+          <value>#Gwynn_L</value>
+          <value>#Ryan_F_M</value>
+          <value>#West_T</value>
+          <value>#OBrennan_L</value>
+          <value>#Harrel_D</value>
+          <value>#Slevin_J</value>
+          <value>#Nevin_J</value>
+          <value>#Lamb_N</value>
+          <value>#Barlas_A</value>
+          <value>#Marsh_E</value>
+          <value>#Gough_Hugh</value>
+          <value>#Longchamps_J</value>
+          <value>#Butler_J</value>
+          <value>#ODriscoll_E</value>
+          <value>#Stafford_C</value>
+          <value>#Fair_J</value>
+          <value>#Scott_G</value>
+          <value>#Bellew_Grattan_H</value>
+          <value>#Jennings_x</value>
+          <value>#Atwell_R</value>
+          <value>#Darlington_F</value>
+          <value>#Disney_O</value>
+          <value>#Smyth_C</value>
+          <value>#Wedel_G</value>
+          <value>#Warling_A_S</value>
+          <value>#Hahn_A</value>
+          <value>#Quinlisk_T</value>
+          <value>#Adjutant_x</value>
+          <value>#Crofton_A_G</value>
+          <value>#Kinsman_W</value>
+          <value>#Bonaparte_Wise_A</value>
+          <value>#Ormsbry_G</value>
+          <value>#Duignan_J_J</value>
+          <value>#Murray_T</value>
+          <value>#Enfield_H</value>
+          <value>#Loughren_M_M</value>
+          <value>#Brady_P_J</value>
+          <value>#McCarthy_P_C</value>
+          <value>#McGrath_T</value>
+          <value>#Tate_A</value>
+          <value>#Tate_J</value>
+          <value>#Driscoll_R</value>
+          <value>#Bunsen_M</value>
+          <value>#Bristow_J</value>
+          <value>#Barry_R</value>
+          <value>#Moran_C</value>
+          <value>#Hunter_H</value>
+          <value>#Chevenix_H_S</value>
+          <value>#Wallace_M</value>
+          <value>#Fletcher_D</value>
+          <value>#Barret_W_F</value>
+          <value>#Bloxham_E</value>
+          <value>#Kingston_L_O</value>
+          <value>#Cantwell_K</value>
+          <value>#Dudley_Edwards_B</value>
+          <value>#Mahon_C_M</value>
+          <value>#Gillespie_P_J</value>
+          <value>#Townshend_M</value>
+          <value>#Macken_M_M</value>
+          <value>#Sanderson_E_M</value>
+          <value>#Gregg_M</value>
+          <value>#McCoubrey_M_M</value>
+          <value>#Hayden_M</value>
+          <value>#OLehane_M_J</value>
+          <value>#Webb_L</value>
+          <value>#Buchanan_E</value>
+          <value>#Webb_D</value>
+          <value>#Sheehan_A</value>
+          <value>#Beckett_A</value>
+          <value>#Keevey_K</value>
+          <value>#Walker_M_E</value>
+          <value>#Edgeworth_J_E</value>
+          <value>#Sargent_F</value>
+          <value>#Salked_F</value>
+          <value>#Crofts_Gerard_B</value>
+          <value>#Stanley_A</value>
+          <value>#Bay_J</value>
+          <value>#Harford_F</value>
+          <value>#Coyle_J_N</value>
+          <value>#Maxwell_E_F</value>
+          <value>#Boyle_N</value>
+          <value>#Duggan_M_E</value>
+          <value>#Cahill_M</value>
+          <value>#Director_POW_x</value>
+          <value>#Boyle_N</value>
+          <value>#Doyle_A</value>
+          <value>#Gibson_J</value>
+          <value>#Young_J_E</value>
+          <value>#Hay_J_L</value>
+          <value>#Furey_P</value>
+          <value>#Crofton_C</value>
+          <value>#Madam_x</value>
+          <value>#Ahern_W</value>
+          <value>#Bell_E</value>
+          <value>#Cordner_J</value>
+          <value>#Birmingham_E_J</value>
+          <value>#McCracken_M</value>
+          <value>#Armstrong_E</value>
+          <value>#Recruiting_Secretary_x</value>
+          <value>#Hugh_Mercer_G</value>
+          <value>#Murray_J</value>
+          <value>#Chenevix_Trench_E</value>
+          <value>#Soldiers_Sailors_Help_Society</value>
+          <value>#Frewen_E</value>
+          <value>#Friend_L_B</value>
+          <value>#Chenevix_H_S</value>
+          <value>#Flood_B</value>
+          <value>#Barrett_W_F</value>
+          <value>#Salkeld_F</value>
+          <value>#Giri_V_V</value>
+          <value>#Clarke_P</value>
+          <value>#Parker_G</value>
+          <value>#Cuming_S</value>
+          <value>#Clarke_P</value>
+          <value>#Parker_G</value>
+          <value>#McDowell_x</value>
+          <value>#Cubitt_BB</value>
+          <value>#McDowell_R</value>
+          <value>#Buckmaster_S</value>
+          <value>#Chamier_E</value>
+          <value>#Townsend_G</value>
+          <value>#Hunter_C</value>
+          <value>#Leverson_G</value>
+          <value>#Seton_M_C</value>
+          <value>#Nugent_R_J</value>
+          <value>#Magorrian_C</value>
+          <value>#Hurst_N</value>
+          <value>#Tyner_T</value>
+          <value>#Poynder_D_J</value>
+          <value>#Rowlette_R_J</value>
+          <value>#Lansbury_G</value>
+          <value>#Cronin_R</value>
+          <value>#Moriarty_D_M</value>
+          <value>#Lennox_G</value>
+          <value>#Wigram_C</value>
+          <value>#Ayrton_Gould_B</value>
+          <value>#Hannon_P_J</value>
+          <value>#P_B</value>
+          <value>#C_K_M</value>
+          <value>#Nicolls_M</value>
+          <value>#Morony_H</value>
+          <value>#Skeffington_A_M</value>
+          <value>#Sheehy_D</value>
+          <value>#Sheehy_E</value>
+          <value>#Sharp_E</value>
+          <value>#Fontaine_D</value>
+          <value>#Webb_J</value>
+          <value>#Pethick_Lawrence_E</value>
+          <value>#Baker_A_H</value>
+          <value>#Grant_M_R</value>
+          <value>#Healy_M</value>
+          <value>#Caddell_H</value>
+          <value>#Delaney_J_W</value>
+          <value>#Thomas_H_A</value>
+          <value>#Tillard_V</value>
+          <value>#Scarlett_M_E</value>
+          <value>#Donovan_E_J</value>
+          <value>#Scarlett_M_E</value>
+          <value>#Wilkens_Maurice</value>
+          <value>#Dowling_M_B</value>
+          <value>#Hannay_A_S</value>
+          <value>#Morel_M</value>
+          <value>#Cuming_A</value>
+          <value>#Gulland_J</value>
+          <value>#Sheehy_J_P</value>
+          <value>#Williams_T_R</value>
+          <value>#Metge_L_M</value>
+          <value>#Gwynn_S</value>
+          <value>#Moran_M_B_S</value>
+          <value>#OBrien_P</value>
+          <value>#Schreiner_O</value>
+          <value>#Mallon_P_J</value>
+          <value>#McIntyre_J</value>
+          <value>#Milroy_S</value>
+          <value>#Hackett_B</value>
+          <value>#O'Brien_E</value>
+          <value>#Ní Lochlainn_Ú</value>
+          <value>#Smithe_Robert</value>
+          <value>#Shelly_A</value>
+          <value>#Despard_C</value>
+          <value>#S_M_P</value>
+          <value>#Simmons_J</value>
+          <value>#Sheehy_J</value>
+          <value>#Harvey_I</value>
+          <value>#Bodkin_T</value>
+          <value>#Shackleton_A_H</value>
+          <value>#Graves_A_F</value>
+          <value>#Buchanan_T_G</value>
+          <value>#Scott_C_E</value>
+          <value>#Brockway_A_F</value>
+          <value>#Hopwood_F</value>
+          <value>#Poe_W_H</value>
+          <value>#Kerford_T_B</value>
+          <value>#Bunn_W</value>
+          <value>#Brown_S</value>
+          <value>#Kenny_T_H</value>
+          <value>#Connolly_J_B</value>
+          <value>#Rice_C_S</value>
+          <value>#Biggane_P</value>
+          <value>#Carroll_A</value>
+          <value>#Day_K</value>
+          <value>#Galvin_G</value>
+          <value>#Peterson_A</value>
+          <value>#Gourlay_R</value>
+          <value>#MacCullagh_J_A</value>
+          <value>#Connolly_N</value>
+          <value>#Quinan_J_T</value>
+          <value>#Wheeler_Ryan_C_H</value>
+          <value>#McCoy_M</value>
+          <value>#Loughrey_P_V</value>
+          <value>#Hargrave_A_A</value>
+          <value>#Campbell_S_P</value>
+          <value>#Haslam_A</value>
+          <value>#Chambers_T_Y</value>
+          <value>#Waring_A_W</value>
+          <value>#E_K_M</value>
+          <value>#Van_Anda_C</value>
+          <value>#Byrne_J_F</value>
+          <value>#McCracken_E_A_M</value>
+          <value>#Browne_B_C_M</value>
+          <value>#Gleeson_E</value>
+          <value>#Kearney_J_C</value>
+          <value>#Moser_C</value>
+          <value>#Tuckey_I_D</value>
+          <value>#Underwood_F</value>
+          <value>#Leigh_M</value>
+          <value>#Bally</value>
+          <value>#Thompson_W_H</value>
+          <value>#Cosgrave_E_M</value>
+          <value>#Murray_C</value>
+          <value>#Miller_A</value>
+          <value>#Cockington_A_J</value>
+          <value>#Benson_C_M</value>
+          <value>#Kirkpatrick_T_P</value>
+          <value>#Jackson_J_H</value>
+          <value>#Thompson_J</value>
+          <value>#Benson_E_M</value>
+          <value>#Heyward_H</value>
+          <value>#Joynt_M_S</value>
+          <value>#Gick_C_H</value>
+          <value>#Lawlor_H_J</value>
+          <value>#Beatty_W</value>
+          <value>#Ferall_A_T</value>
+          <value>#Ferrall_A_T</value>
+          <value>#Duffin_J_T</value>
+          <value>#Duffin_C</value>
+          <value>#Ponsonby_F_E</value>
+          <value>#Fitzgerald_K_E</value>
+          <value>#Ashcroft_W_W</value>
+          <value>#Pain_G_W_H</value>
+          <value>#Craig_C</value>
+          <value>#Jones</value>
+          <value>#Craig_J</value>
+          <value>#Henry_R_B</value>
+          <value>#Perceval_Maxwell_R_H</value>
+          <value>#Gonne_M</value>
+          <value>#Park_A</value>
+          <value>#Shaw_C</value>
+          <value>#Colt_M</value>
+          <value>#Phelps_R</value>
+          <value>#Fitzgerald_E</value>
+          <value>#Gray_T_T</value>
+          <value>#Cooper_A_M</value>
+          <value>#Cahill_M_F</value>
+          <value>#Hime_R</value>
+          <value>#Loughnan_W_F_M</value>
+          <value>#Adams_J</value>
+          <value>#Reed_H_E</value>
+          <value>#French_A</value>
+          <value>#Hayward_H</value>
+          <value>#Craig_J</value>
+          <value>#Falkiner_N_M</value>
+          <value>#Stanley_A</value>
+          <value>#Ramsden_L</value>
+          <value>#Laffan_T</value>
+          <value>#Angela</value>
+          <value>#Coffey_E_A</value>
+          <value>#Fogarty_M_A</value>
+          <value>#Huxley_M</value>
+          <value>#Bostock_M_F</value>
+          <value>#Rae_A_C</value>
+          <value>#Moore_J_W</value>
+          <value>#O'Sullivan_M</value>
+          <value>#Bromley_L</value>
+          <value>#Legh_T_W</value>
+          <value>#Browne_D_J</value>
+          <value>#Parkinson_M</value>
+          <value>#Doyle_H</value>
+          <value>#Lambart_F_R</value>
+          <value>#Mahon_U</value>
+          <value>#Quinn_F</value>
+          <value>#McCartie_M</value>
+          <value>#Delany_T_W</value>
+          <value>#Simpson_J</value>
+          <value>#Brown_P_A</value>
+          <value>#Mai</value>
+          <value>#McLoughlin_B</value>
+          <value>#Mulvihill_W</value>
+          <value>#Conneely_S</value>
+          <value>#OHara_C_K</value>
+          <value>#Coyne_B</value>
+          <value>#Mercer_T_F</value>
+          <value>#Jacob_R</value>
+          <value>#Donovan_R</value>
+          <value>#Cahalan_C</value>
+          <value>#Baker_H_M</value>
+          <value>#Kelly_G</value>
+          <value>#Unwin_S</value>
+          <value>#Colvin_E_W</value>
+          <value>#O'Callaghan_M</value>
+          <value>#Haughton_F</value>
+          <value>#Maguire_C</value>
+          <value>#Morony_H_M</value>
+          <value>#Staines_M</value>
+          <value>#Skeffington_J_B</value>
+          <value>#Culverwell_A_B</value>
+          <value>#Wilson_H</value>
+          <value>#McGarry_T</value>
+          <value>#Chevenix_H_S</value>
+          <value>#Pankhurst_E_S</value>
+          <value>#Sheehy_Skeffington_F</value>
+          <value>#Lehane_C</value>
+          <value>#Mulcahy_R</value>
+          <value>#Comerford_M</value>
+          <value>#Maguire_J</value>
+          <value>#Price_L</value>
+          <value>#Elliot_T</value>
+          <value>#Forbes_B</value>
+          <value>#Wilkinson_R_G</value>
+          <value>#Nugent_C</value>
+          <value>#Shaw_S_H</value>
+          <value>#Spender_E</value>
+          <value>#Shaw_M</value>
+          <value>#Shaw_J</value>
+          <value>#Shaw_W</value>
+          <value>#Acheson_A</value>
+          <value>#Williams_J</value>
+          <value>#Carey_P</value>
+          <value>#Curran_J</value>
+          <value>#Fitzgerald_T_C</value>
+          <value>#Hurley_J</value>
+          <value>#Langford_J</value>
+          <value>#Hogan_C</value>
+          <value>#Burke_J_J</value>
+          <value>#Eillis_W_E</value>
+          <value>#O'Connell_Fitzsimon_C</value>
+          <value>#Hely_Hutchinson_R_G</value>
+          <value>#Hartigan_J_A</value>
+          <value>#Burke_J_J</value>
+          <value>#Eillis_W_E</value>
+          <value>#Sheehan_D_T</value>
+          <value>#Sheehan_M_D</value>
+          <value>#Meara_J</value>
+          <value>#Mahony_J</value>
+          <value>#Burke_J_J</value>
+          <value>#Murphy_J_M</value>
+          <value>#Murphy_P</value>
+          <value>#Behan_W_J</value>
+          <value>#Mackintosh_A_F</value>
+          <value>#Neill_E_F</value>
+          <value>#Murphy_D_J</value>
+          <value>#Jones_M_A</value>
+          <value>#Spinks_L</value>
+          <value>#Dawson_M</value>
+          <value>#NP_x</value>
+          <value>#Helys</value>
+          <value>#Granard_B</value>
+          <value>#McLoughlin_W</value>
+          <value>#Silvester_L_T</value>
+          <value>#Henry_W_P</value>
+          <value>#Davidson</value>
+          <value>#Murray_E_J</value>
+          <value>#O'Connell_Fitzsimon_C</value>
+          <value>#Green_J_G</value>
+          <value>#Wood_H</value>
+          <value>#Welby_A_C_E</value>
+          <value>#Hickman_K</value>
+          <value>#deCorcrane_A_G</value>
+          <value>#Boland_J_P</value>
+          <value>#Healy_M</value>
+          <value>#Fitzpatrick_J</value>
+          <value>#Staples_R_P</value>
+          <value>#Gartlan_A</value>
+          <value>#O'Connell_T_J</value>
+          <value>#Moggridge_E_G</value>
+          <value>#Quinn_P</value>
+          <value>#McAllister_V_J</value>
+          <value>#Stephenson_E_F</value>
+          <value>#Quinnell_J_B</value>
+          <value>#Milroy_T_H</value>
+          <value>#O'Kelly_W_D</value>
+          <value>#Moore_A_E</value>
+          <value>#Pedder_J</value>
+          <value>#Johnson_W</value>
+          <value>#Garvey_J</value>
+          <value>#Abraham_B</value>
+          <value>#Duffin_A</value>
+          <value>#William_J_F</value>
+          <value>#Young_W_R</value>
+          <value>#Huggard_W</value>
+          <value>#Tennant_H_J</value>
+          <value>#Mulholland_H</value>
+          <value>#Wicks_P</value>
+          <value>#Thompson_R</value>
+          <value>#Macready_N</value>
+          <value>#Plunkett_H</value>
+          <value>#McCullagh_C</value>
+          <value>#Crozier_J</value>
+          <value>#Robertson_R_W</value>
+          <value>#Samuels_W_A</value>
+          <value>#Wrench_S_F</value>
+          <value>#Maxse_L</value>
+          <value>#Broderick_J_S_W</value>
+          <value>#Maxwell_K_A</value>
+          <value>#Clements_C</value>
+          <value>#McNeill_J_R</value>
+          <value>#Down_F_C</value>
+          <value>#Salvidge_A</value>
+          <value>#Saunderson_F_S</value>
+          <value>#Martin_W</value>
+          <value>#Strachey_J</value>
+          <value>#Neill_D_S</value>
+          <value>#Hamilton_C_C_R</value>
+          <value>#Taylor_R</value>
+          <value>#Hartigan_A_J</value>
+          <value>#Cormack_J_J</value>
+          <value>#Bourke_S_G</value>
+          <value>#Henry_J_M</value>
+          <value>#Rolleston_A</value>
+          <value>#Lavery_M</value>
+          <value>#Read_T_O</value>
+          <value>#Lyle_L_C</value>
+          <value>#Inspectors_of_lunatics</value>
+          <value>#Boileau_B</value>
+          <value>#Foley_P_D</value>
+          <value>#Linzee_E_M</value>
+          <value>#Dodd_W_H</value>
+          <value>#Loftus_L</value>
+          <value>#Mylius_S</value>
+          <value>#Fadzen_S_D_E</value>
+          <value>#Greer_M_S</value>
+          <value>#Downie_F</value>
+          <value>#Sherlock_G_K</value>
+          <value>#O'Caroll_J_F</value>
+          <value>#Arthur_S_A</value>
+          <value>#Barry_F_A_W</value>
+          <value>#Kerford_T</value>
+          <value>#Macinerney_M_C</value>
+          <value>#Downing_F_H</value>
+          <value>#Waldron_C</value>
+          <value>#Clancy_F_M_W</value>
+          <value>#Cruise_R</value>
+          <value>#Thompson_J_W</value>
+          <value>#Coyle_V_J</value>
+          <value>#McGuinn_F_J</value>
+          <value>#Mooney_B</value>
+          <value>#DistrictInspector_Dunmore</value>
+          <value>#DistrictInspector_Castlerea</value>
+          <value>#Dickson_E</value>
+          <value>#S_W_H</value>
+          <value>#Cooke_O_F</value>
+          <value>#Drage_G</value>
+          <value>#Houlihan_x</value>
+          <value>#Dilworth_J_W</value>
+          <value>#Doey_F</value>
+          <value>#Lewall_M</value>
+          <value>#Poyder_J</value>
+          <value>#M_Q</value>
+          <value>#Young_J</value>
+          <value>#Gwynn_L</value>
+          <value>#Lambert_H</value>
+          <value>#Law_A_B</value>
+          <value>#Clements_G</value>
+          <value>#Kieran_B</value>
+          <value>#Murphy_E</value>
+          <value>#Guerin_M</value>
+          <value>#Gleeson_E</value>
+          <value>#Raymond_G</value>
+          <value>#Barnard_A_W</value>
+          <value>#O'Neill_M_S</value>
+          <value>#O'Brien_M</value>
+          <value>#Machan_C</value>
+          <value>#Holland_J</value>
+          <value>#Healy_J</value>
+          <value>#Ireton_T</value>
+          <value>#Williams_H</value>
+          <value>#Herlihy_E</value>
+          <value>#Quinlan_C_J</value>
+          <value>#Sullivan_H</value>
+          <value>#Dillon_M</value>
+          <value>#Murphy_D</value>
+          <value>#Breen_J</value>
+          <value>#Lambert_Heygate_F_A</value>
+          <value>#Sullivan_P_J</value>
+          <value>#Dooley_M_B</value>
+          <value>#Hawkins_H_W</value>
+          <value>#Ham_J_J</value>
+          <value>#MacDermot_D</value>
+          <value>#O'Brien_P_H_A</value>
+          <value>#Fair_C_E</value>
+          <value>#Higgins_P_S</value>
+          <value>#Wynne_E_M_P</value>
+          <value>#Gallagher_H_T</value>
+          <value>#Gordon_D</value>
+          <value>#Abbot_J_C</value>
+          <value>#Bell_W_R</value>
+          <value>#Chairman_Physicians_Surgeons_x</value>
+          <value>#Rae_A_C</value>
+          <value>#Herlihy_E</value>
+          <value>#Quinlan_C_J</value>
+          <value>#Sullivan_H</value>
+          <value>#Dillon_M</value>
+          <value>#Murphy_D</value>
+          <value>#Breen_J</value>
+          <value>#Martin_Wi</value>
+          <value>#Thompson_J_C</value>
+          <value>#Lynch_P</value>
+          <value>#Bell_W_R</value>
+          <value>#Abbott_T_C</value>
+          <value>#Gallagher_H_T</value>
+          <value>#McDonald_J_R</value>
+          <value>#Elliott_J</value>
+          <value>#Clark_E</value>
+          <value>#McCotter_F</value>
+          <value># Gleeson_M</value>
+          <value>#Pearson_H_H</value>
+          <value>#Roe_E_A_H</value>
+          <value>#Bates_R_D</value>
+          <value>#Molloy_P</value>
+          <value>#Proby_D</value>
+          <value>#Mannion_M</value>
+          <value>#Normad_Barbazon_R</value>
+          <value>#Harris_C</value>
+          <value>#Porter_H_W</value>
+          <value>#Reddy_F</value>
+          <value>#Cooper_A_A</value>
+          <value>#O'Connell_G</value>
+          <value>#O'Farrell_E</value>
+          <value>#Higgins_P</value>
+          <value>#Murphy_M_J</value>
+          <value>#Fraser_A_C_C</value>
+          <value>#West_A_E</value>
+          <value>#Chrystal_G_W</value>
+          <value>#Colfer_J</value>
+          <value>#Daly_C</value>
+          <value>#Kilpatrick_T_W</value>
+          <value>#Black_W</value>
+          <value>#Ormsby_J_A_C</value>
+          <value>#Donald_A_D</value>
+          <value>#Shaw_F_M</value>
+          <value>#Power_S_M</value>
+          <value>#Harford_W_A</value>
+          <value>#Fitzgibbon_J_J</value>
+          <value>#Desmond_M_R</value>
+          <value>#Lynch_A_P</value>
+          <value>#Purdon_J_J</value>
+          <value>#Russell_J_W</value>
+          <value>#Cochrane_H_C</value>
+          <value>#Browning_D_R</value>
+          <value>#Frith_J_A</value>
+          <value>#Brown_J</value>
+          <value>#Furlong_J_P</value>
+          <value>#Hearn_W_F</value>
+          <value>#OBrien_W_X</value>
+          <value>#Fitzgibbon_J</value>
+          <value>#French_W_J</value>
+          <value>#Taylor_F_M_S</value>
+          <value>#Rawlinson_D_S</value>
+          <value>#Stratton_J</value>
+          <value>#Quinlan_P_F</value>
+          <value>#Keary_W</value>
+          <value>#Quinlan_F</value>
+          <value>#Taylor_G</value>
+          <value>#Curley_M_A</value>
+          <value>#Fetherstonhaugh_W_R</value>
+          <value>#Grffin_E</value>
+          <value>#Smith_J</value>
+          <value>#Hudson_J_T</value>
+          <value>#OLeary_M</value>
+          <value>#Captain_Black</value>
+          <value>#Administrative_Area_Officer</value>
+          <value>#Sheehan_P</value>
+          <value>#Major_Black</value>
+          <value>#Hegarty_T</value>
+          <value>#Chief_Administrative_Officer</value>
+          <value>#Black_J</value>
+          <value>#Lane_J</value>
+          <value>#Luscombe_G_A</value>
+          <value>#Smith_L_C_P</value>
+          <value>#Murphy_H</value>
+          <value>#Atkins_C</value>
+          <value>#Lyons_J_E</value>
+          <value>#Goff_B_J</value>
+          <value>#Murphy_F</value>
+          <value>#Patterson_W</value>
+          <value>#Newell_R_J</value>
+          <value>#Alexander_S</value>
+          <value>#Atwell_T</value>
+          <value>#O'Donnell_T</value>
+          <value>#O'Neill_C_P</value>
+          <value>#Hackney_E_C</value>
+          <value>#Henry_D_S</value>
+          <value>#Hanon_E_M</value>
+          <value>#Berridge_R</value>
+          <value>#Berridge_E</value>
+          <value>#Griffin_E</value>
+          <value>#Lavery_P</value>
+          
+        </choice>
+
+      </attribute>
+      <text/>
+    </element>
+  </define>
+
+  <define name="choice">
+    <element name="choice">
+      <ref name="add"/>
+      <ref name="del"/>
+    </element>
+  </define>
+
+  <define name="dateValue">
+    <data type="token">
+      <param name="pattern"
+        >(19[12][567890123]-[01][0-9]-[0123][0-9])|(19[12][567890123]-[01][0-9])|(19[12][567890123])|(2015)|(2016)|(2017)</param>
+    </data>
+  </define>
+
+  <define name="lineLevel">
+    <zeroOrMore>
+      <choice>
+        <ref name="unclear"/>
+        <ref name="gap"/>
+        <ref name="hi"/>
+        <ref name="sic"/>
+        <ref name="add"/>
+        <ref name="del"/>
+        <ref name="choice"/>
+      </choice>
+    </zeroOrMore>
+  </define>
+
+  <define name="breaks">
+    <zeroOrMore>
+      <choice>
+        <ref name="lb"/>
+        <ref name="pb"/>
+        <ref name="cb"/>
+      </choice>
+    </zeroOrMore>
+  </define>
+
+  <define name="correspID">
+    <data type="string">
+      <param name="pattern">corresp[0-9]+</param>
+    </data>
+  </define>
+
+  <define name="time">
+    <element name="time">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="hi"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+
+  <define name="pc">
+    <element name="time">
+      <text/>
+      <attribute name="type">
+        <value>hyphen</value>
+      </attribute>
+    </element>
+  </define>
+
+  <define name="author">
+    <element name="author">
+      <optional>
+        <attribute name="xml:id"/>
+      </optional>
+      <text/>
+    </element>
+  </define>
+  <define name="ref">
+    <element name="ref">
+      <attribute name="target"/>
+      <optional>
+        <text/>
+      </optional>
+    </element>
+  </define>
+  <define name="list">
+    <element name="list">
+      <oneOrMore>
+
+        <ref name="item"> </ref>
+      </oneOrMore>
+      <attribute name="rend">
+        <choice>
+          <value>numbered</value>
+          <value>bulleted</value>
+        </choice>
+      </attribute>
+    </element>
+  </define>
+
+  <define name="item">
+    <element name="item">
+      <oneOrMore>
+        <choice>
+          <ref name="lb"/>
+          <ref name="del"/>
+          <text/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+
+</grammar>

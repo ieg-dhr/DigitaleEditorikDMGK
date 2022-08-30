@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="../Downloads/littlehales4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="{LetterID}">/*The letter ID will be derived from the picture ID*/
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from {author} to {recipient}</title><!--Title is given on most letters. If not given, it is to be composed of type, author, recipient and date. This will be the headline of the page-->
+                <author>{author}</author><!--Author is, if possible, to be expressed as Name(not title) and Lastname, Firstname-->
+                <!-- Example: Letter from Charles Bushe to Edward Littlehales, 22 August 1812 -->
+                <!--The citation will be generated from <author>. "<title>". [Collection Name]. [Names of Editors]. Maynooth University: 2018. [URL]-->
+                <!-- For the automatic generation of the citation, title and author must be consistent. Final-->
+                <respStmt>
+                    <resp>Transcribed by </resp>
+                     <name>Jacqueline Crowley, Hugh Murphy</name><!--Transcriber's name, final-->
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name>{Encoder's name}</name><!--Actual Encoder's name, Final-->
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Maynooth University Library</publisher>
+                <publisher>An Foras Feasa</publisher>
+                <address>
+                    <addrLine>Maynooth</addrLine>
+                    <addrLine>Co Kildare</addrLine>
+                    <addrLine>Ireland</addrLine>
+                </address>
+
+
+                <availability>
+                    <p>Reproduction rights owned by Maynooth University Library.</p><!--Final-->
+                </availability>
+                <date>2017</date>
+
+            </publicationStmt>
+            <notesStmt>
+                <note>This document was created as part of a class project in Autumn 2017 for the Digital Scholarly Editing module under the direction of Professor Susan Schreibman. This module is a component of the MA in Digital Humanities at Maynooth University. Team members were assigned to create a digital scholarly edition from a selection of correspondence in the Littlehales Archive collection at Maynooth University. The team members involved in the creation of the final edition are Monika Barget, James Byrne, Sinead Greene, Sharon Healy, Michael Kurzmeier, and Lauren Tracy.</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>The correspondence processed for this digital edition is part of a larger collection, being the Littlehales Archive collection at Maynooth University. The correspondence is dated to 1808, and was written by Edward B. Littlehales, J. Beckett and Charles Bushe.</p>
+            </sourceDesc>
+
+        </fileDesc>
+            <profileDesc>
+                <creation><date when="1808-08-22">22 August 1808</date></creation>
+            </profileDesc>
+    </teiHeader>
+        <text>
+        <body>
+            <div type="letter"><pb facs="???"/>
+                <opener></opener>
+                <p></p>
+                <closer></closer>
+            </div>
+            <div type="envelope"><pb facs="12345"/>
+                <ab>
+                   </ab>
+            </div>
+            <div type="summary"><pb facs="12346"/>
+            </div>
+
+
+        </body>
+
+
+    </text>
+</TEI>

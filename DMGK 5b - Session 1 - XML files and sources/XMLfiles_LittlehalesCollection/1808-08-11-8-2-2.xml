@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="../Downloads/littlehales4.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Littlehales1808-08-11-8-2-2">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from E.B. Littlehales to J. Beckett</title>
+                <author>Littlehales, Edward Baker</author>
+                <respStmt>
+                    <resp>Transcribed by</resp>
+                    <name>Jacqueline Crowley, Hugh Murphy</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name>Sharon Healy</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Maynooth University Library</publisher>
+                <publisher>An Foras Feasa</publisher>
+                <address>
+                    <addrLine>Maynooth</addrLine>
+                    <addrLine>Co Kildare</addrLine>
+                    <addrLine>Ireland</addrLine>
+                </address>
+                <availability>
+                    <p>Reproduction rights owned by Maynooth University Library.</p>
+                </availability>
+                <date>2017</date>
+            </publicationStmt>
+            <notesStmt>
+                <note>This document was created as part of a class project in Autumn 2017 for the Digital Scholarly Editing module under the direction of Professor Susan Schreibman. This module is a component of the MA in Digital Humanities at Maynooth University. Team members were assigned to create a digital scholarly edition from a selection of correspondence in the Littlehales Archive collection at Maynooth University. The team members involved in the creation of the final edition are Monika Barget, James Byrne, Sinéad Greene, Sharon Healy, Michael Kurzmeier, and Lauren Tracy.</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>The correspondence processed for this digital edition is part of a larger collection, being the Littlehales Archive collection at Maynooth University. The correspondence is dated to 1808, and was written by Edward B. Littlehales, J. Beckett and Charles Bushe.</p>
+            </sourceDesc>
+        </fileDesc>
+            <profileDesc>
+                <creation><date when="1808-08-22">11 August 1808</date></creation>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter"><pb facs="1808-08-11-8-2-2a"/>
+                <opener>
+                    <p><note type="private">Private</note></p>
+					<p><address>
+                        <addrLine><orgName key="org01">Dublin Castle</orgName></addrLine>
+                    </address></p>
+					<p><date>11th August 1808</date></p>
+                    <p><salute>My dear Sir,</salute></p>
+                </opener>
+                	<p>Lord Clancarty having represented that it was 
+                    	<lb/>necessary that a Certificate from two Representations receipt 
+                    	<lb/>of the date of the Death of Lord Clanricarde should be 
+                    	<lb/>transmitted to the <roleName key="role04">Lord Chancellor of Great Britain</roleName> I 
+                    	<lb/>have the honour to enclose the same to you for that
+                    	<lb/> purpose. &#8212;</p>						
+               	 	<p>I also transmit herewith a Memorandum of 
+                    	<lb/>which was delivered to me late yesterday relative to <unclear>for</unclear> 
+                    	<lb/>Philip Geraghty who was in the <rs key="event05">Banishment Act</rs> in the 
+                    	<lb/>year 1798 under a different Christian name, having 
+                    	<lb/>been 
+                    <pb facs="1808-08-11-8-2-2b"/> 
+                    	been seen in Dublin a few days since&#59; &#8212; Further enquiry 
+                    	<lb/>into the subject will, of course be made and the result 
+                    	<lb/>communicated to you, if considered necessary for <persName key="per10">Lord 
+                    	<lb/>Hawkesbury&#39;s</persName> information &#8212;</p>                	
+					<p>I saw <persName key="per17">Mr Trail</persName> this morning &#8212; He is in a 
+                    	<lb/>very feeble state but quite free from pain &#8212;</p> 
+                <closer>
+					<signed>
+						<p><lb/>I have your
+                    		<lb/>&#47;Signed&#47; <persName key="per03">E.B. Littlehales</persName></p>
+					</signed>				
+                    	<note>
+							<p><persName key="per01">J. Beckett</persName> Esqr </p>
+						</note>
+				</closer>
+			</div>
+			<div type= "summary">
+					<pb facs="1808-08-11-8-2-2c"/>
+                	<ab><p>Copy&#47; Private&#47; 11th August 1808
+                    	<lb/>Sir <persName key="per03">Edward B. Littlehales</persName>
+                    	<lb/>to
+                    	<lb/><persName key="per01">J. Beckett</persName> Esqr</p></ab>
+                	<p>Transmiiting a Certificate of the 
+                    	<lb/>Death of Ld Clanricarde <gap/> to <del rend="strikethrough">the</del> 
+                    	<lb/>Philip G<del rend="strikethrough">eraghty</del>, included in the 
+                    	<lb/><rs key="event05">Banishment <del rend="strikethrough">of</del>  Act 1798</rs> &#8212;</p>
+                	<p>Acknowledged in <persName key="per01">Mr. Beckett</persName>
+                    	<lb/>letter of 15th August 1808</p>                    
+            </div>
+        </body>
+    </text>
+</TEI>
