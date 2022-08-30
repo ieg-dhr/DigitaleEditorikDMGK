@@ -1,7 +1,7 @@
 # DigitaleEditorikDMGK
 ## Daten und Lehrmaterial aus dem Modul "Digitale Editorik Historischer Quellen" im DMGK Studiengang Mainz
 
-Das IEG Mainz beteiligt sich an der Lehre im Modul "Digitale Editorik Historischer Quellen", in dem mit Studierenden der Digitalen Methoden kleine digitale Editionen erstellt werden. Dieses Repositorium stellt Lehrmaterial, Rohdaten und Visualisierungen aus diesen Projekten zur Nachnutzung in Forschung und Lehre im Rahmen einer <a href="https://creativecommons.org/licenses/by/2.0/>CC-BY Lizenz</a> zur Verfügung.
+Das IEG Mainz beteiligt sich an der Lehre im Modul "Digitale Editorik Historischer Quellen", in dem mit Studierenden der Digitalen Methoden kleine digitale Editionen erstellt werden. Dieses Repositorium stellt Lehrmaterial, Rohdaten und Visualisierungen aus diesen Projekten zur Nachnutzung in Forschung und Lehre im Rahmen einer <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY Lizenz</a> zur Verfügung.
 
 Die hier geteilten Lehrmaterialien wurden 2020/2021 von Monika Barget und Jaap Geraerts erstellt. An der Datensammlung und -visualisierung waren Studierende des MA Studiengangs beteiligt. 
 
