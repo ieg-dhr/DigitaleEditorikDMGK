@@ -14,4 +14,4 @@ Digital editing is a vital aspect of digital history. In our course, we would li
 
 Please check the repository created for our introductory course in 2020 if you have any questions on the basics of XML, working with Oxygen etc.:
 
-[DMGK - Modul 5b XML](./DMGK Module 5b COURSE FILES/)
+[DMGK - Modul 5b XML](https://github.com/ieg-dhr/DigitaleEditorikDMGK/edit/main/DMGK%20Module%209p%20COURSE%20FILES/DMGK Module 5b COURSE FILES)
