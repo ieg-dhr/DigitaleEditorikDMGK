@@ -9,5 +9,10 @@ Die hier geteilten Lehrmaterialien wurden 2020/2021 von Monika Barget und Jaap G
 
 Im Sommersemester 2021 wurden ausgewählte Geburtsbriefe aus dem Stadtarchiv Mainz editiert: <a href="https://teaching-dhlab.pages.gitlab.rlp.net/geburtsbriefemainz/home/">Link zur digitalen Edition</a>. Hier finden Sie die XML-Dateien, die u.a. auch die Übersetzungen fremdsprachiger Geburtsbriefe und Links zum World Historical Gazetteer enthalten. 
 
+<hr>
 
+[![CC BY 4.0][cc-by-shield]][cc-by] \
+This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
 
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
